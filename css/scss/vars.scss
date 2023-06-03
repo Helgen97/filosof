@@ -13,15 +13,15 @@ $dark: #252525;
 //font
 @font-face {
   font-family: "Charter";
-  src: url(../../fonts/eot/charter_regular.eot) format("eot"),
-    url(../../fonts/woff/charter_regular.woff) format("woff");
+  src: url(../fonts/eot/charter_regular.eot) format("eot"),
+    url(../fonts/woff/charter_regular.woff) format("woff");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Charter";
-  src: url(../../fonts/eot/charter_bold.eot) format("eot"),
-    url(../../fonts/woff/charter_bold.woff) format("woff");
+  src: url(../fonts/eot/charter_bold.eot) format("eot"),
+    url(../fonts/woff/charter_bold.woff) format("woff");
   font-weight: 700;
 }
 

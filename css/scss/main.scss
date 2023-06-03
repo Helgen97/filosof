@@ -130,7 +130,7 @@ html {
 .location_toggler {
   width: 200px;
   @include select-customize;
-  background-image: url("../../images/arrow.svg");
+  background-image: url("../images/arrow.svg");
   background-repeat: no-repeat;
   background-position: right 1.7rem top 50%;
   background-size: 16px auto, 100%;
@@ -164,7 +164,7 @@ html {
   width: 100%;
   height: 100%;
   opacity: 0.3;
-  background-image: url(../../images/bg.jpg);
+  background-image: url(../images/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
