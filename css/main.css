@@ -1,0 +1,588 @@
+@import "https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Peddana&display=swap";
+@font-face {
+  font-family: "Charter";
+  src: url(../../fonts/eot/charter_regular.eot) format("eot"), url(../../fonts/woff/charter_regular.woff) format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Charter";
+  src: url(../../fonts/eot/charter_bold.eot) format("eot"), url(../../fonts/woff/charter_bold.woff) format("woff");
+  font-weight: 700;
+}
+
+/* line 3, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 10, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* line 16, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+html {
+  position: relative;
+  background-color: #252525;
+  color: rgba(239, 240, 244, 0.5);
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+}
+
+/* line 24, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 500px;
+  padding-bottom: 1rem;
+  background: #252525;
+  z-index: 100;
+}
+
+/* line 35, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.menu.active {
+  display: block;
+}
+
+/* line 39, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.close-btn_container {
+  padding: 2rem;
+  text-align: end;
+}
+
+/* line 44, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.mobile_menu-link_container {
+  text-align: center;
+}
+
+/* line 48, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.mobile_menu-link {
+  display: block;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  transition: color 0.5s linear, text-decoration 0.2s linear;
+}
+
+/* line 55, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.mobile_menu-link:hover, .mobile_menu-link:active {
+  color: #9f7150;
+  text-decoration: underline;
+}
+
+/* line 62, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.bottom-btn {
+  position: fixed;
+  top: 35%;
+  right: 5%;
+  z-index: 99;
+}
+
+/* line 68, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.bottom-btn a {
+  padding: 2rem .5rem;
+  background-color: #9f7150;
+  writing-mode: tb-rl;
+  transform: rotate(180deg);
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* line 79, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.upper_header {
+  display: flex;
+  padding: 1rem 2rem;
+  align-items: center;
+  border-bottom: 1px #9f7150 solid;
+}
+
+/* line 84, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.menu_btn {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* line 89, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.desktop_menu {
+  display: none;
+}
+
+/* line 93, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.language_toggler-container {
+  margin-left: 1rem;
+}
+
+/* line 97, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.language_toggler {
+  appearance: none;
+  user-select: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  background-color: inherit;
+  border: 0;
+  color: inherit;
+  outline-style: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* line 104, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.logo-container {
+  margin-left: auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Charter", "Peddana", serif;
+}
+
+/* line 109, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.upper-logo-text {
+  color: #9f7150;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  font-size: 2rem;
+}
+
+/* line 113, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.lower-logo-text {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+}
+
+/* line 117, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.lower_header {
+  display: flex;
+  padding: 1rem 2rem;
+  align-items: center;
+}
+
+/* line 121, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.location-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 125, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.location_marker {
+  width: 2rem;
+  height: 2rem;
+}
+
+/* line 130, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.location_toggler {
+  width: 200px;
+  appearance: none;
+  user-select: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  background-color: inherit;
+  border: 0;
+  color: inherit;
+  outline-style: none;
+  background-image: url("../../images/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right 1.7rem top 50%;
+  background-size: 16px auto, 100%;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* line 141, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.location_toggler::-ms-expand {
+  display: none;
+}
+
+/* line 145, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.social-container {
+  margin-left: auto;
+}
+
+/* line 149, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.instagram_logo {
+  width: 2rem;
+  height: 2rem;
+}
+
+/* line 154, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.main_screen {
+  position: relative;
+}
+
+/* line 158, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.main_screen::before {
+  content: " ";
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  background-image: url(../../images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 172, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.main-container {
+  position: relative;
+  padding: 4rem 2rem;
+}
+
+/* line 177, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.title-container {
+  text-align: center;
+}
+
+/* line 181, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.title {
+  color: #9f7150;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+/* line 187, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.tag-line {
+  font-size: 1.1rem;
+}
+
+/* line 191, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.description-container {
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+/* line 196, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.work_hours-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 200, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.work_hours-description {
+  margin-left: 0.25rem;
+  text-align: center;
+}
+
+/* line 205, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.right {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+/* line 211, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.custom-btn {
+  display: block;
+  margin-bottom: 0.75rem;
+  padding: 0.25rem 1.75rem;
+  background-color: #9f7150;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* line 223, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.price_screen,
+.location_screen,
+.barber_screen {
+  padding: 1rem 2rem;
+  border-bottom: 1px #9f7150 solid;
+  text-align: center;
+}
+
+/* line 231, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.screen-title {
+  font-size: 2rem;
+  color: #9f7150;
+}
+
+/* line 236, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.price-table {
+  width: fit-content;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-style: hidden;
+  text-align: center;
+  margin-top: 0.25rem;
+}
+
+/* line 244, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.price-table td {
+  padding: 0.3rem 0.15rem;
+  border: 2px #9f7150 solid;
+}
+
+/* line 250, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.locations-container {
+  margin-top: 0.5rem;
+}
+
+/* line 254, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 258, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.location_marker-big {
+  width: 6rem;
+  height: 6rem;
+}
+
+/* line 263, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.location-address {
+  display: block;
+  color: #9f7150;
+}
+
+/* line 268, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.location-phone {
+  display: block;
+  padding: 0.25rem;
+}
+
+/* line 273, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.barber {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 279, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.barber-photo {
+  width: 130px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+/* line 285, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.barber-description {
+  margin-left: 0.5rem;
+}
+
+/* line 289, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.barber-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* line 294, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.barber-position {
+  color: #9f7150;
+  font-weight: 500;
+}
+
+/* line 299, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.footer {
+  display: flex;
+  padding: 1rem 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 304, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.copyright {
+  text-align: center;
+  font-size: 0.6rem;
+}
+
+/* line 309, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.footer_logo {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Charter", "Peddana", serif;
+}
+
+/* line 313, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.footer-upper-logo-text {
+  color: #9f7150;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  font-size: 1.2rem;
+}
+
+/* line 317, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.footer-lower-logo-text {
+  font-size: 0.75rem;
+  letter-spacing: 0.1rem;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 322, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  html {
+    font-size: 18px;
+  }
+  /* line 326, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  .location_toggler {
+    background-position: right 0.5rem top 50%;
+  }
+  /* line 330, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  .bottom-btn {
+    right: 3%;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  /* line 336, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  html {
+    font-size: 20px;
+  }
+  /* line 340, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  .menu_btn-container {
+    display: none;
+  }
+  /* line 344, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  .desktop_menu {
+    display: block;
+  }
+  /* line 348, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  .bottom-btn {
+    right: 2%;
+  }
+  /* line 352, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  .upper_header {
+    justify-content: space-evenly;
+    padding: 1rem 6rem;
+  }
+  /* line 357, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  .desktop_menu-link {
+    font-weight: 600;
+    transition: color 0.3s linear, text-decoration 0.3s linear;
+  }
+  /* line 74, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/vars.scss */
+  .desktop_menu-link:hover {
+    color: #9f7150;
+    text-decoration: underline;
+  }
+  /* line 362, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  .language_toggler {
+    transition: color 0.3s linear;
+  }
+  /* line 365, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  .language_toggler:hover {
+    color: #9f7150;
+  }
+  /* line 370, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  .logo-container {
+    margin-left: 0rem;
+  }
+  /* line 374, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  .location_toggler {
+    background-position: right 0 top 50%;
+    background-size: 12px auto, 100%;
+    transition: color 0.3s linear;
+  }
+  /* line 379, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  .location_toggler:hover {
+    color: #9f7150;
+    background-image: url("../../images/arrow-hover.svg");
+  }
+  /* line 385, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  .lower_header {
+    padding: 1rem 10rem;
+  }
+  /* line 389, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  .main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem 12rem;
+  }
+  /* line 396, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  .phone-btn {
+    display: none;
+  }
+  /* line 400, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  .right {
+    width: 35%;
+    margin: 0;
+  }
+  /* line 405, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  .custom-btn {
+    transition: filter 0.3s linear;
+  }
+  /* line 83, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/vars.scss */
+  .custom-btn:hover {
+    filter: opacity(0.8);
+  }
+  /* line 410, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  .price-table td {
+    padding: 0.5rem 0.75rem;
+  }
+  /* line 415, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  .locations-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  /* line 420, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  .copyright {
+    font-size: 0.8rem;
+  }
+  /* line 424, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  .location-address {
+    transition: filter 0.3s linear;
+  }
+  /* line 83, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/vars.scss */
+  .location-address:hover {
+    filter: opacity(0.8);
+  }
+  /* line 428, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  .location-phone {
+    transition: color 0.3s linear, text-decoration 0.3s linear;
+  }
+  /* line 74, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/vars.scss */
+  .location-phone:hover {
+    color: #9f7150;
+    text-decoration: underline;
+  }
+  /* line 432, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  .creator_link {
+    transition: color 0.3s linear, text-decoration 0.3s linear;
+  }
+  /* line 74, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/vars.scss */
+  .creator_link:hover {
+    color: #9f7150;
+    text-decoration: underline;
+  }
+  /* line 436, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+  .instagram_logo {
+    transition: filter 0.3s linear;
+  }
+  /* line 83, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/vars.scss */
+  .instagram_logo:hover {
+    filter: opacity(0.8);
+  }
+}
+
+/* line 443, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.swiper-button-prev, .swiper-button-next {
+  color: #9f7150 !important;
+}
+
+/* line 447, ../../../../../Users/helgen/Desktop/Barbershop/css/scss/main.scss */
+.swiper-pagination-bullet-active {
+  background-color: #9f7150 !important;
+}
+
+/*# sourceMappingURL=main.css.map */
