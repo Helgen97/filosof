@@ -327,6 +327,17 @@
                         </div>
                     </div>
                 </div>
+                <div class="swiper-slide">
+                    <div class="barber">
+                        <div class="barber-photo-container">
+                            <img class="barber-photo" src="./images/barber.jpg" alt="Михайло">
+                        </div>
+                        <div class="barber-description">
+                            <p class="barber-name">Михайло</p>
+                            <p class="barber-position">Старший Барбер</p>
+                        </div>
+                    </div>
+                </div>
 
             </div>
             <!-- If we need pagination -->
@@ -381,6 +392,10 @@
                 },
                 // when window width is >= 480px
                 480: {
+                    slidesPerView: 1,
+                    spaceBetween: 30
+                },
+                1000: {
                     slidesPerView: 2,
                     spaceBetween: 30
                 }
