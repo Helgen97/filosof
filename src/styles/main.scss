@@ -1,5 +1,11 @@
 @import "./vars.scss";
 
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
 h1,
 h2,
 p {
@@ -61,18 +67,18 @@ html {
 
 .right-btn {
   position: fixed;
-  top: 35dvh;
-  right: 4dvw;
+  top: 25dvh;
+  right: 4%;
   z-index: 99;
 
   a {
-    padding: 2rem 0.75rem;
+    padding: 2rem .5rem;
     background-color: $gold;
     writing-mode: tb-rl;
     transform: rotate(180deg);
     color: $white;
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 1.1rem;
+    font-weight: 700;
     box-shadow: 0 0 0 rgba(204, 169, 44, 0.4);
     animation: pulse 2s infinite;
     border-radius: 10px;
@@ -135,18 +141,95 @@ html {
 }
 
 .location_toggler {
-  width: 200px;
   @include select-customize;
-  background-image: url("../images/arrow.svg");
-  background-repeat: no-repeat;
-  background-position: right 1.7rem top 50%;
-  background-size: 16px auto, 100%;
-  font-weight: 500;
+  font-size: 0.8rem;
+  font-weight: 600;
   cursor: pointer;
 }
 
 .location_toggler::-ms-expand {
   display: none;
+}
+
+[tooltip] {
+  position: relative;
+}
+
+[tooltip]::before,
+[tooltip]::after {
+  text-transform: none;
+  font-size: 0.9em;
+  user-select: none;
+  pointer-events: none;
+  position: absolute;
+  display: none;
+  opacity: 0;
+}
+
+[tooltip]::before {
+  content: "";
+  border: 5px solid transparent;
+  z-index: 1001;
+}
+
+[tooltip]::after {
+  content: attr(tooltip);
+  text-align: center;
+  font-weight: 700;
+  min-width: 3rem;
+  max-width: 21rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0.2rem 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 1rem 2rem -0.5rem $gold_with_opacity;
+  background: $gold;
+  color: $white;
+  z-index: 1000;
+}
+
+.show_tooltip[tooltip]::before {
+  display: block;
+  animation: tooltips-vert 300ms ease-out forwards;
+}
+
+.show_tooltip[tooltip]::after {
+  display: block;
+  animation: tooltips-vert 300ms ease-out forwards, pulse 2s infinite;
+}
+
+[tooltip=""]::before,
+[tooltip=""]::after {
+  display: none !important;
+}
+
+[tooltip][flow^="down"]::before {
+  top: 100%;
+  border-top-width: 0;
+  border-bottom-color: $gold;
+}
+[tooltip][flow^="down"]::after {
+  top: calc(100% + 5px);
+}
+[tooltip][flow^="down"]::before,
+[tooltip][flow^="down"]::after {
+  left: 50%;
+  transform: translate(-50%, 0.5em);
+}
+
+@keyframes tooltips-vert {
+  to {
+    opacity: .9;
+    transform: translate(-50%, 0);
+  }
+}
+
+[tooltip]:not([flow]):hover::before,
+[tooltip]:not([flow]):hover::after,
+[tooltip][flow^="down"]:hover::before,
+[tooltip][flow^="down"]:hover::after {
+  animation: tooltips-vert 300ms ease-out forwards;
 }
 
 .social-container {
@@ -215,7 +298,7 @@ html {
 }
 
 .right {
-  width: 70%;
+  width: fit-content;
   margin: 0 auto;
   margin-top: 2rem;
 }
@@ -227,7 +310,7 @@ html {
   background-color: $gold;
   border-radius: 4px;
   color: $white;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 500;
   text-align: center;
 }
@@ -260,6 +343,9 @@ html {
 }
 
 .locations-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   margin-top: 0.5rem;
 }
 
@@ -285,11 +371,12 @@ html {
 .barber {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
+  padding: 1rem;
   @include flex-center;
 }
 
 .barber-photo {
-  width: 130px;
+  width: 120px;
   height: 120px;
   border-radius: 50%;
 }
@@ -335,12 +422,26 @@ html {
     font-size: 18px;
   }
 
-  .location_toggler {
-    background-position: right 0.5rem top 50%;
+  .right-btn {
+    top: 5dvh;
+    right: 2%;
+
+    a {
+      font-size: 0.9rem;
+    }
   }
 
-  .right-btn {
-    right: 2dvw;
+  .location_toggler {
+    font-size: 1rem;
+  }
+
+  .barber-photo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .barber-description {
+    margin-left: 1rem;
   }
 }
 
@@ -358,8 +459,12 @@ html {
   }
 
   .right-btn {
+    top: 30dvh;
+    right: 1%;
+
     a {
       @include opacity_hover_and_transition_style;
+      font-size: 1rem;
     }
   }
 
@@ -387,14 +492,16 @@ html {
 
   .location_toggler {
     font-size: 0.9rem;
-    background-position: right 12px top 50%;
-    background-size: 16px auto, 100%;
-    transition: color 0.3s linear, background-image 0.15s linear;
+    transition: color 0.3s linear;
 
     &:hover {
       color: $gold;
-      background-image: url("../images/arrow-hover.svg");
     }
+  }
+
+  [tooltip]:hover::before,
+  [tooltip]:hover::after {
+    display: block;
   }
 
   .lower_header {
@@ -402,9 +509,6 @@ html {
   }
 
   .main-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 8rem 12rem;
   }
 
@@ -414,7 +518,8 @@ html {
 
   .right {
     width: 35%;
-    margin: 0;
+    margin: 0 auto;
+    margin-top: 3rem;
   }
 
   .custom-btn {
@@ -434,6 +539,15 @@ html {
 
   .copyright {
     font-size: 0.8rem;
+  }
+
+  .barber-photo {
+    width: 200px;
+    height: 200px;
+  }
+
+  .barber-description {
+    margin-left: 1rem;
   }
 
   .location-address {
