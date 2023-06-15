@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/filosof/static/css/main.970ec8b3.css",
+    "main.js": "/filosof/static/js/main.f1de79a7.js",
+    "static/media/bg.jpg": "/filosof/static/media/bg.aa40118d87fa1aa5ba4f.jpg",
+    "static/media/charter_bold.eot": "/filosof/static/media/charter_bold.107739446e2da8b987e1.eot",
+    "static/media/charter_regular.eot": "/filosof/static/media/charter_regular.60445100f5ca33d8c5fa.eot",
+    "static/media/charter_bold.woff": "/filosof/static/media/charter_bold.ac1a8d698fd9cd545f8c.woff",
+    "static/media/charter_regular.woff": "/filosof/static/media/charter_regular.d3025eb4910c4374acab.woff",
+    "static/media/barber-2.png": "/filosof/static/media/barber-2.c374adc50d3438d533ca.png",
+    "static/media/barber-5.png": "/filosof/static/media/barber-5.605648b3d58164092b9c.png",
+    "index.html": "/filosof/index.html",
+    "main.970ec8b3.css.map": "/filosof/static/css/main.970ec8b3.css.map",
+    "main.f1de79a7.js.map": "/filosof/static/js/main.f1de79a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.970ec8b3.css",
+    "static/js/main.f1de79a7.js"
+  ]
+}
