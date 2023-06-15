@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.30321e76.css",
-    "main.js": "/static/js/main.d24e16d7.js",
+    "main.js": "/static/js/main.b3b22e54.js",
     "static/media/bg.jpg": "/static/media/bg.aa40118d87fa1aa5ba4f.jpg",
     "static/media/charter_bold.eot": "/static/media/charter_bold.107739446e2da8b987e1.eot",
     "static/media/charter_regular.eot": "/static/media/charter_regular.60445100f5ca33d8c5fa.eot",
@@ -11,10 +11,10 @@
     "static/media/barber-5.png": "/static/media/barber-5.605648b3d58164092b9c.png",
     "index.html": "/index.html",
     "main.30321e76.css.map": "/static/css/main.30321e76.css.map",
-    "main.d24e16d7.js.map": "/static/js/main.d24e16d7.js.map"
+    "main.b3b22e54.js.map": "/static/js/main.b3b22e54.js.map"
   },
   "entrypoints": [
     "static/css/main.30321e76.css",
-    "static/js/main.d24e16d7.js"
+    "static/js/main.b3b22e54.js"
   ]
 }
