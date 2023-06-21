@@ -2,8 +2,9 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-      <loc>http://www.filosof.in.ua/</loc>
+      <loc>https://www.filosof.in.ua/</loc>
       <changefreq>monthly</changefreq>
+      <lastmod>2023-06-21</lastmod>
       <priority>0.8</priority>
    </url>
 </urlset> 
