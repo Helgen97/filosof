@@ -67,15 +67,17 @@ html {
 
 .right-btn {
   position: fixed;
-  top: 25dvh;
+  top: 20%;
   right: 4%;
   z-index: 99;
 
   a {
-    padding: 2rem .5rem;
+    padding: 2rem 0.5rem;
     background-color: $gold;
     writing-mode: tb-rl;
     transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
     color: $white;
     font-size: 1.1rem;
     font-weight: 700;
@@ -220,7 +222,7 @@ html {
 
 @keyframes tooltips-vert {
   to {
-    opacity: .9;
+    opacity: 0.9;
     transform: translate(-50%, 0);
   }
 }
@@ -237,8 +239,8 @@ html {
 }
 
 .instagram_logo {
-  width: 2rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .main_screen {
@@ -318,7 +320,7 @@ html {
 .price_screen,
 .location_screen,
 .barber_screen {
-  padding: 1rem 2rem;
+  padding: 1rem;
   border-bottom: 1px $gold solid;
   text-align: center;
 }
@@ -423,7 +425,7 @@ html {
   }
 
   .right-btn {
-    top: 5dvh;
+    top: 5%;
     right: 2%;
 
     a {
@@ -459,7 +461,7 @@ html {
   }
 
   .right-btn {
-    top: 30dvh;
+    top: 30%;
     right: 1%;
 
     a {

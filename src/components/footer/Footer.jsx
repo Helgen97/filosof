@@ -13,7 +13,7 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <InstagramLogo className="instagram_logo" width="32" height="32" />
+          <InstagramLogo className="instagram_logo" width="32" height="32" alt="Instagram" />
         </a>
       </div>
       <div className="copyright">

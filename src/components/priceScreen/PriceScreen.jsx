@@ -30,13 +30,13 @@ const PriceScreen = () => {
               <p>{formatMessage({ id: "mens_haircut" })}</p>
             </td>
             <td>
-              <p>300 {formatMessage({ id: "currency" })}</p>
+              <p>250 {formatMessage({ id: "currency" })}</p>
             </td>
             <td>
               <p>300 {formatMessage({ id: "currency" })}</p>
             </td>
             <td>
-              <p>300 {formatMessage({ id: "currency" })}</p>
+              <p>350 {formatMessage({ id: "currency" })}</p>
             </td>
           </tr>
           <tr>
@@ -44,7 +44,7 @@ const PriceScreen = () => {
               <p>{formatMessage({ id: "beard_haircut" })}</p>
             </td>
             <td>
-              <p>250 {formatMessage({ id: "currency" })}</p>
+              <p>150 {formatMessage({ id: "currency" })}</p>
             </td>
             <td>
               <p>250 {formatMessage({ id: "currency" })}</p>
@@ -55,30 +55,28 @@ const PriceScreen = () => {
           </tr>
           <tr>
             <td>
-              <p>{formatMessage({ id: "mens_haircut" })}</p>
-              <p>+</p>
-              <p>{formatMessage({ id: "beard_haircut" })}</p>
+              <p>{formatMessage({ id: "baby_haircut" })}</p>
             </td>
             <td>
-              <p>550 {formatMessage({ id: "currency" })}</p>
+              <p>250 {formatMessage({ id: "currency" })}</p>
             </td>
             <td>
-              <p>550 {formatMessage({ id: "currency" })}</p>
+              <p>300 {formatMessage({ id: "currency" })}</p>
             </td>
             <td>
-              <p>550 {formatMessage({ id: "currency" })}</p>
+              <p>350 {formatMessage({ id: "currency" })}</p>
             </td>
           </tr>
           <tr>
             <td>{formatMessage({ id: "fade_haircut" })}</td>
             <td>
-              <p>350 {formatMessage({ id: "currency" })}</p>
+              <p>300 {formatMessage({ id: "currency" })}</p>
             </td>
             <td>
               <p>350 {formatMessage({ id: "currency" })}</p>
             </td>
             <td>
-              <p>350 {formatMessage({ id: "currency" })}</p>
+              <p>400 {formatMessage({ id: "currency" })}</p>
             </td>
           </tr>
           <tr>
@@ -88,13 +86,13 @@ const PriceScreen = () => {
               <p>{formatMessage({ id: "beard_haircut" })}</p>
             </td>
             <td>
-              <p>600 {formatMessage({ id: "currency" })}</p>
+              <p>450 {formatMessage({ id: "currency" })}</p>
             </td>
             <td>
-              <p>600 {formatMessage({ id: "currency" })}</p>
+              <p>500 {formatMessage({ id: "currency" })}</p>
             </td>
             <td>
-              <p>600 {formatMessage({ id: "currency" })}</p>
+              <p>550 {formatMessage({ id: "currency" })}</p>
             </td>
           </tr>
           <tr>
@@ -103,13 +101,13 @@ const PriceScreen = () => {
               <p>{formatMessage({ id: "long_hair" })}</p>
             </td>
             <td>
-              <p>350 {formatMessage({ id: "currency" })}</p>
+              <p>300 {formatMessage({ id: "currency" })}</p>
             </td>
             <td>
               <p>350 {formatMessage({ id: "currency" })}</p>
             </td>
             <td>
-              <p>350 {formatMessage({ id: "currency" })}</p>
+              <p>400 {formatMessage({ id: "currency" })}</p>
             </td>
           </tr>
         </tbody>

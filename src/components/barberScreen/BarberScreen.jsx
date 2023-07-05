@@ -27,6 +27,7 @@ const BarberScreen = ({ lang }) => {
                     className="barber-photo"
                     src={barber.photo}
                     alt={barber.barberName}
+                    loading="lazy"
                   />
                 </div>
                 <div className="barber-description">
