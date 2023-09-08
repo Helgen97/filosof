@@ -1,0 +1,32 @@
+.help_buttons {
+  position: absolute;
+}
+
+.help_buttons.showed {
+  .booking_help-button-container,
+  .toTop_help-button-container {
+    display: block;
+  }
+}
+
+.booking_help-button-container {
+  display: none;
+  position: fixed;
+  top: 30%;
+  right: -15px;
+  writing-mode: tb-rl;
+  transform: rotate(180deg);
+  z-index: 1;
+
+  .main_screen-link {
+    padding: 3rem 1.2rem;
+  }
+}
+
+.toTop_help-button-container {
+  display: none;
+  position: fixed;
+  bottom: $gap;
+  left: $gap;
+  z-index: 1;
+}

@@ -1,0 +1,52 @@
+.barber_screen {
+  margin-top: calc(2 * #{$gap});
+  text-align: center;
+  border-bottom: 2px solid $gold-color;
+}
+
+.barber_screen-content {
+  margin: calc(2 * #{$gap}) 0;
+}
+
+.barber {
+  width: max-content;
+  margin: 0 auto;
+  padding-bottom: calc(4 * #{$gap});
+}
+
+.barber-photo-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.barber-photo {
+  width: 100%;
+  height: auto;
+}
+
+.barber-description {
+  margin-top: calc(2 * #{$gap});
+}
+
+.barber-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.barber-position {
+  color: $gold-color;
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: $tablet) {
+  .barber_screen-content {
+    width: 80%;
+    margin: calc(2 * #{$gap}) auto;
+  }
+}
+
+@media screen and (min-width: $desktop) {
+}

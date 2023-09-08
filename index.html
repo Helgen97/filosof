@@ -14,57 +14,68 @@
     <meta name="msapplication-TileColor" content="#ddd8ae">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </head>
 
 <body>
-    <div class="menu">
-        <div class="close-btn_container">
-            <svg id="close-menu-btn" width="32" height="32" viewBox="0 0 26 26" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd"
-                    d="M10.9315 9.86197C10.6386 9.56904 10.1638 9.56899 9.87085 9.86186C9.57792 10.1547 9.57788 10.6296 9.87074 10.9225L11.9384 12.9906L9.8735 15.0555C9.58061 15.3484 9.58061 15.8233 9.8735 16.1162C10.1664 16.409 10.6413 16.409 10.9342 16.1162L12.9989 14.0514L15.0664 16.1193C15.3593 16.4122 15.8341 16.4122 16.1271 16.1194C16.42 15.8265 16.42 15.3516 16.1272 15.0587L14.0596 12.9907L16.1255 10.9248C16.4184 10.6319 16.4184 10.1571 16.1255 9.86416C15.8326 9.57127 15.3577 9.57127 15.0648 9.86416L12.9991 11.9299L10.9315 9.86197Z"
-                    fill="#9F7150" />
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M17.6957 2.97937H8.30432C5.03157 2.97937 2.97974 5.29662 2.97974 8.57587V17.4245C2.97974 20.7038 5.02182 23.021 8.30432 23.021H17.6947C20.9782 23.021 23.0214 20.7038 23.0214 17.4245V8.57587C23.0214 5.29662 20.9782 2.97937 17.6957 2.97937Z"
-                    stroke="#9F7150" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-        </div>
-        <div class="mobile_menu-link_container">
-            <a href="#" class="mobile_menu-link">Онлайн запис</a>
-            <a href="#" class="mobile_menu-link">Послуги</a>
-            <a href="#" class="mobile_menu-link">Локації</a>
-            <a href="#" class="mobile_menu-link">Барбери</a>
-        </div>
-    </div>
-    <div class="right-btn">
-        <a href="#">Онлайн запис</a>
-    </div>
     <header class="upper_header">
-        <div class="menu_btn-container">
-            <svg id="mobile_menu-btn" class="menu_btn" width="48" height="48" viewBox="0 0 32 32" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M4 8.66667C4 5.16638 4.03748 4 8.66667 4C13.2959 4 13.3333 5.16638 13.3333 8.66667C13.3333 12.167 13.3481 13.3333 8.66667 13.3333C3.98524 13.3333 4 12.167 4 8.66667Z"
-                    stroke="#9F7150" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd"
-                    d="M18.6667 8.66667C18.6667 5.16638 18.7042 4 23.3333 4C27.9625 4 28 5.16638 28 8.66667C28 12.167 28.0148 13.3333 23.3333 13.3333C18.6519 13.3333 18.6667 12.167 18.6667 8.66667Z"
-                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M4 23.3333C4 19.833 4.03748 18.6667 8.66667 18.6667C13.2959 18.6667 13.3333 19.833 13.3333 23.3333C13.3333 26.8336 13.3481 28 8.66667 28C3.98524 28 4 26.8336 4 23.3333Z"
-                    stroke="#9F7150" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M18.6667 23.3333C18.6667 19.833 18.7042 18.6667 23.3333 18.6667C27.9625 18.6667 28 19.833 28 23.3333C28 26.8336 28.0148 28 23.3333 28C18.6519 28 18.6667 26.8336 18.6667 23.3333Z"
-                    stroke="#9F7150" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
+        <div class="mobile_menu">
+            <div class="mobile_menu-button">
+                <button id="mm">
+                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M4.375 9.47917C4.375 5.65073 4.41599 4.375 9.47917 4.375C14.5424 4.375 14.5833 5.65073 14.5833 9.47917C14.5833 13.3077 14.5995 14.5833 9.47917 14.5833C4.35886 14.5833 4.375 13.3077 4.375 9.47917Z"
+                            stroke="#9F7150" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" />
+                        <path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M20.4167 9.47917C20.4167 5.65073 20.4578 4.375 25.5208 4.375C30.584 4.375 30.625 5.65073 30.625 9.47917C30.625 13.3077 30.6412 14.5833 25.5208 14.5833C20.4006 14.5833 20.4167 13.3077 20.4167 9.47917Z"
+                            stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M4.375 25.5208C4.375 21.6923 4.41599 20.4167 9.47917 20.4167C14.5424 20.4167 14.5833 21.6923 14.5833 25.5208C14.5833 29.3492 14.5995 30.625 9.47917 30.625C4.35886 30.625 4.375 29.3492 4.375 25.5208Z"
+                            stroke="#9F7150" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M20.4167 25.5208C20.4167 21.6923 20.4578 20.4167 25.5208 20.4167C30.584 20.4167 30.625 21.6923 30.625 25.5208C30.625 29.3492 30.6412 30.625 25.5208 30.625C20.4006 30.625 20.4167 29.3492 20.4167 25.5208Z"
+                            stroke="#9F7150" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+            <div class="mobile_menu_content">
+                <ul>
+                    <li>
+                        <button id="cmm">
+                            <svg id="close-menu-btn" width="32" height="32" viewBox="0 0 26 26" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M10.9315 9.86197C10.6386 9.56904 10.1638 9.56899 9.87085 9.86186C9.57792 10.1547 9.57788 10.6296 9.87074 10.9225L11.9384 12.9906L9.8735 15.0555C9.58061 15.3484 9.58061 15.8233 9.8735 16.1162C10.1664 16.409 10.6413 16.409 10.9342 16.1162L12.9989 14.0514L15.0664 16.1193C15.3593 16.4122 15.8341 16.4122 16.1271 16.1194C16.42 15.8265 16.42 15.3516 16.1272 15.0587L14.0596 12.9907L16.1255 10.9248C16.4184 10.6319 16.4184 10.1571 16.1255 9.86416C15.8326 9.57127 15.3577 9.57127 15.0648 9.86416L12.9991 11.9299L10.9315 9.86197Z"
+                                    fill="#9F7150"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M17.6957 2.97937H8.30432C5.03157 2.97937 2.97974 5.29662 2.97974 8.57587V17.4245C2.97974 20.7038 5.02182 23.021 8.30432 23.021H17.6947C20.9782 23.021 23.0214 20.7038 23.0214 17.4245V8.57587C23.0214 5.29662 20.9782 2.97937 17.6957 2.97937Z"
+                                    stroke="#9F7150" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                </path>
+                            </svg>
+                        </button>
+                    </li>
+                    <li><a href="#" class="menu-link">Онлайн запис</a></li>
+                    <li><a href="#" class="menu-link">Послуги</a></li>
+                    <li><a href="#" class="menu-link">Локації</a></li>
+                    <li><a href="#" class="menu-link">Барбери</a></li>
+                </ul>
+            </div>
         </div>
         <div class="desktop_menu">
-            <a href="#" class="desktop_menu-link">Онлайн запис</a>
+            <ul>
+                <li><a href="#" class="menu-link">Онлайн запис</a></li>
+                <li><a href="#" class="menu-link">Послуги</a></li>
+                <li><a href="#" class="menu-link">Локації</a></li>
+                <li><a href="#" class="menu-link">Барбери</a></li>
+            </ul>
         </div>
-        <div class="desktop_menu">
-            <a href="#" class="desktop_menu-link">Послуги</a>
+        <div class="logo-container">
+            <a href="/">
+                <p class="upper-logo-text">filosof</p>
+                <p class="lower-logo-text">barbershop</p>
+            </a>
         </div>
         <div class="language_toggler-container">
             <select class="language_toggler" name="language" id="language">
@@ -72,51 +83,68 @@
                 <option value="EN">EN</option>
             </select>
         </div>
-        <div class="logo-container">
-            <a href="#">
-                <p class="upper-logo-text">filosof</p>
-                <p class="lower-logo-text">barbershop</p>
-            </a>
-        </div>
-        <div class="desktop_menu">
-            <a href="#" class="desktop_menu-link">Локації</a>
-        </div>
-        <div class="desktop_menu">
-            <a href="#" class="desktop_menu-link">Барбери</a>
+    </header>
+    <header class="lower_header">
+        <div class="lower_header-content">
+            <div class="location-container">
+                <div class="location-svg_container">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M7.06519 17.3189C7.0892 10.2512 12.8381 4.54122 19.9057 4.56523C26.9734 4.58924 32.6834 10.3382 32.6593 17.4058V17.5507C32.5724 22.1449 30.0072 26.3913 26.8622 29.7102C25.0637 31.5779 23.0552 33.2314 20.8767 34.6377C20.2943 35.1415 19.4302 35.1415 18.8478 34.6377C15.6003 32.5239 12.75 29.8552 10.4275 26.7536C8.35744 24.049 7.18213 20.7662 7.06519 17.3623V17.3189Z"
+                            stroke="#9F7150" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path opacity="0.5"
+                            d="M19.8624 21.6666C22.1276 21.6666 23.9639 19.8304 23.9639 17.5652C23.9639 15.3 22.1276 13.4637 19.8624 13.4637C17.5973 13.4637 15.761 15.3 15.761 17.5652C15.761 19.8304 17.5973 21.6666 19.8624 21.6666Z"
+                            stroke="#9F7150" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
+                </div>
+                <div class="location-select_container">
+                    <select class="location-select" name="location" id="location">
+                        <option value="вул. Попудренка 28">м. Дарниця, вул. Павла Полуботка 28</option>
+                        <option value="вул. Попудренка 28">м. Васильківська, </option>
+                    </select>
+                </div>
+            </div>
+            <div class="social-container">
+                <a href="#">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M33.4375 17.735V9.64874C33.4375 8.20374 32.2263 6.99249 30.7812 6.99249H9.53125C8.08625 6.99249 6.875 8.20374 6.875 9.64874V17.735H13.32C14.3363 14.9612 17.0312 12.9687 20.1562 12.9687C23.2812 12.9687 25.9762 14.9612 26.9925 17.735H33.4375ZM33.4375 20.0787H27.4612V20.2737C27.4612 24.2975 24.18 27.5787 20.1562 27.5787C16.1325 27.5787 12.8513 24.2975 12.8513 20.2737V20.0787H6.875V30.8987C6.875 32.3437 8.08625 33.555 9.53125 33.555H30.7812C32.2263 33.555 33.4375 32.3437 33.4375 30.8987V20.0787ZM9.18 9.33624H10.5088V15.43H9.18V9.33624ZM11.8363 9.33624H13.165V15.43H11.8363V9.33624ZM14.4925 9.33624H15.8213V13.165C15.3913 13.4775 14.9225 13.8287 14.4925 14.1812V9.33624ZM20.1562 25.2737C22.93 25.2737 25.1175 23.0475 25.1175 20.2737C25.1175 17.5 22.93 15.3125 20.1562 15.3125C17.3825 15.3125 15.1562 17.5 15.1562 20.2737C15.1562 23.0475 17.3825 25.2737 20.1562 25.2737ZM24.805 9.33624H31.0938V15.43H26.875C26.3275 14.61 25.5862 13.945 24.805 13.3987V9.33624Z"
+                            fill="#9F7150" />
+                    </svg>
+                </a>
+            </div>
         </div>
     </header>
-    <section class="lower_header">
-        <div class="location-container">
-            <svg class="location_marker" width="32" height="32" viewBox="0 0 26 26" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M4.59239 11.2573C4.608 6.66328 8.3448 2.95179 12.9388 2.9674C17.5327 2.983 21.2442 6.7198 21.2286 11.3138V11.408C21.1721 14.3942 19.5047 17.1544 17.4605 19.3116C16.2914 20.5256 14.9859 21.6004 13.5699 22.5145C13.1913 22.842 12.6297 22.842 12.2511 22.5145C10.1402 21.1406 8.28757 19.4059 6.7779 17.3899C5.43235 15.6318 4.6684 13.4981 4.59239 11.2855L4.59239 11.2573Z"
-                    stroke="#9F7150" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <circle opacity="0.5" cx="12.9105" cy="11.4174" r="2.66594" stroke="#9F7150" stroke-width="1.5"
-                    stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <select class="location_toggler" name="location" id="location">
-                <option value="вул. Попудренка 28">вул. Попудренка 28</option>
-                <option value="вул. Попудренка 28">вул. Попудренка 28</option>
-            </select>
+    <div class="help_buttons">
+        <div class="booking_help-button-container">
+            <a href="#" class="main_screen-link">онлайн запис</a>
         </div>
-        <div class="social-container">
-            <a href="#">
-                <svg class="instagram_logo" width="32" height="32" viewBox="0 0 26 26" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M21.7344 11.5278V6.2717C21.7344 5.33245 20.9471 4.54514 20.0078 4.54514H6.19531C5.25606 4.54514 4.46875 5.33245 4.46875 6.2717V11.5278H8.658C9.31856 9.72482 11.0703 8.4297 13.1016 8.4297C15.1328 8.4297 16.8846 9.72482 17.5451 11.5278H21.7344ZM21.7344 13.0512H17.8498V13.1779C17.8498 15.7934 15.717 17.9262 13.1016 17.9262C10.4861 17.9262 8.35331 15.7934 8.35331 13.1779V13.0512H4.46875V20.0842C4.46875 21.0234 5.25606 21.8108 6.19531 21.8108H20.0078C20.9471 21.8108 21.7344 21.0234 21.7344 20.0842V13.0512ZM5.967 6.06857H6.83069V10.0295H5.967V6.06857ZM7.69356 6.06857H8.55725V10.0295H7.69356V6.06857ZM9.42013 6.06857H10.2838V8.55726C10.0043 8.76039 9.69963 8.9887 9.42013 9.21782V6.06857ZM13.1016 16.4279C14.9045 16.4279 16.3264 14.9809 16.3264 13.1779C16.3264 11.375 14.9045 9.95314 13.1016 9.95314C11.2986 9.95314 9.85156 11.375 9.85156 13.1779C9.85156 14.9809 11.2986 16.4279 13.1016 16.4279ZM16.1233 6.06857H20.2109V10.0295H17.4688C17.1129 9.49651 16.6311 9.06426 16.1233 8.7092V6.06857Z"
-                        fill="#9F7150" />
+        <div class="toTop_help-button-container">
+            <button>
+                <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_248_31)">
+                        <path
+                            d="M12.483 19.017L15.3125 16.1372V24.0844C15.3123 24.3688 15.3683 24.6505 15.477 24.9133C15.5858 25.1761 15.7453 25.4149 15.9465 25.616C16.1476 25.8171 16.3864 25.9766 16.6492 26.0854C16.912 26.1942 17.1937 26.2501 17.4781 26.25H17.5219C17.8063 26.2501 18.088 26.1942 18.3508 26.0854C18.6136 25.9766 18.8524 25.8171 19.0535 25.616C19.2546 25.4149 19.4142 25.1761 19.5229 24.9133C19.6317 24.6505 19.6876 24.3688 19.6875 24.0844V16.4686L19.9719 16.5145L22.4306 18.9503C22.8014 19.3346 23.295 19.577 23.8258 19.6355C24.3566 19.6941 24.8911 19.565 25.3367 19.2708C25.5956 19.0894 25.8115 18.8533 25.9691 18.5793C26.1267 18.3053 26.2222 18 26.2488 17.685C26.2754 17.37 26.2325 17.053 26.1231 16.7565C26.0137 16.4599 25.8404 16.191 25.6156 15.9687L18.9722 9.38545C18.5594 8.9782 18.0028 8.74988 17.4229 8.74988C16.843 8.74988 16.2864 8.9782 15.8736 9.38545L9.38328 15.948C9.1799 16.1484 9.0184 16.3873 8.90816 16.6508C8.79793 16.9142 8.74117 17.1969 8.74117 17.4825C8.74117 17.7681 8.79793 18.0508 8.90816 18.3142C9.0184 18.5777 9.1799 18.8165 9.38328 19.017C9.79601 19.4249 10.3529 19.6536 10.9331 19.6536C11.5134 19.6536 12.0702 19.4249 12.483 19.017Z"
+                            fill="#9F7150" />
+                        <path
+                            d="M17.5 35C20.9612 35 24.3446 33.9737 27.2225 32.0507C30.1003 30.1278 32.3434 27.3947 33.6679 24.197C34.9924 20.9993 35.339 17.4806 34.6637 14.0859C33.9885 10.6913 32.3218 7.57306 29.8744 5.12564C27.427 2.67822 24.3087 1.01151 20.9141 0.336265C17.5194 -0.338976 14.0007 0.00758242 10.803 1.33212C7.60533 2.65665 4.87221 4.89967 2.94928 7.77753C1.02636 10.6554 0 14.0388 0 17.5C0 22.1413 1.84375 26.5925 5.12563 29.8744C8.40752 33.1563 12.8587 35 17.5 35ZM17.5 4.37501C20.0959 4.37501 22.6335 5.14478 24.7919 6.58697C26.9503 8.02916 28.6325 10.079 29.6259 12.4773C30.6193 14.8756 30.8792 17.5146 30.3728 20.0606C29.8664 22.6066 28.6163 24.9452 26.7808 26.7808C24.9452 28.6163 22.6066 29.8664 20.0606 30.3728C17.5146 30.8792 14.8756 30.6193 12.4773 29.6259C10.079 28.6325 8.02915 26.9503 6.58696 24.7919C5.14477 22.6335 4.375 20.0959 4.375 17.5C4.37876 14.0202 5.76278 10.684 8.22338 8.22339C10.684 5.76279 14.0202 4.37877 17.5 4.37501Z"
+                            fill="#9F7150" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_248_31">
+                            <rect width="35" height="35" fill="white" />
+                        </clipPath>
+                    </defs>
                 </svg>
-            </a>
+            </button>
         </div>
-    </section>
+    </div>
     <section class="main_screen">
-        <div class="main-container">
-            <div class="left">
-                <div class="title-container">
-                    <h1 class="title">filosof barbershop</h1>
-                    <p class="tag-line">твердою рукою та гострим лезом</p>
+        <div class="main_screen-content">
+            <div class="main_screen_upper-content">
+                <div>
+                    <h1>filosof barbershop</h1>
                 </div>
                 <div class="description-container">
                     <p>Чоловічі стрижки.</p>
@@ -124,15 +152,13 @@
                 </div>
                 <div class="work_hours-container">
                     <div>
-                        <svg class="work_hours_marker" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M21.2498 12.0005C21.2498 17.1095 17.1088 21.2505 11.9998 21.2505C6.8908 21.2505 2.7498 17.1095 2.7498 12.0005C2.7498 6.8915 6.8908 2.7505 11.9998 2.7505C17.1088 2.7505 21.2498 6.8915 21.2498 12.0005Z"
-                                stroke="#9F7150" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                            <path opacity="0.9" d="M15.4314 14.9429L11.6614 12.6939V7.84691" stroke="#9F7150"
-                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                d="M42.4995 24.001C42.4995 34.219 34.2175 42.501 23.9995 42.501C13.7815 42.501 5.49951 34.219 5.49951 24.001C5.49951 13.783 13.7815 5.501 23.9995 5.501C34.2175 5.501 42.4995 13.783 42.4995 24.001Z"
+                                stroke="#9F7150" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path opacity="0.9" d="M30.863 29.8858L23.323 25.3878V15.6938" stroke="#9F7150"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
-
                     </div>
                     <div class="work_hours-description">
                         <p>ПН - НД</p>
@@ -140,158 +166,226 @@
                     </div>
                 </div>
             </div>
-            <div class="right">
-                <a href="#" class="custom-btn">онлайн запис</a>
-                <a href="tel:+" class="custom-btn phone-btn">зателефонувати</a>
-                <a href="#" class="custom-btn">прокласти маршрут</a>
+            <div class="main_screen_lower-content">
+                <div class="main_screen_link-container">
+                    <a href="#" class="main_screen-link">онлайн запис</a>
+                </div>
+                <div class="main_screen_link-container">
+                    <a href="#" class="main_screen-link">зателефонувати</a>
+                </div>
+                <div class="main_screen_link-container">
+                    <a href="#" class="main_screen-link">прокласти маршрут</a>
+                </div>
             </div>
         </div>
     </section>
     <section class="price_screen">
-        <h2 class="screen-title">Наш прайс</h2>
-        <table class="price-table">
-            <thead>
-                <tr>
-                    <td>
+        <h2>Наш прайс</h2>
+        <div class="price_screen-content">
+            <table class="price-table">
+                <thead>
+                    <tr>
+                        <td>
 
-                    </td>
-                    <td>
-                        <p>Молодший</p>
-                        <p>Барбер</p>
-                    </td>
-                    <td>
-                        <p>Барбер</p>
-                    </td>
-                    <td>
-                        <p>Старший</p>
-                        <p>Барбер</p>
-                    </td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <p>Чоловіча стрижка</p>
-                    </td>
-                    <td>
-                        <p>300 грн</p>
-                    </td>
-                    <td>
-                        <p>300 грн</p>
-                    </td>
-                    <td>
-                        <p>300 грн</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Стрижка бороди</p>
-                    </td>
-                    <td>
-                        <p>250 грн</p>
-                    </td>
-                    <td>
-                        <p>250 грн</p>
-                    </td>
-                    <td>
-                        <p>250 грн</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Чоловіча стрижка</p>
-                        <p>+</p>
-                        <p>Стрижка бороди</p>
-                    </td>
-                    <td>
-                        <p>550 грн</p>
-                    </td>
-                    <td>
-                        <p>550 грн</p>
-                    </td>
-                    <td>
-                        <p>550 грн</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Стрижка Fade</td>
-                    <td>
-                        <p>350 грн</p>
-                    </td>
-                    <td>
-                        <p>350 грн</p>
-                    </td>
-                    <td>
-                        <p>350 грн</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Cтрижка Fade</p>
-                        <p>+</p>
-                        <p>Стрижка бороди</p>
-                    </td>
-                    <td>
-                        <p>600 грн</p>
-                    </td>
-                    <td>
-                        <p>600 грн</p>
-                    </td>
-                    <td>
-                        <p>600 грн</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Cтрижка:</p>
-                        <p>Довге волосся</p>
-                    </td>
-                    <td>
-                        <p>350 грн</p>
-                    </td>
-                    <td>
-                        <p>350 грн</p>
-                    </td>
-                    <td>
-                        <p>350 грн</p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+                        </td>
+                        <td>
+                            <p>Молодший</p>
+                            <p>Барбер</p>
+                        </td>
+                        <td>
+                            <p>Барбер</p>
+                        </td>
+                        <td>
+                            <p>Старший</p>
+                            <p>Барбер</p>
+                        </td>
+                        <td>
+                            <p>Арт</p>
+                            <p>Барбер</p>
+                        </td>
+                        <td>
+                            <p>Топ</p>
+                            <p>Барбер</p>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>Чоловіча стрижка</p>
+                        </td>
+                        <td>
+                            <p>300 грн</p>
+                        </td>
+                        <td>
+                            <p>300 грн</p>
+                        </td>
+                        <td>
+                            <p>300 грн</p>
+                        </td>
+                        <td>
+                            <p>250 грн</p>
+                        </td>
+                        <td>
+                            <p>250 грн</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Стрижка бороди</p>
+                        </td>
+                        <td>
+                            <p>250 грн</p>
+                        </td>
+                        <td>
+                            <p>250 грн</p>
+                        </td>
+                        <td>
+                            <p>250 грн</p>
+                        </td>
+                        <td>
+                            <p>250 грн</p>
+                        </td>
+                        <td>
+                            <p>250 грн</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Стрижка Fade</td>
+                        <td>
+                            <p>350 грн</p>
+                        </td>
+                        <td>
+                            <p>350 грн</p>
+                        </td>
+                        <td>
+                            <p>350 грн</p>
+                        </td>
+                        <td>
+                            <p>250 грн</p>
+                        </td>
+                        <td>
+                            <p>250 грн</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Довге волосся</p>
+                        </td>
+                        <td>
+                            <p>350 грн</p>
+                        </td>
+                        <td>
+                            <p>350 грн</p>
+                        </td>
+                        <td>
+                            <p>350 грн</p>
+                        </td>
+                        <td>
+                            <p>250 грн</p>
+                        </td>
+                        <td>
+                            <p>250 грн</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Дитяча стрижка</p>
+                        </td>
+                        <td>
+                            <p>350 грн</p>
+                        </td>
+                        <td>
+                            <p>350 грн</p>
+                        </td>
+                        <td>
+                            <p>350 грн</p>
+                        </td>
+                        <td>
+                            <p>250 грн</p>
+                        </td>
+                        <td>
+                            <p>250 грн</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Королівське:</p>
+                            <p>Гоління</p>
+                        </td>
+                        <td>
+                            <p>350 грн</p>
+                        </td>
+                        <td>
+                            <p>350 грн</p>
+                        </td>
+                        <td>
+                            <p>350 грн</p>
+                        </td>
+                        <td>
+                            <p>250 грн</p>
+                        </td>
+                        <td>
+                            <p>250 грн</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </section>
     <section class="location_screen">
-        <h2 class="screen-title">Локації</h2>
-        <div class="locations-container">
+        <h2>Локації</h2>
+        <div class="location_screen-content">
             <div class="location">
-                <div>
-                    <svg class="location_marker-big" width="96" height="96" viewBox="0 0 26 26" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                <div class="location_svg-container">
+                    <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M4.59239 11.2573C4.608 6.66328 8.3448 2.95179 12.9388 2.9674C17.5327 2.983 21.2442 6.7198 21.2286 11.3138V11.408C21.1721 14.3942 19.5047 17.1544 17.4605 19.3116C16.2914 20.5256 14.9859 21.6004 13.5699 22.5145C13.1913 22.842 12.6297 22.842 12.2511 22.5145C10.1402 21.1406 8.28757 19.4059 6.7779 17.3899C5.43235 15.6318 4.6684 13.4981 4.59239 11.2855L4.59239 11.2573Z"
-                            stroke="#9F7150" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                        <circle opacity="0.5" cx="12.9105" cy="11.4174" r="2.66594" stroke="#9F7150" stroke-width="1.5"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                            d="M17.6631 43.2971C17.7232 25.628 32.0955 11.353 49.7646 11.413C67.4337 11.4731 81.7087 25.8454 81.6486 43.5145V43.8768C81.4312 55.3623 75.0182 65.9783 67.1559 74.2754C62.6594 78.9446 57.6382 83.0784 52.1921 86.5942C50.7359 87.8538 48.5759 87.8538 47.1196 86.5942C39.0009 81.3098 31.8754 74.638 26.0689 66.884C20.8938 60.1224 17.9555 51.9156 17.6631 43.4058V43.2971Z"
+                            stroke="#9F7150" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path opacity="0.5"
+                            d="M49.6557 54.1666C55.3186 54.1666 59.9093 49.5759 59.9093 43.913C59.9093 38.2501 55.3186 33.6594 49.6557 33.6594C43.9928 33.6594 39.4021 38.2501 39.4021 43.913C39.4021 49.5759 43.9928 54.1666 49.6557 54.1666Z"
+                            stroke="#9F7150" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
+
                 </div>
-                <div>
-                    <a href="#" class="location-address">вул. Попудренка 28</a>
+                <div class="location_description">
+                    <a href="#" class="location-address">м. Дарниця, вул. Павла Полуботка 28</a>
                     <a href="tel:" class="location-phone">0931234567</a>
                     <p>10:00 - 20:00</p>
                 </div>
             </div>
             <div class="location">
-                <div>
-                    <svg class="location_marker-big" width="96" height="96" viewBox="0 0 26 26" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                <div class="location_svg-container">
+                    <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M4.59239 11.2573C4.608 6.66328 8.3448 2.95179 12.9388 2.9674C17.5327 2.983 21.2442 6.7198 21.2286 11.3138V11.408C21.1721 14.3942 19.5047 17.1544 17.4605 19.3116C16.2914 20.5256 14.9859 21.6004 13.5699 22.5145C13.1913 22.842 12.6297 22.842 12.2511 22.5145C10.1402 21.1406 8.28757 19.4059 6.7779 17.3899C5.43235 15.6318 4.6684 13.4981 4.59239 11.2855L4.59239 11.2573Z"
-                            stroke="#9F7150" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                        <circle opacity="0.5" cx="12.9105" cy="11.4174" r="2.66594" stroke="#9F7150" stroke-width="1.5"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                            d="M17.6631 43.2971C17.7232 25.628 32.0955 11.353 49.7646 11.413C67.4337 11.4731 81.7087 25.8454 81.6486 43.5145V43.8768C81.4312 55.3623 75.0182 65.9783 67.1559 74.2754C62.6594 78.9446 57.6382 83.0784 52.1921 86.5942C50.7359 87.8538 48.5759 87.8538 47.1196 86.5942C39.0009 81.3098 31.8754 74.638 26.0689 66.884C20.8938 60.1224 17.9555 51.9156 17.6631 43.4058V43.2971Z"
+                            stroke="#9F7150" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path opacity="0.5"
+                            d="M49.6557 54.1666C55.3186 54.1666 59.9093 49.5759 59.9093 43.913C59.9093 38.2501 55.3186 33.6594 49.6557 33.6594C43.9928 33.6594 39.4021 38.2501 39.4021 43.913C39.4021 49.5759 43.9928 54.1666 49.6557 54.1666Z"
+                            stroke="#9F7150" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
+
                 </div>
-                <div>
-                    <a href="#" class="location-address">вул. Попудренка 28</a>
+                <div class="location_description">
+                    <a href="#" class="location-address">м. Васильківська, Коломийський пров. 17/31А</a>
+                    <a href="tel:" class="location-phone">0931234567</a>
+                    <p>10:00 - 20:00</p>
+                </div>
+            </div>
+            <div class="location">
+                <div class="location_svg-container">
+                    <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M17.6631 43.2971C17.7232 25.628 32.0955 11.353 49.7646 11.413C67.4337 11.4731 81.7087 25.8454 81.6486 43.5145V43.8768C81.4312 55.3623 75.0182 65.9783 67.1559 74.2754C62.6594 78.9446 57.6382 83.0784 52.1921 86.5942C50.7359 87.8538 48.5759 87.8538 47.1196 86.5942C39.0009 81.3098 31.8754 74.638 26.0689 66.884C20.8938 60.1224 17.9555 51.9156 17.6631 43.4058V43.2971Z"
+                            stroke="#9F7150" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path opacity="0.5"
+                            d="M49.6557 54.1666C55.3186 54.1666 59.9093 49.5759 59.9093 43.913C59.9093 38.2501 55.3186 33.6594 49.6557 33.6594C43.9928 33.6594 39.4021 38.2501 39.4021 43.913C39.4021 49.5759 43.9928 54.1666 49.6557 54.1666Z"
+                            stroke="#9F7150" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
+                </div>
+                <div class="location_description">
+                    <a href="#" class="location-address">м. Дарниця, вул. Павла Полуботка 28</a>
                     <a href="tel:" class="location-phone">0931234567</a>
                     <p>10:00 - 20:00</p>
                 </div>
@@ -299,81 +393,86 @@
         </div>
     </section>
     <section class="barber_screen">
-        <h2 class="screen-title">Наші барбери</h2>
-
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                    <div class="barber">
-                        <div class="barber-photo-container">
-                            <img class="barber-photo" src="./images/barber.jpg" alt="Михайло">
+        <h2>Наші барбери</h2>
+        <div class="barber_screen-content">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="barber">
+                            <div class="barber-photo-container">
+                                <img class="barber-photo" src="./images/barber.jpg" alt="Михайло">
+                            </div>
+                            <div class="barber-description">
+                                <p class="barber-name">Михайло</p>
+                                <p class="barber-position">Старший Барбер</p>
+                            </div>
                         </div>
-                        <div class="barber-description">
-                            <p class="barber-name">Михайло</p>
-                            <p class="barber-position">Старший Барбер</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="barber">
+                            <div class="barber-photo-container">
+                                <img class="barber-photo" src="./images/barber.jpg" alt="Михайло">
+                            </div>
+                            <div class="barber-description">
+                                <p class="barber-name">Михайло</p>
+                                <p class="barber-position">Старший Барбер</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="barber">
+                            <div class="barber-photo-container">
+                                <img class="barber-photo" src="./images/barber.jpg" alt="Михайло">
+                            </div>
+                            <div class="barber-description">
+                                <p class="barber-name">Михайло</p>
+                                <p class="barber-position">Старший Барбер</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="barber">
+                            <div class="barber-photo-container">
+                                <img class="barber-photo" src="./images/barber.jpg" alt="Михайло">
+                            </div>
+                            <div class="barber-description">
+                                <p class="barber-name">Михайло</p>
+                                <p class="barber-position">Старший Барбер</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
-                    <div class="barber">
-                        <div class="barber-photo-container">
-                            <img class="barber-photo" src="./images/barber.jpg" alt="Михайло">
-                        </div>
-                        <div class="barber-description">
-                            <p class="barber-name">Михайло</p>
-                            <p class="barber-position">Старший Барбер</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="barber">
-                        <div class="barber-photo-container">
-                            <img class="barber-photo" src="./images/barber.jpg" alt="Михайло">
-                        </div>
-                        <div class="barber-description">
-                            <p class="barber-name">Михайло</p>
-                            <p class="barber-position">Старший Барбер</p>
-                        </div>
-                    </div>
-                </div>
-
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+        </div>
     </section>
     <footer class="footer">
-        <div>
-            <a href="#">
-                <svg class="instagram_logo" width="32" height="32" viewBox="0 0 26 26" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M21.7344 11.5278V6.2717C21.7344 5.33245 20.9471 4.54514 20.0078 4.54514H6.19531C5.25606 4.54514 4.46875 5.33245 4.46875 6.2717V11.5278H8.658C9.31856 9.72482 11.0703 8.4297 13.1016 8.4297C15.1328 8.4297 16.8846 9.72482 17.5451 11.5278H21.7344ZM21.7344 13.0512H17.8498V13.1779C17.8498 15.7934 15.717 17.9262 13.1016 17.9262C10.4861 17.9262 8.35331 15.7934 8.35331 13.1779V13.0512H4.46875V20.0842C4.46875 21.0234 5.25606 21.8108 6.19531 21.8108H20.0078C20.9471 21.8108 21.7344 21.0234 21.7344 20.0842V13.0512ZM5.967 6.06857H6.83069V10.0295H5.967V6.06857ZM7.69356 6.06857H8.55725V10.0295H7.69356V6.06857ZM9.42013 6.06857H10.2838V8.55726C10.0043 8.76039 9.69963 8.9887 9.42013 9.21782V6.06857ZM13.1016 16.4279C14.9045 16.4279 16.3264 14.9809 16.3264 13.1779C16.3264 11.375 14.9045 9.95314 13.1016 9.95314C11.2986 9.95314 9.85156 11.375 9.85156 13.1779C9.85156 14.9809 11.2986 16.4279 13.1016 16.4279ZM16.1233 6.06857H20.2109V10.0295H17.4688C17.1129 9.49651 16.6311 9.06426 16.1233 8.7092V6.06857Z"
-                        fill="#9F7150" />
-                </svg>
-            </a>
-        </div>
         <div class="copyright">
             <p>FILOSOF BARBERSHOP</p>
             <p>©2023 Всі права застережено.</p>
             <p>Developed by <a href="#" class="creator_link">Helgen</a>.</p>
         </div>
-        <div class="footer_logo">
+        <div class="instagram_link-container">
             <a href="#">
-                <p class="footer-upper-logo-text">filosof</p>
-                <p class="footer-lower-logo-text">barbershop</p>
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M33.4375 17.7351V9.6488C33.4375 8.2038 32.2262 6.99255 30.7812 6.99255H9.53125C8.08625 6.99255 6.875 8.2038 6.875 9.6488V17.7351H13.32C14.3363 14.9613 17.0312 12.9688 20.1562 12.9688C23.2812 12.9688 25.9762 14.9613 26.9925 17.7351H33.4375ZM33.4375 20.0788H27.4613V20.2738C27.4613 24.2976 24.18 27.5788 20.1562 27.5788C16.1325 27.5788 12.8513 24.2976 12.8513 20.2738V20.0788H6.875V30.8988C6.875 32.3438 8.08625 33.5551 9.53125 33.5551H30.7812C32.2262 33.5551 33.4375 32.3438 33.4375 30.8988V20.0788ZM9.18 9.3363H10.5087V15.4301H9.18V9.3363ZM11.8363 9.3363H13.165V15.4301H11.8363V9.3363ZM14.4925 9.3363H15.8212V13.1651C15.3912 13.4776 14.9225 13.8288 14.4925 14.1813V9.3363ZM20.1562 25.2738C22.93 25.2738 25.1175 23.0476 25.1175 20.2738C25.1175 17.5001 22.93 15.3126 20.1562 15.3126C17.3825 15.3126 15.1562 17.5001 15.1562 20.2738C15.1562 23.0476 17.3825 25.2738 20.1562 25.2738ZM24.805 9.3363H31.0938V15.4301H26.875C26.3275 14.6101 25.5863 13.9451 24.805 13.3988V9.3363Z"
+                        fill="#9F7150" />
+                </svg>
+            </a>
+        </div>
+        <div class="logo-container">
+            <a href="#">
+                <p class="upper-logo-text">filosof</p>
+                <p class="lower-logo-text">barbershop</p>
             </a>
         </div>
     </footer>
 
 
     <script>
-
         const swiper = new Swiper('.swiper', {
             // Optional parameters
             direction: 'horizontal',
@@ -391,13 +490,13 @@
                     spaceBetween: 20
                 },
                 // when window width is >= 480px
-                480: {
-                    slidesPerView: 1,
-                    spaceBetween: 30
-                },
-                1000: {
+                743: {
                     slidesPerView: 2,
-                    spaceBetween: 30
+                    spaceBetween: 10
+                },
+                1439: {
+                    slidesPerView: 4,
+                    spaceBetween: 10
                 }
             },
 
@@ -409,16 +508,16 @@
 
         });
 
-        let mobile_menu_btn = document.getElementById("mobile_menu-btn");
-        let close_menu_btn = document.getElementById("close-menu-btn");
-        let mobile_menu = document.querySelector(".menu")
+        let mobile_menu_btn = document.getElementById("mm");
+        let close_menu_btn = document.getElementById("cmm");
+        let mobile_menu = document.querySelector(".mobile_menu_content")
 
         mobile_menu_btn.addEventListener('click', () => {
-            mobile_menu.classList.toggle("active");
+            mobile_menu.classList.toggle("showed");
         })
 
-        close_menu_btn.addEventListener("click", () => {
-            mobile_menu.classList.toggle("active");
+        close_menu_btn.addEventListener('click', () => {
+            mobile_menu.classList.toggle("showed");
         })
     </script>
 </body>

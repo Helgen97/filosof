@@ -1,0 +1,129 @@
+.upper_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $gap calc(3 * #{$gap});
+  border-bottom: 2px $gold-color solid;
+}
+
+.mobile_menu {
+  position: relative;
+}
+
+.mobile_menu_content {
+  position: fixed;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  transition: left 0.3s linear;
+  text-align: center;
+  border-right: 2px $gold-color solid;
+  background: $background-color;
+  z-index: 2;
+
+  &.showed {
+    left: 0;
+  }
+
+  ul {
+    margin-top: $gap;
+
+    .menu-link {
+      width: 100%;
+      padding: $gap 0;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.desktop_menu {
+    display: none;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+
+        li:not(:first-child) {
+            margin-left: calc(4 * #{$gap});
+        }
+    }
+}
+
+.menu-link {
+  display: inline-block;
+  transition: color .3s linear;
+  font-weight: 700;
+
+  &:hover {
+    color: $gold-color;
+    text-decoration: underline;
+    opacity: 1;
+  }
+}
+
+.logo-container {
+  font-family: $logo-font;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.upper-logo-text {
+  color: $gold-color;
+  font-size: 1.5rem;
+  letter-spacing: 1.44px;
+}
+
+.lower-logo-text {
+  font-size: 1rem;
+  letter-spacing: 0.32px;
+}
+
+.language_toggler {
+  @include select-customize;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+@media screen and (min-width: $tablet) {
+    .upper_header {
+        padding: $gap calc(14.5 * #{$gap});
+    }
+
+    .upper-logo-text {
+        font-size: 2.5rem;
+        letter-spacing: 3.2px;
+    }
+
+    .lower-logo-text {
+        font-size: 1.5rem;
+        letter-spacing: 1.9px;
+    }
+
+    .mobile_menu_content {
+        ul {
+            margin-top: calc(2.5 * #{$gap});
+        }
+    }
+}
+
+@media screen and (min-width: $desktop) {
+
+    .upper_header{
+        padding: $gap calc(28 * #{$gap});
+        justify-content: center;
+    }
+
+    .mobile_menu {
+        display: none;
+    }
+
+    .desktop_menu {
+        display: block;
+    }
+
+    .logo-container {
+        margin-left: calc(7 * #{$gap});
+        margin-right: calc(5 * #{$gap});
+    }
+}

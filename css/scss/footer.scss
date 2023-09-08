@@ -1,0 +1,42 @@
+.footer {
+  margin: calc(2 * #{$gap}) 0;
+  text-align: center;
+}
+
+.copyright {
+  p:not(:first-child) {
+    margin-top: calc(#{$gap} / 2);
+  }
+}
+
+.instagram_link-container {
+  margin: calc(2 * #{$gap}) 0;
+}
+
+@media screen and (min-width: $tablet) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 calc(9 * #{$gap});
+
+    .copyright {
+      order: 2;
+    }
+
+    .instagram_link-container {
+      margin: 0;
+      order: 1;
+    }
+
+    .logo-container {
+      order: 3;
+    }
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  .footer {
+    padding: 0 calc(21 * #{$gap});
+  }
+}
