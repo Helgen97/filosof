@@ -1,0 +1,30 @@
+.price_screen {
+  margin-top: calc(2 * #{$gap});
+  text-align: center;
+  border-bottom: 2px solid $gold-color;
+}
+
+.price_screen-content {
+  width: 100%;
+  margin: calc(2 * #{$gap}) 0;
+  padding: 0 calc(3 * #{$gap});
+  overflow-x: auto;
+}
+
+.price-table {
+  border-collapse: collapse;
+  border-style: hidden;
+
+  td {
+    width: max-content;
+    padding: $gap;
+    border: 2px solid $gold-color;
+    white-space: nowrap;
+  }
+}
+
+@media screen and (min-width: $tablet) {
+  .price-table {
+    margin: 0 auto;
+  }
+}

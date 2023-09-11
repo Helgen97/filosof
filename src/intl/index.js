@@ -1,23 +1,11 @@
 import * as LANGUAGES from '../constants/languages';
+import { MESSAGES } from "./messages"
 const DEFAULT_LANG = LANGUAGES.ua;
 
 const getMessages = (lang) => {
-    const defaultMessages = require(`./messages.ua.json`);
-    let messages;
-    try {
-        messages = lang === DEFAULT_LANG
-            ? defaultMessages
-            : require(`./messages.${lang.toLowerCase()}.json`);
-    } catch (e) {
-        messages = defaultMessages;
-    }
-
-    return Object
-        .entries(defaultMessages)
-        .reduce((result, [defaultMessageKey, defaultMessageText]) => ({
-            ...result,
-            [defaultMessageKey]: messages[defaultMessageKey] || defaultMessageText,
-        }), {});
+    return lang === DEFAULT_LANG
+        ? MESSAGES.ukr
+        : MESSAGES[lang];
 };
 
 export default getMessages;
