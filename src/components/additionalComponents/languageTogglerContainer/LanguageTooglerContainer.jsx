@@ -5,6 +5,7 @@ const LanguageTooglerContainer = ({ changeLanguageFunction }) => {
         onChange={(event) => changeLanguageFunction(event.target.value)}
         className="language_toggler"
         name="language"
+        aria-label="Change language of page"
       >
         <option value="ukr">UA</option>
         <option value="en">EN</option>

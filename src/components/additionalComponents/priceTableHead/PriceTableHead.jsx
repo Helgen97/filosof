@@ -8,7 +8,7 @@ const PriceTableHead = () => {
     <thead>
       <tr>
         {PRICE_TABLE_HEAD_CONTENT.map((column) => (
-          <td key={column}>
+          <td key={column} scope="col">
             {column.map((content) => (
               <p key={content}>{formatMessage({ id: content })}</p>
             ))}

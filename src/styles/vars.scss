@@ -8,14 +8,14 @@ $desktop: 1439px;
 // Color palette variables
 $content-color: rgba(239, 240, 244, 0.5);
 $gold-color: #9f7150;
-$gold_with_opacity: rgba(159,113,80, 0.4);
-$gold_with_zero_opacity: rgba(159,113,80, 0);
+$gold-color-with-opacity: rgba(159,113,80, 0.4);
+$gold-color-with-no_opacity: rgba(159,113,80, 0);
 $background-color: #252525;
 $white-color: #ffffff;
 
 // Font variables
 $content-font: "Jost", sans-serif;
-$logo-font: "Charter";
+$logo-font: "Charter", "Peddana", serif;
 
 // Font size variable
 $font-size: 16px;
@@ -29,6 +29,7 @@ $gap: 10px;
   src: url(../fonts/eot/charter_regular.eot) format("eot"),
     url(../fonts/woff/charter_regular.woff) format("woff");
   font-weight: 400;
+  font-display: swap;
 }
 
 @font-face {
@@ -36,6 +37,7 @@ $gap: 10px;
   src: url(../fonts/eot/charter_bold.eot) format("eot"),
     url(../fonts/woff/charter_bold.woff) format("woff");
   font-weight: 700;
+  font-display: swap;
 }
 
 @mixin select-customize {

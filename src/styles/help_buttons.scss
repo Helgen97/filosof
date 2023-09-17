@@ -44,26 +44,26 @@
 
 @-webkit-keyframes pulse {
   0% {
-    -webkit-box-shadow: 0 0 0 0 $gold_with_opacity;
+    -webkit-box-shadow: 0 0 0 0 $gold-color-with-opacity;
   }
   70% {
-    -webkit-box-shadow: 0 0 0 20px $gold_with_zero_opacity;
+    -webkit-box-shadow: 0 0 0 20px $gold-color-with-no_opacity;
   }
   100% {
-    -webkit-box-shadow: 0 0 0 0 $gold_with_zero_opacity;
+    -webkit-box-shadow: 0 0 0 0 $gold-color-with-no_opacity;
   }
 }
 @keyframes pulse {
   0% {
-    -moz-box-shadow: 0 0 0 0 $gold_with_opacity;
-    box-shadow: 0 0 0 0 $gold_with_opacity;
+    -moz-box-shadow: 0 0 0 0 $gold-color-with-opacity;
+    box-shadow: 0 0 0 0 $gold-color-with-opacity;
   }
   70% {
-    -moz-box-shadow: 0 0 0 20px $gold_with_zero_opacity;
-    box-shadow: 0 0 0 20px $gold_with_zero_opacity;
+    -moz-box-shadow: 0 0 0 20px $gold-color-with-no_opacity;
+    box-shadow: 0 0 0 20px $gold-color-with-no_opacity;
   }
   100% {
-    -moz-box-shadow: 0 0 0 0 $gold_with_zero_opacity;
-    box-shadow: 0 0 0 0 $gold_with_zero_opacity;
+    -moz-box-shadow: 0 0 0 0 $gold-color-with-no_opacity;
+    box-shadow: 0 0 0 0 $gold-color-with-no_opacity;
   }
 }

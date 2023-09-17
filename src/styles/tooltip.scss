@@ -1,0 +1,72 @@
+[tooltip] {
+  position: relative;
+}
+
+[tooltip]::before,
+[tooltip]::after {
+  display: none;
+  position: absolute;
+  text-transform: none;
+  user-select: none;
+  pointer-events: none;
+  opacity: 0;
+}
+
+[tooltip]::before {
+  content: "";
+  border: 5px solid transparent;
+  z-index: 1001;
+}
+
+[tooltip]::after {
+  content: attr(tooltip);
+  width: 100%;
+  max-width: 21rem;
+  min-width: 3rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  color: $white-color;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background: $gold-color;
+  border-radius: calc((#{$font-size} + 1rem) / 2);
+  z-index: 1;
+}
+
+.show_tooltip[tooltip]::before {
+  display: block;
+  animation: tooltips-vert 300ms ease-out forwards;
+}
+
+.show_tooltip[tooltip]::after {
+  display: block;
+  animation: tooltips-vert 300ms ease-out forwards, pulse 2s infinite;
+}
+
+[tooltip=""]::before,
+[tooltip=""]::after {
+  display: none !important;
+}
+
+[tooltip][flow^="down"]::before {
+  top: 100%;
+  border-top-width: 0;
+  border-bottom-color: $gold-color;
+}
+[tooltip][flow^="down"]::after {
+  top: calc(100% + 5px);
+}
+[tooltip][flow^="down"]::before,
+[tooltip][flow^="down"]::after {
+  left: 50%;
+  transform: translate(-50%, 0.5em);
+  z-index: 1;
+}
+
+@keyframes tooltips-vert {
+  to {
+    opacity: 0.9;
+    transform: translate(-50%, 0);
+  }
+}

@@ -7,6 +7,7 @@ const SocialContainer = () => {
         href="https://www.instagram.com/filosof_barbershop/"
         target="_blank"
         alt="Barbershop instagram"
+        aria-label="Link to barbershop instagram page"
       >
         <InstagramSvg />
       </a>

@@ -8,7 +8,7 @@ const Link = ({ toId, additionalOnClick, className, children }) => {
   };
 
   return (
-    <Scroll to={toId} onClick={onClick} className={className} smooth>
+    <Scroll to={toId} onClick={onClick} className={className} smooth nofollow>
       {children}
     </Scroll>
   );

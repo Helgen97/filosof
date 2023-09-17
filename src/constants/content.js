@@ -32,6 +32,16 @@ export const MENU_ITEMS = [
 
 export const LOCATION_CONTENT = {
     "location_1": {
+        locationAddress: "м. Васильківська, Коломийський пров. 17/31А",
+        locationAddressLang: {
+            "en": "Vasylkivska st., Kolomyis'kyi Ln 17/31A",
+        },
+        locationWorkingHours: "10:00 - 20:00",
+        locationBookingLink: "https://n772367.alteg.io/group:708526/city:4#1",
+        locationPhone: "+380978858087",
+        locationPathLink: "https://www.google.com/maps/dir//Kyiv,%20Kolomyis'kyi%20Ln%2017"
+    },
+    "location_2": {
         locationAddress: "м. Дарниця, вул. Павла Полуботка 28",
         locationAddressLang: {
             "en": "Darnytsia st., Pavlo Polubotka Street 28",
@@ -41,7 +51,7 @@ export const LOCATION_CONTENT = {
         locationPhone: "+380737930101",
         locationPathLink: "https://www.google.com/maps/dir//Barbershop%20Filosof%20%D0%91%D0%B0%D1%80%D0%B1%D0%B5%D1%80%D1%88%D0%BE%D0%BF%20%D0%94%D0%B0%D1%80%D0%BD%D0%B8%D1%86%D1%8F,%20Hetman%20Pavlo%20Polubotka%20St,%2028,%20Kyiv,%2002000"
     },
-    "location_2": {
+    "location_3": {
         locationAddress: "м. Дарниця, вул. Будівельників 36",
         locationAddressLang: {
             "en": "Darnytsia st., Budivel'nykiv Street 36",
@@ -51,20 +61,10 @@ export const LOCATION_CONTENT = {
         locationPhone: "+380686787787",
         locationPathLink: "https://www.google.com/maps/dir//Kyiv,%20Budivel'nykiv%20Street%2036"
     },
-    "location_3": {
-        locationAddress: "м. Васильківська, Коломийський пров. 17/31А",
-        locationAddressLang: {
-            "en": "Vasylkivska st., Kolomyis'kyi Ln 17/31A",
-        },
-        locationWorkingHours: "10:00 - 20:00",
-        locationBookingLink: "https://n772367.alteg.io/group:708526/city:4#1",
-        locationPhone: "+380978858087",
-        locationPathLink: "https://www.google.com/maps/dir//Kyiv,%20Kolomyis'kyi%20Ln%2017"
-    }
 };
 
 export const PRICE_TABLE_HEAD_CONTENT = [
-    [],
+    ["services"],
     ["junior", "barber"],
     ["barber"],
     ["senior", "barber"],
@@ -218,16 +218,16 @@ export const BARBERS = [
     {
         id: 11,
         photo: barber_11,
-        barberName: "Андрій Петрус",
+        barberName: "Андрій Перусь",
         barberNameLang: {
-            "en": "Andriy Petrus",
+            "en": "Andriy Perus",
         },
         barberPositionItlId: "senior_barber",
     },
     {
         id: 12,
         photo: barber_12,
-        barberName: "Володимир",
+        barberName: "Богдан",
         barberNameLang: {
             "en": "Bogdan",
         },
