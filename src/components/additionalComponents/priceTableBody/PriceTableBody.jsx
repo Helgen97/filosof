@@ -9,7 +9,7 @@ const PriceTableBody = () => {
       {PRICE_TABLE_BODY_CONTENT.map((rowContent, rowIndex) => (
         <tr key={rowIndex} >
           {rowContent.map((columnContent, columnIndex) => (
-            <td key={columnIndex} scope={columnIndex === 0 && "row"}>
+            <td key={columnIndex} scope={columnIndex === 0 ? "row" : ""}>
               {columnContent.map((item) => {
                 return columnIndex === 0 ? (
                   <p

@@ -6,7 +6,7 @@ const CopyrightContainer = () => {
   return (
     <div className="copyright">
       <p>FILOSOF BARBERSHOP</p>
-      <p>{formatMessage({ id: "copyright" })}</p>
+      <p>{"©" + new Date().getFullYear() + " " + formatMessage({ id: "copyright" })}</p>
       <p>
         Developed by{" "}
         <a
