@@ -31,6 +31,8 @@
 
 @media screen and (min-width: $tablet) {
   .lower_header {
+    width: fit-content;
+    margin: 0 auto;
     padding: $gap calc(10 * #{$gap});
   }
 
@@ -40,12 +42,5 @@
 
   .social-container {
     display: block;
-  }
-}
-
-@media screen and (min-width: $desktop) {
-  .lower_header {
-    width: 55%;
-    margin: 0 auto;
   }
 }

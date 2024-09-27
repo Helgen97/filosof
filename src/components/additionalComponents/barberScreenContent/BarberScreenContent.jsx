@@ -22,8 +22,8 @@ const BarberScreenContent = ({ lang }) => {
             slidesPerView: 2,
             spaceBetween: 10,
           },
-          1439: {
-            slidesPerView: 4,
+          1279: {
+            slidesPerView: 3,
             spaceBetween: 10,
           },
         }}

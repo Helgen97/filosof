@@ -26,9 +26,23 @@
 }
 
 @media screen and (min-width: $tablet) {
+
   .location_screen-content {
-    width: max-content;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $gap;
     margin: calc(2 * #{$gap}) auto;
+  }
+
+  .location {
+    width: 100%;
+    justify-content: start;
+  }
+
+  .location_description {
+    width: 100%;
+    justify-self: center;
   }
 
   .location {
@@ -40,10 +54,7 @@
 
 @media screen and (min-width: $desktop) {
   .location_screen-content {
-    width: 70%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr;
   }
 
   .location:not(:first-child) {

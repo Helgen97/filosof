@@ -34,7 +34,7 @@ export const LOCATION_CONTENT = {
             "en": "Darnytsia st., Pavlo Polubotka Street 28",
         },
         locationWorkingHours: "10:00 - 20:00",
-        locationBookingLink: "https://n772367.alteg.io",
+        locationBookingLink: "https://n772367.alteg.io/select-city/4/select-branch?previousStepUrl=%2Fcompany%2F722907%2Fpersonal%2Fmenu%3Fo%3D&o=",
         locationPhone: "+380737930101",
         locationPathLink: "https://www.google.com/maps/dir//Barbershop%20Filosof%20%D0%91%D0%B0%D1%80%D0%B1%D0%B5%D1%80%D1%88%D0%BE%D0%BF%20%D0%94%D0%B0%D1%80%D0%BD%D0%B8%D1%86%D1%8F,%20Hetman%20Pavlo%20Polubotka%20St,%2028,%20Kyiv,%2002000"
     },
@@ -44,7 +44,7 @@ export const LOCATION_CONTENT = {
             "en": "Darnytsia st., Budivel'nykiv Street 36",
         },
         locationWorkingHours: "10:00 - 20:00",
-        locationBookingLink: "https://n772367.alteg.io",
+        locationBookingLink: "https://n772367.alteg.io/select-city/4/select-branch?previousStepUrl=%2Fcompany%2F722907%2Fpersonal%2Fmenu%3Fo%3D&o=",
         locationPhone: "+380686787787",
         locationPathLink: "https://www.google.com/maps/dir//Kyiv,%20Budivel'nykiv%20Street%2036"
     },
@@ -54,9 +54,19 @@ export const LOCATION_CONTENT = {
             "en": "RC New England, Mykhaila Maksymovycha St, 24B",
         },
         locationWorkingHours: "10:00 - 20:00",
-        locationBookingLink: "https://n772367.alteg.io",
-        locationPhone: "+380966596396",
+        locationBookingLink: "https://n772367.alteg.io/select-city/4/select-branch?previousStepUrl=%2Fcompany%2F722907%2Fpersonal%2Fmenu%3Fo%3D&o=",
+        locationPhone: "+380737930101",
         locationPathLink: "https://www.google.com/maps/dir//Mykhaila%20Maksymovycha%20St,%2024%D0%91"
+    },
+    "location_4": {
+        locationAddress: "м. Виставковий центр, вулиця Васильківська, 47",
+        locationAddressLang: {
+            "en": "Vystavkovyi Tsentr st., Vasylkivska St, 47",
+        },
+        locationWorkingHours: "10:00 - 20:00",
+        locationBookingLink: "https://n772367.alteg.io/select-city/4/select-branch?previousStepUrl=%2Fcompany%2F722907%2Fpersonal%2Fmenu%3Fo%3D&o=",
+        locationPhone: "+380684770477",
+        locationPathLink: "https://www.google.com/maps/dir//Vasylkivska%20St,%2047"
     }
 };
 

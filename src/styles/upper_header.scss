@@ -110,7 +110,7 @@
 @media screen and (min-width: $desktop) {
 
     .upper_header{
-        padding: $gap calc(28 * #{$gap});
+        padding: $gap calc(20 * #{$gap});
         justify-content: center;
     }
 
