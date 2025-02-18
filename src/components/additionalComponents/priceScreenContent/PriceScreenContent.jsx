@@ -1,9 +1,9 @@
-import PriceTable from "../priceTable";
+import PriceContent from "../priceContent";
 
 const PriceScreenContent = () => {
   return (
     <div className="price_screen-content">
-      <PriceTable />
+      <PriceContent />
     </div>
   );
 };

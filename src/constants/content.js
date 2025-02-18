@@ -70,51 +70,31 @@ export const LOCATION_CONTENT = {
     }
 };
 
-export const PRICE_TABLE_HEAD_CONTENT = [
-    ["services"],
-    ["junior", "barber"],
-    ["barber"],
-    ["senior", "barber"],
-    ["top", "barber"]
-];
-
-export const PRICE_TABLE_BODY_CONTENT = [
-    [
-        ["mens_haircut"],
-        ["250"],
-        ["400"],
-        ["500"],
-        ["650"]
-    ],
-    [
-        ["beard_haircut"],
-        ["200"],
-        ["300"],
-        ["400"],
-        ["450"],
-    ],
-    [
-        ["mens_haircut", "plus", "beard_haircut"],
-        ["450"],
-        ["700"],
-        ["900"],
-        ["1000"]
-    ],
-    [
-        ["fade_haircut"],
-        ["300"],
-        ["450"],
-        ["500"],
-        ["700"]
-    ],
-    [
-        ["baby_haircut"],
-        ["250"],
-        ["400"],
-        ["500"],
-        ["600"]
-    ]
-
+export const PRICE_CONTENT = [
+    {
+        "key": "mens_haircut",
+        "starting_price": 300
+    },
+    {
+        "key": "beard_haircut",
+        "starting_price": 200
+    },
+    {
+        "key": "mens_haircut plus beard_haircut",
+        "starting_price": 500
+    },
+    {
+        "key": "baby_haircut",
+        "starting_price": 300
+    },
+    {
+        "key": "fade_haircut",
+        "starting_price": 350
+    },
+    {
+        "key": "fade_haircut plus beard_haircut",
+        "starting_price": 500
+    }
 ];
 
 export const BARBERS = [

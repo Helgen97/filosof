@@ -7,24 +7,60 @@
 .price_screen-content {
   width: 100%;
   margin: calc(2 * #{$gap}) 0;
-  padding: 0 calc(3 * #{$gap});
-  overflow-x: auto;
+  padding: 0 calc(2 * #{$gap});
 }
 
-.price-table {
-  border-collapse: collapse;
-  border-style: hidden;
+.price_screen_service-container {
+  width: 100%;
+}
 
-  td {
-    width: max-content;
-    padding: $gap;
-    border: 2px solid $gold-color;
-    white-space: nowrap;
+.price_screen-service {
+  display: flex;
+  gap: $gap;
+  justify-content: center;
+  font-size: 1.05rem;
+}
+
+.price_screen-service_divider {
+  width: 2px;
+  background-color: $gold-color;
+}
+
+.price_screen-service {
+  .price_screen-service_name,
+  .price_screen-service_price {
+    flex: 1;
+    padding-block: $gap;
+    align-content: center;
+  }
+
+  &:not(:last-of-type) {
+    .price_screen-service_name,
+    .price_screen-service_price {
+      border-bottom: 2px solid $gold-color;
+    }
   }
 }
 
+.price_screen_service-footnote {
+  font-size: .8rem;
+  margin-top: calc(2 * #{$gap});
+}
+
 @media screen and (min-width: $tablet) {
-  .price-table {
+  .price_screen_service-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .price_screen-service {
+    gap: calc(4 * #{$gap});
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  .price_screen_service-container {
+    width: 50%;
     margin: 0 auto;
   }
 }
