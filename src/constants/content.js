@@ -49,16 +49,6 @@ export const LOCATION_CONTENT = {
         locationPathLink: "https://www.google.com/maps/dir//Kyiv,%20Budivel'nykiv%20Street%2036"
     },
     "location_3": {
-        locationAddress: "ЖК Нова Англія, вул. Максимовича 24Б",
-        locationAddressLang: {
-            "en": "RC New England, Mykhaila Maksymovycha St, 24B",
-        },
-        locationWorkingHours: "10:00 - 20:00",
-        locationBookingLink: "https://n772367.alteg.io/select-city/4/select-branch?previousStepUrl=%2Fcompany%2F722907%2Fpersonal%2Fmenu%3Fo%3D&o=",
-        locationPhone: "+380737930101",
-        locationPathLink: "https://www.google.com/maps/dir//Mykhaila%20Maksymovycha%20St,%2024%D0%91"
-    },
-    "location_4": {
         locationAddress: "м. Виставковий центр, вулиця Васильківська, 47",
         locationAddressLang: {
             "en": "Vystavkovyi Tsentr st., Vasylkivska St, 47",
@@ -67,6 +57,16 @@ export const LOCATION_CONTENT = {
         locationBookingLink: "https://n772367.alteg.io/select-city/4/select-branch?previousStepUrl=%2Fcompany%2F722907%2Fpersonal%2Fmenu%3Fo%3D&o=",
         locationPhone: "+380684770477",
         locationPathLink: "https://www.google.com/maps/dir//Vasylkivska%20St,%2047"
+    },
+    "location_4": {
+        locationAddress: "м. Святошин, Берестейський проспект, 104",
+        locationAddressLang: {
+            "en": "Sviatoshyn st., Beresteiskyi Ave, 104",
+        },
+        locationWorkingHours: "10:00 - 20:00",
+        locationBookingLink: "https://n772367.alteg.io/select-city/4/select-branch?previousStepUrl=%2Fcompany%2F722907%2Fpersonal%2Fmenu%3Fo%3D&o=",
+        locationPhone: "+380737930101",
+        locationPathLink: "https://www.google.com/maps/dir//Beresteiskyi%20Ave,%20104"
     }
 };
 
