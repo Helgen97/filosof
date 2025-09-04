@@ -1,1 +1,1 @@
-export { default } from "./MenuBurgerSvg"
+export { default } from "./MenuBurgerSvg";

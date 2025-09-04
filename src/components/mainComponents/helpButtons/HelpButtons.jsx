@@ -1,13 +1,25 @@
+/**
+ * Help buttons container component for the application.
+ * @module HelpButtons
+ */
+import { memo } from "react";
 import HelpBookingButtonContainer from "../../additionalComponents/helpBookingButtonContainer";
 import ToTopButtonContainer from "../../additionalComponents/toTopButtonContainer";
 
-const HelpButtons = ({ currentLocation, isShowedButtons }) => {
-  return (
-    <div className={isShowedButtons ? "help_buttons showed" : "help_buttons"}>
-      <HelpBookingButtonContainer currentLocation={currentLocation} />
-      <ToTopButtonContainer />
-    </div>
-  );
-};
+/**
+ * Renders a container with help and scroll-to-top buttons, conditionally shown based on visibility state.
+ * @param {Object} props - Component props.F
+ * @param {boolean} props.isShowedButtons - Determines if the buttons are visible.
+ * @returns {JSX.Element} The help buttons container component.
+ */
+const HelpButtons = ({ isShowedButtons }) => (
+  <div
+    className={`help_buttons ${isShowedButtons ? "showed" : ""}`}
+    aria-hidden={!isShowedButtons}
+  >
+    <HelpBookingButtonContainer />
+    <ToTopButtonContainer />
+  </div>
+);
 
-export default HelpButtons;
+export default memo(HelpButtons);

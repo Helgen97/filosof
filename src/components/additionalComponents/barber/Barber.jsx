@@ -1,26 +1,49 @@
+/**
+ * Component for rendering individual barber details.
+ * @module Barber
+ */
+import { memo } from "react";
 import { useIntl } from "react-intl";
+import { useLanguageContext } from "../../../context/SiteContext";
 
-const Barber = ({
-  lang,
-  barberContent: { photo, barberName, barberNameLang, barberPositionItlId },
-}) => {
+/**
+ * Renders a barber's profile with photo, name, and position.
+ * @param {Object} props - Component props.
+ * @param {Object} props.barberContent - Barber data object.
+ * @returns {JSX.Element} The barber component.
+ */
+const Barber = ({ barberContent }) => {
+  const { photo, barberName, barberNameLang, barberPositionItlId } =
+    barberContent;
   const { formatMessage } = useIntl();
+  const { appLang } = useLanguageContext();
 
   return (
-    <div className="barber">
+    <div
+      className="barber"
+      aria-label={`Profile of ${
+        appLang === "uk" ? barberName : barberNameLang[appLang] || barberName
+      }`}
+    >
       <div className="barber-photo-container">
         <img
           className="barber-photo"
-          src={photo}
-          alt={barberName}
-          width="150px"
-          height="150px"
+          src={photo || ""}
+          alt={
+            appLang === "uk"
+              ? barberName
+              : barberNameLang[appLang] || barberName
+          }
+          width="150"
+          height="150"
           loading="lazy"
         />
       </div>
-      <div className="barber-description">
+      <div className="barбер-description">
         <p className="barber-name">
-          {lang === "ukr" ? barberName : barberNameLang[lang]}
+          {appLang === "uk"
+            ? barberName
+            : barberNameLang[appLang] || barberName}
         </p>
         <p className="barber-position">
           {formatMessage({ id: barberPositionItlId })}
@@ -30,4 +53,4 @@ const Barber = ({
   );
 };
 
-export default Barber;
+export default memo(Barber);

@@ -1,1 +1,1 @@
-export { default } from "./BarberScreenContent"
+export { default } from "./BarberScreenContent";

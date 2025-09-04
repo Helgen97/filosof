@@ -1,21 +1,112 @@
-@import "./vars.scss";
-@import "./help_buttons.scss";
-@import "./upper_header.scss";
-@import "./lower_header.scss";
-@import "./main_screen.scss";
-@import "./price_screen.scss";
-@import "./location_screen.scss";
-@import "./barber_screen.scss";
-@import "./footer.scss";
-@import "./tooltip.scss";
+@use "sass:color";
+/**
+ * Global SCSS configuration for the application.
+ * Defines font imports, breakpoints, colors, fonts, and custom select styles.
+ * @module styles/index
+ */
 
+/* Import Google Fonts for Jost and Peddana */
+@import "https://fonts.googleapis.com/css2?family=Jost:wght@400;700&family=Peddana&display=swap";
+
+// Responsive breakpoints
+$mobile: 320px;
+$tablet: 743px;
+$desktop: 1279px;
+
+// Color palette
+$content-color: rgba(239, 240, 244, 0.5);
+$gold-color: #9f7150;
+$gold-color-with-opacity: rgba(159, 113, 80, 0.4);
+$gold-color-with-no_opacity: rgba(159, 113, 80, 0);
+$background-color: #252525;
+$white-color: #ffffff;
+
+// Font variables
+$content-font: "Jost", sans-serif;
+$logo-font: "Charter", "Peddana", serif;
+
+// Font sizes and spacing
+$font-size: 16px;
+$font-size-lg: calc($font-size + 2px);
+$gap: 10px;
+$border-gold: 2px solid $gold-color; // Reusable gold border
+$border-radius-btn: calc(2.95 * #{$gap}); // Reusable button border radius
+
+/* Custom Charter font (regular) */
+@font-face {
+  font-family: "Charter";
+  src: url(../fonts/eot/charter_regular.eot) format("eot"),
+    url(../fonts/woff/charter_regular.woff) format("woff");
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* Custom Charter font (bold) */
+@font-face {
+  font-family: "Charter";
+  src: url(../fonts/eot/charter_bold.eot) format("eot"),
+    url(../fonts/woff/charter_bold.woff) format("woff");
+  font-weight: 700;
+  font-display: swap;
+}
+
+/**
+ * Mixin for custom select element styling.
+ * Ensures consistent appearance, accessibility, and hover/focus states.
+ */
+@mixin select-customize {
+  appearance: base-select; // Custom appearance for select elements
+  -webkit-appearance: base-select; // Vendor prefix for WebKit browsers
+  -moz-appearance: base-select; // Vendor prefix for Mozilla browsers
+  user-select: none; // Prevent text selection
+  -moz-user-select: none; // Vendor prefix for Mozilla
+  -webkit-user-select: none; // Vendor prefix for WebKit
+  background-color: inherit; // Inherit parent background color
+  border: 0; // Remove default border
+  border-radius: 0; // Remove border radius
+  color: inherit; // Inherit parent text color
+  outline-style: none; // Remove default outline
+  cursor: pointer; // Indicate interactivity
+
+  /* Customize the select dropdown picker */
+  &::picker(select) {
+    appearance: base-select; // Consistent appearance for picker
+    -webkit-appearance: base-select; // Vendor prefix for WebKit browsers
+    -moz-appearance: base-select; // Vendor prefix for Mozilla browsers
+    border: 0; // Remove border
+    color: inherit; // Inherit text color
+    background-color: $background-color; // Use primary background color
+    border-radius: $gap; // Rounded corners
+    outline-style: none; // Remove outline
+    padding: calc($gap / 2); // Consistent padding
+    left: anchor(-5%); // Position adjustment for anchor
+  }
+
+  /* Style for select options */
+  & option {
+    margin-block: calc($gap / 2); // Vertical spacing for options
+    padding: $gap; // Padding for options
+
+    /* Remove default checkmark */
+    &::checkmark {
+      content: ""; // Clear default content
+    }
+
+    /* Hover and focus states for options */
+    &:hover,
+    &:focus {
+      color: $content-color; // Use semi-transparent content color
+      background: $gold-color-with-opacity; // Apply gold background with opacity
+      border-radius: calc($gap / 2); // Rounded corners for options
+    }
+  }
+}
+
+/* Global reset and base styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   --swiper-navigation-sides-offset: 15px;
   --swiper-navigation-color: #{$gold-color};
   --swiper-pagination-color: #{$gold-color};
@@ -57,36 +148,608 @@ a {
 h1,
 h2 {
   margin: 0;
-  padding: 0;
   color: $gold-color;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 2.5vw, 3rem); // Responsive font size
 }
 
 h2 {
-  font-size: 1.25rem;
+  font-size: clamp(1.25rem, 2vw, 2rem); // Responsive font size
 }
 
-@media screen and (min-width: $tablet) {
-  h1 {
-    font-size: 2rem;
+/* Header styles */
+.upper_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $gap calc(3 * #{$gap});
+  border-bottom: $border-gold;
+}
+
+.mobile_menu {
+  position: relative;
+}
+
+.mobile_menu_content {
+  position: fixed;
+  width: max(75%, 200px);
+  height: 100%;
+  top: 0;
+  left: -100%;
+  transition: left 0.3s ease-in-out;
+  text-align: center;
+  border-right: $border-gold;
+  background: $background-color;
+  z-index: 2;
+
+  &.showed {
+    left: 0;
   }
 
-  h2 {
-    font-size: 1.5rem;
+  ul {
+    margin-top: $gap;
+
+    .menu-link {
+      width: 100%;
+      padding: $gap 0;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.desktop_menu {
+  display: none;
+
+  ul {
+    display: flex;
+    gap: calc($gap * 3);
+  }
+}
+
+.menu-link {
+  display: inline-block;
+  transition: color 0.3s linear;
+  font-size: $font-size-lg;
+  font-weight: 700;
+
+  &:hover {
+    color: $gold-color;
+    text-decoration: underline;
+    opacity: 1;
+  }
+}
+
+.logo-container {
+  font-family: $logo-font;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.upper-logo-text {
+  color: $gold-color;
+  font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+  letter-spacing: clamp(1.44px, 0.2vw, 3.2px);
+}
+
+.lower-logo-text {
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
+  letter-spacing: clamp(0.32px, 0.15vw, 1.9px);
+}
+
+.language_toggler {
+  @include select-customize;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.lower_header {
+  padding: $gap calc(3 * #{$gap});
+}
+
+.lower_header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+}
+
+.location-select_container {
+  margin: 0 calc($gap / 2);
+
+  .location-select {
+    width: 100%;
+    @include select-customize;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 700;
+  }
+}
+
+.social-container {
+  display: none;
+}
+
+/* Main screen styles */
+.main_screen {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1; // Ensure overlay is behind content
+  }
+}
+
+.main_screen-content {
+  position: relative;
+  padding: clamp(calc(5 * #{$gap}), 5vw, calc(12 * #{$gap})) 0;
+  text-align: center;
+}
+
+.description-container,
+.work_hours-container {
+  margin-top: $gap;
+}
+
+.work_hours-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_screen_lower-content {
+  margin-top: calc(3 * #{$gap});
+}
+
+.main_screen_link-container:not(:first-child) {
+  margin-top: calc(2 * #{$gap});
+}
+
+.main_screen-link {
+  display: inline-block;
+  padding: 1.1rem 3rem;
+  color: $white-color;
+  background-color: $gold-color;
+  border-radius: $border-radius-btn;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
+  &:hover,
+  &:focus {
+    background-color: color.adjust($gold-color, $lightness: -10%);
+    transform: scale(1.05);
+  }
+}
+
+/* Pricing screen styles */
+.price_screen {
+  margin-top: calc(2 * #{$gap});
+  text-align: center;
+  border-bottom: $border-gold;
+}
+
+.price_screen-content {
+  width: 100%;
+  margin: calc(2 * #{$gap}) 0;
+  padding: 0 calc(2 * #{$gap});
+}
+
+.price_screen_service-container {
+  width: 100%;
+}
+
+.price_screen-service {
+  display: flex;
+  gap: $gap;
+  justify-content: center;
+  font-size: clamp(1rem, 2vw, 1.1rem);
+}
+
+.price_screen-service_divider {
+  width: clamp(1px, 0.2vw, 2px);
+  height: 100%;
+  background-color: $gold-color;
+}
+
+.price_screen-service {
+  .price_screen-service_name,
+  .price_screen-service_price {
+    flex: 1;
+    padding-block: $gap;
+    align-content: center;
+  }
+
+  &:not(:last-of-type) {
+    .price_screen-service_name,
+    .price_screen-service_price {
+      border-bottom: $border-gold;
+    }
+  }
+}
+
+.price_screen_service-footnote {
+  font-size: clamp(0.75rem, 1.5vw, 0.85rem);
+  margin-top: calc(2 * #{$gap});
+}
+
+/* Location screen styles */
+.location_screen {
+  margin-top: calc(2 * #{$gap});
+  text-align: center;
+  border-bottom: $border-gold;
+}
+
+.location_screen-content {
+  margin: calc(2 * #{$gap}) 0;
+}
+
+.location:not(:first-child) {
+  margin-top: calc(2 * #{$gap});
+}
+
+.location-address,
+.location-phone {
+  display: block;
+}
+
+.location-address {
+  color: $gold-color;
+}
+
+.location-phone {
+  margin: $gap 0;
+}
+
+/* Barber screen styles */
+.barber_screen {
+  margin-top: calc(2 * #{$gap});
+  text-align: center;
+  border-bottom: $border-gold;
+}
+
+.barber_screen-content {
+  margin: calc(2 * #{$gap}) 0;
+}
+
+.barber {
+  width: max-content;
+  margin: 0 auto;
+  padding-bottom: calc(4 * #{$gap});
+}
+
+.barber-photo-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.barber-photo {
+  width: 100%;
+  height: auto;
+}
+
+.barber-description {
+  margin-top: calc(2 * #{$gap});
+}
+
+.barber-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.barber-position {
+  color: $gold-color;
+  font-size: 1.2rem;
+}
+
+/* Footer styles */
+.footer {
+  margin: calc(2 * #{$gap}) 0;
+  text-align: center;
+
+  .social-container {
+    display: block;
+    margin: calc(2 * #{$gap}) 0;
+  }
+}
+
+.copyright {
+  a:hover {
+    color: $white-color;
+    text-decoration: underline;
+    text-decoration-color: $gold-color;
+    text-decoration-thickness: 2.5px;
+    opacity: 0.9;
+  }
+
+  p:not(:first-child) {
+    margin-top: calc($gap / 2);
+  }
+}
+
+/* Help buttons styles */
+.help_buttons {
+  position: absolute;
+}
+
+.help_buttons.showed {
+  .booking_help-button-container,
+  .toTop_help-button-container {
+    opacity: 1;
+  }
+}
+
+.booking_help-button-container {
+  position: fixed;
+  top: 30%;
+  right: -15px;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  transition: opacity 0.4s linear;
+  opacity: 0;
+  z-index: 1;
+
+  .main_screen-link {
+    padding: 3rem 1.2rem;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 1);
+    animation: pulse 2s infinite;
+
+    &:hover {
+      animation: none;
+    }
+  }
+}
+
+.toTop_help-button-container {
+  position: fixed;
+  bottom: $gap;
+  left: $gap;
+  transition: opacity 0.4s linear;
+  opacity: 0;
+  z-index: 1;
+}
+
+/* Tooltip styles */
+[tooltip] {
+  position: relative;
+}
+
+[tooltip]::before,
+[tooltip]::after {
+  display: none;
+  position: absolute;
+  text-transform: none;
+  user-select: none;
+  pointer-events: none;
+  opacity: 0;
+}
+
+[tooltip]::before {
+  content: "";
+  border: 5px solid transparent;
+  z-index: 1001;
+}
+
+[tooltip]::after {
+  content: attr(tooltip);
+  width: 100%;
+  max-width: clamp(10rem, 20vw, 21rem);
+  min-width: 3rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  color: $white-color;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background: $gold-color;
+  border-radius: calc(($font-size + 1rem) / 2);
+  z-index: 1;
+}
+
+.show_tooltip[tooltip]::before,
+.show_tooltip[tooltip]::after {
+  display: block;
+  animation: tooltips-vert 300ms ease-out forwards;
+}
+
+[tooltip=""]::before,
+[tooltip=""]::after {
+  display: none;
+}
+
+[tooltip][flow^="down"]::before {
+  top: 100%;
+  border-top-width: 0;
+  border-bottom-color: $gold-color;
+}
+
+[tooltip][flow^="down"]::after {
+  top: calc(100% + 5px);
+}
+
+[tooltip][flow^="down"]::before,
+[tooltip][flow^="down"]::after {
+  left: 50%;
+  transform: translate(-50%, 0.5em);
+  z-index: 1;
+}
+
+/* Animations */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 $gold-color-with-opacity;
+  }
+  70% {
+    box-shadow: 0 0 0 20px $gold-color-with-no_opacity;
+  }
+  100% {
+    box-shadow: 0 0 0 0 $gold-color-with-no_opacity;
+  }
+}
+
+@keyframes tooltips-vert {
+  to {
+    opacity: 0.9;
+    transform: translate(-50%, 0);
+  }
+}
+
+/* Responsive styles */
+@media screen and (min-width: $tablet) {
+  .upper_header {
+    padding: $gap calc(14.5 * #{$gap});
+  }
+
+  .mobile_menu_content ul {
+    margin-top: calc(2.5 * #{$gap});
+  }
+
+  .lower_header {
+    width: fit-content;
+    margin: 0 auto;
+    padding: $gap calc(10 * #{$gap});
+  }
+
+  .lower_header-content {
+    justify-content: space-between;
+  }
+
+  .social-container {
+    display: block;
+    margin-left: $gap;
+  }
+
+  .description-container {
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+  }
+
+  .price_screen_service-container {
+    width: clamp(50%, 70vw, 70%);
+    margin: 0 auto;
+  }
+
+  .price_screen-service {
+    gap: calc(4 * #{$gap});
+  }
+
+  .location_screen-content {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $gap;
+    margin: calc(2 * #{$gap}) auto;
+  }
+
+  .location {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .location_description {
+    width: 100%;
+    justify-self: center;
+  }
+
+  .barber_screen-content {
+    width: 80%;
+    margin: calc(2 * #{$gap}) auto;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 calc(9 * #{$gap});
+
+    .copyright {
+      order: 2;
+    }
+
+    .social-container {
+      margin: 0;
+      order: 1;
+    }
+
+    .logo-container {
+      order: 3;
+    }
   }
 }
 
 @media screen and (min-width: $desktop) {
-  h1 {
-    font-size: 3rem;
+  .upper_header {
+    padding: $gap calc(20 * #{$gap});
+    justify-content: center;
+    gap: clamp(4rem, 5vw, 5rem);
   }
 
-  h2 {
-    font-size: 2rem;
+  .mobile_menu {
+    display: none;
+  }
+
+  .desktop_menu {
+    display: block;
+  }
+
+  .main_screen_lower-content {
+    display: flex;
+    width: 60%;
+    margin: calc(3 * #{$gap}) auto;
+    gap: calc($gap * 5);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main_screen_link-container:not(:first-child) {
+    margin-top: 0;
+  }
+
+  .price_screen_service-container {
+    width: clamp(40%, 50vw, 50%);
+    margin: 0 auto;
+  }
+
+  .location_screen-content {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .location:not(:first-child) {
+    margin-top: 0;
+  }
+
+  .footer {
+    padding: 0 calc(21 * #{$gap});
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  [tooltip]::after {
+    max-width: clamp(8rem, 80vw, 15rem);
+    font-size: 0.9rem;
+  }
+
+  .price_screen_service-footnote {
+    font-size: clamp(0.85rem, 2.5vw, 0.9rem);
   }
 }

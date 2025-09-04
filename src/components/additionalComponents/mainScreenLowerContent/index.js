@@ -1,1 +1,1 @@
-export {default} from "./MainScreenLowerContent";
+export { default } from "./MainScreenLowerContent";

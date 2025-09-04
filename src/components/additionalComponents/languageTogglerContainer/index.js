@@ -1,1 +1,1 @@
-export { default } from "./LanguageTooglerContainer"
+export { default } from "./LanguageTooglerContainer";

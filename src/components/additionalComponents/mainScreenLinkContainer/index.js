@@ -1,1 +1,1 @@
-export {default} from "./MainScreenLinkContainer";
+export { default } from "./MainScreenLinkContainer";
