@@ -491,10 +491,15 @@ h2 {
   position: absolute;
 }
 
-.help_buttons.showed {
+.help_buttons.hide {
   .booking_help-button-container,
   .toTop_help-button-container {
-    opacity: 1;
+    opacity: 0;
+    max-width: 0;
+
+    svg {
+      max-width: 0;
+    }
   }
 }
 
@@ -504,8 +509,9 @@ h2 {
   right: -15px;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-  transition: opacity 0.4s linear;
-  opacity: 0;
+  transition: opacity 0.4s linear, max-width 0.2s linear;
+  opacity: 1;
+  max-width: 400px;
   z-index: 1;
 
   .main_screen-link {
@@ -523,8 +529,9 @@ h2 {
   position: fixed;
   bottom: $gap;
   left: $gap;
-  transition: opacity 0.4s linear;
-  opacity: 0;
+  transition: opacity 0.4s linear, max-width 0.2s linear;
+  opacity: 1;
+  max-width: 100px;
   z-index: 1;
 }
 

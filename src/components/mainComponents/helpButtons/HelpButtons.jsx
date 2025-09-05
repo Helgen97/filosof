@@ -14,7 +14,7 @@ import ToTopButtonContainer from "../../additionalComponents/toTopButtonContaine
  */
 const HelpButtons = ({ isShowedButtons }) => (
   <div
-    className={`help_buttons ${isShowedButtons ? "showed" : ""}`}
+    className={`help_buttons ${isShowedButtons ? "" : "hide"}`}
     aria-hidden={!isShowedButtons}
   >
     <HelpBookingButtonContainer />
