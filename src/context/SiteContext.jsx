@@ -3,6 +3,7 @@
  * @module SiteProvider
  */
 import { createContext, useContext, useMemo, useState } from "react";
+import useLangQuery from "../hooks/useLangQuery.jsx";
 
 /**
  * Context for managing the application's language state.
@@ -34,7 +35,7 @@ export const useLocationContext = () => useContext(LocationContext);
  * @returns {JSX.Element} The context provider component.
  */
 const SiteProvider = ({ children }) => {
-  const [appLang, setAppLang] = useState("uk");
+  const [appLang, setAppLang] = useLangQuery("uk");
   const [currentLocation, setCurrentLocation] = useState("location_1");
 
   const languageValue = useMemo(() => ({ appLang, setAppLang }), [appLang]);

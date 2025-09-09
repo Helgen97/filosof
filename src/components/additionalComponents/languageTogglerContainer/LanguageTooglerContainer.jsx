@@ -10,11 +10,12 @@ import { useLanguageContext } from "../../../context/SiteContext";
  * @returns {JSX.Element} The language toggler component.
  */
 const LanguageTogglerContainer = () => {
-  const { setAppLang } = useLanguageContext();
+  const { appLang, setAppLang } = useLanguageContext();
 
   return (
     <div className="language_toggler-container" aria-label="Language selector">
       <select
+        value={appLang}
         onChange={(event) => setAppLang(event.target.value)}
         className="language_toggler"
         name="language-toggler"
