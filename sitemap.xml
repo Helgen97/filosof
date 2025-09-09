@@ -1,10 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-      <loc>https://www.filosof.in.ua/</loc>
+      <loc>https://www.filosof.in.ua/?lang=uk</loc>
+      <xhtml:link 
+          rel="alternate"
+          hreflang="uk"
+          href="https://www.filosof.in.ua/?lang=uk"/>
+      <xhtml:link 
+          rel="alternate"
+          hreflang="en"
+          href="https://www.filosof.in.ua/?lang=en"/>
+      <xhtml:link 
+          rel="alternate"
+          hreflang="x-default"
+          href="https://www.filosof.in.ua/"/>
       <changefreq>monthly</changefreq>
-      <lastmod>2023-04-19</lastmod>
       <priority>0.8</priority>
    </url>
-</urlset> 
+
+   <url>
+      <loc>https://www.filosof.in.ua/?lang=en</loc>
+      <xhtml:link 
+          rel="alternate"
+          hreflang="uk"
+          href="https://www.filosof.in.ua/?lang=uk"/>
+      <xhtml:link 
+          rel="alternate"
+          hreflang="en"
+          href="https://www.filosof.in.ua/?lang=en"/>
+      <xhtml:link 
+          rel="alternate"
+          hreflang="x-default"
+          href="https://www.filosof.in.ua/"/>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+</urlset>
