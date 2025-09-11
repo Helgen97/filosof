@@ -14,10 +14,10 @@ $tablet: 743px;
 $desktop: 1279px;
 
 // Color palette
-$content-color: rgba(239, 240, 244, 0.5);
+$content-color: rgba(239, 240, 244, .65);
 $gold-color: #9f7150;
 $gold-color-with-opacity: rgba(159, 113, 80, 0.4);
-$gold-color-with-no_opacity: rgba(159, 113, 80, 0);
+$gold-color-with-no_opacity: rgba(159, 113, 80, 0.05);
 $background-color: #252525;
 $white-color: #ffffff;
 
