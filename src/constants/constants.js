@@ -5,7 +5,7 @@
 
 import barber_1 from "../images/barber-1.jpeg";
 import barber_2 from "../images/barber-2.png";
-import barber_3 from "../images/barber-3.jpeg";
+import barber_3 from "../images/barber-3.jpg";
 import barber_4 from "../images/barber-4.jpeg";
 import barber_5 from "../images/barber-5.jpeg";
 import barber_6 from "../images/barber-6.jpeg";
