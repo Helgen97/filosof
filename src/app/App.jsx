@@ -14,6 +14,7 @@ import Footer from "../components/mainComponents/footer";
 import ObserverBlock from "../components/additionalComponents/observerBlock";
 import SiteProvider from "../context";
 import MetaUpdater from "../components/additionalComponents/metaUpdater";
+import QuoteWidget from "../components/mainComponents/quoteWidget";
 
 /**
  * Renders the main application layout with localization, navigation, and content sections.
@@ -44,6 +45,7 @@ const App = () => {
           ))}
 
           <ObserverBlock callback={() => setHelpButtonShowed(true)} />
+          <QuoteWidget />
           <Footer />
         </MetaUpdater>
       </IntlProvider>

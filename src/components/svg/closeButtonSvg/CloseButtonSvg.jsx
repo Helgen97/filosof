@@ -2,7 +2,6 @@
  * SVG component for a close button icon.
  * @module CloseButtonSvg
  */
-import React from "react";
 
 /**
  * Renders a close button SVG icon for closing menus or modals.

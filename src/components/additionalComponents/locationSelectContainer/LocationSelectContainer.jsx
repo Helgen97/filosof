@@ -19,8 +19,8 @@ const LocationSelectContainer = () => {
   return (
     <div
       className="location-select_container show_tooltip"
-      data-tooltip={formatMessage({ id: "tooltip" })}
-      data-flow="down"
+      tooltip={formatMessage({ id: "tooltip" })}
+      flow="down"
       aria-label="Select barbershop location"
     >
       <select

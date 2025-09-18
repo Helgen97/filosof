@@ -2,7 +2,6 @@
  * SVG component for a large location pin icon.
  * @module LocationBigSvg
  */
-import React from "react";
 
 /**
  * Renders a large location pin SVG icon for marking addresses.

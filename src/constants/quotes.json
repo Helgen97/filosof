@@ -1,0 +1,5510 @@
+[
+  {
+    "day": 1,
+    "date": "01-01",
+    "isSpecial": true,
+    "quotes": {
+      "en": {
+        "quote": "The New Year is a new chance to become a better version of yourself.",
+        "author": "Plato",
+        "holiday": "New Year"
+      },
+      "uk": {
+        "quote": "Новий рік — це новий шанс стати кращою версією себе.",
+        "author": "Платон",
+        "holiday": "Новий рік"
+      }
+    }
+  },
+  {
+    "day": 2,
+    "date": "01-02",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "We are what we repeatedly do.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Ми є те, що ми постійно робимо.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 3,
+    "date": "01-03",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the right to do anything that does not harm others.",
+        "author": "John Stuart Mill"
+      },
+      "uk": {
+        "quote": "Свобода — це право робити все, що не шкодить іншим.",
+        "author": "Джон Стюарт Мілль"
+      }
+    }
+  },
+  {
+    "day": 4,
+    "date": "01-04",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a mystery to be lived.",
+        "author": "Søren Kierkegaard"
+      },
+      "uk": {
+        "quote": "Життя — це таємниця, яку потрібно прожити.",
+        "author": "Сьорен К’єркегор"
+      }
+    }
+  },
+  {
+    "day": 5,
+    "date": "01-05",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness comes from your actions.",
+        "author": "Dalai Lama"
+      },
+      "uk": {
+        "quote": "Щастя приходить із твоїми діями.",
+        "author": "Далай-лама"
+      }
+    }
+  },
+  {
+    "day": 6,
+    "date": "01-06",
+    "isSpecial": true,
+    "quotes": {
+      "en": {
+        "quote": "Love and kindness are the true miracle of Christmas.",
+        "author": "Confucius",
+        "holiday": "Christmas"
+      },
+      "uk": {
+        "quote": "Любов і доброта — це справжнє диво Різдва.",
+        "author": "Конфуцій",
+        "holiday": "Різдво"
+      }
+    }
+  },
+  {
+    "day": 7,
+    "date": "01-07",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom begins in wonder.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість починається з подиву.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 8,
+    "date": "01-08",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Doubt is the origin of wisdom.",
+        "author": "René Descartes"
+      },
+      "uk": {
+        "quote": "Сумнів — це початок мудрості.",
+        "author": "Рене Декарт"
+      }
+    }
+  },
+  {
+    "day": 9,
+    "date": "01-09",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Man is the measure of all things.",
+        "author": "Protagoras"
+      },
+      "uk": {
+        "quote": "Людина — міра всіх речей.",
+        "author": "Протагор"
+      }
+    }
+  },
+  {
+    "day": 10,
+    "date": "01-10",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The unexamined life is not worth living.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Життя без іспитів не варте того, щоб його прожити.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 11,
+    "date": "01-11",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is knowing what you can change.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Мудрість — це знати, що ти можеш змінити.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 12,
+    "date": "01-12",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the harmony of the soul.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Щастя — це гармонія душі.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 13,
+    "date": "01-13",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is the art of embracing challenges.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Життя — це мистецтво приймати виклики.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 14,
+    "date": "01-14",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength lies in patience.",
+        "author": "Lao Tzu"
+      },
+      "uk": {
+        "quote": "Справжня сила — у терпінні.",
+        "author": "Лао-цзи"
+      }
+    }
+  },
+  {
+    "day": 15,
+    "date": "01-15",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is knowing when to stop.",
+        "author": "Confucius"
+      },
+      "uk": {
+        "quote": "Мудрість — це знати, коли зупинитися.",
+        "author": "Конфуцій"
+      }
+    }
+  },
+  {
+    "day": 16,
+    "date": "01-16",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is living in harmony with nature.",
+        "author": "Zeno"
+      },
+      "uk": {
+        "quote": "Щастя — це коли ти живеш у злагоді з природою.",
+        "author": "Зенон"
+      }
+    }
+  },
+  {
+    "day": 17,
+    "date": "01-17",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a movement toward a goal.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Життя — це рух до мети.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 18,
+    "date": "01-18",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True freedom is the freedom of choice.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Справжня свобода — це свобода вибору.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 19,
+    "date": "01-19",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is knowing what you need.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Мудрість — це знати, що тобі потрібно.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 20,
+    "date": "01-20",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is being grateful for what you have.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Щастя — це коли ти вдячний за те, що маєш.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 21,
+    "date": "01-21",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is the art of finding balance.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Життя — це мистецтво знаходити баланс.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 22,
+    "date": "01-22",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the ability to remain yourself.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Справжня сила — у вмінні залишатися собою.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 23,
+    "date": "01-23",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the ability to see the truth.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це вміння бачити істину.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 24,
+    "date": "01-24",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is when you live for others.",
+        "author": "Leo Tolstoy"
+      },
+      "uk": {
+        "quote": "Щастя — це коли ти живеш для інших.",
+        "author": "Лев Толстой"
+      }
+    }
+  },
+  {
+    "day": 25,
+    "date": "01-25",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a gift that must be cherished.",
+        "author": "Marcus Aurelius"
+      },
+      "uk": {
+        "quote": "Життя — це дар, який потрібно цінувати.",
+        "author": "Марк Аврелій"
+      }
+    }
+  },
+  {
+    "day": 26,
+    "date": "01-26",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True freedom is freedom from passions.",
+        "author": "Epictetus"
+      },
+      "uk": {
+        "quote": "Справжня свобода — це свобода від пристрастей.",
+        "author": "Епіктет"
+      }
+    }
+  },
+  {
+    "day": 27,
+    "date": "01-27",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is knowing that you don't know everything.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це знати, що ти не знаєш усього.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 28,
+    "date": "01-28",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is when you are at peace with the world.",
+        "author": "Lao Tzu"
+      },
+      "uk": {
+        "quote": "Щастя — це коли ти в мирі зі світом.",
+        "author": "Лао-цзи"
+      }
+    }
+  },
+  {
+    "day": 29,
+    "date": "01-29",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a struggle for harmony.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Життя — це боротьба за гармонію.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 30,
+    "date": "01-30",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the ability to listen.",
+        "author": "Confucius"
+      },
+      "uk": {
+        "quote": "Справжня сила — у вмінні слухати.",
+        "author": "Конфуцій"
+      }
+    }
+  },
+  {
+    "day": 31,
+    "date": "01-31",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the ability to learn from mistakes.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Мудрість — це вміння вчитися на помилках.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 32,
+    "date": "02-01",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is when you live in the moment.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Щастя — це коли ти живеш у моменті.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 33,
+    "date": "02-02",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is the art of being yourself.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Життя — це мистецтво бути собою.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 34,
+    "date": "02-03",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True freedom is freedom from illusions.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Справжня свобода — це свобода від ілюзій.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 35,
+    "date": "02-04",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is knowing when to act.",
+        "author": "Lao Tzu"
+      },
+      "uk": {
+        "quote": "Мудрість — це знати, коли діяти.",
+        "author": "Лао-цзи"
+      }
+    }
+  },
+  {
+    "day": 36,
+    "date": "02-05",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is when you are grateful for every day.",
+        "author": "Marcus Aurelius"
+      },
+      "uk": {
+        "quote": "Щастя — це коли ти вдячний за кожен день.",
+        "author": "Марк Аврелій"
+      }
+    }
+  },
+  {
+    "day": 37,
+    "date": "02-06",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a journey to truth.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Життя — це подорож до істини.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 38,
+    "date": "02-07",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the ability to remain calm.",
+        "author": "Epictetus"
+      },
+      "uk": {
+        "quote": "Справжня сила — у вмінні залишатися спокійним.",
+        "author": "Епіктет"
+      }
+    }
+  },
+  {
+    "day": 39,
+    "date": "02-08",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is knowing what you can change.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Мудрість — це знати, що ти можеш змінити.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 40,
+    "date": "02-09",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is when you live in harmony with yourself.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Щастя — це коли ти живеш у злагоді з собою.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 41,
+    "date": "02-10",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is the art of embracing challenges.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Життя — це мистецтво приймати виклики.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 42,
+    "date": "02-11",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength lies in patience.",
+        "author": "Lao Tzu"
+      },
+      "uk": {
+        "quote": "Справжня сила — у терпінні.",
+        "author": "Лао-цзи"
+      }
+    }
+  },
+  {
+    "day": 43,
+    "date": "02-12",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is knowing when to stop.",
+        "author": "Confucius"
+      },
+      "uk": {
+        "quote": "Мудрість — це знати, коли зупинитися.",
+        "author": "Конфуцій"
+      }
+    }
+  },
+  {
+    "day": 44,
+    "date": "02-13",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is living in harmony with nature.",
+        "author": "Zeno"
+      },
+      "uk": {
+        "quote": "Щастя — це коли ти живеш у злагоді з природою.",
+        "author": "Зенон"
+      }
+    }
+  },
+  {
+    "day": 45,
+    "date": "02-14",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a movement toward a goal.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Життя — це рух до мети.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 46,
+    "date": "02-15",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True freedom is the freedom of choice.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Справжня свобода — це свобода вибору.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 47,
+    "date": "02-16",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is knowing what you need.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Мудрість — це знати, що тобі потрібно.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 48,
+    "date": "02-17",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is being grateful for what you have.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Щастя — це коли ти вдячний за те, що маєш.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 49,
+    "date": "02-18",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is the art of finding balance.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Життя — це мистецтво знаходити баланс.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 50,
+    "date": "02-19",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the ability to remain yourself.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Справжня сила — у вмінні залишатися собою.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 51,
+    "date": "02-20",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the ability to see the truth.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це вміння бачити істину.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 52,
+    "date": "02-21",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is when you live for others.",
+        "author": "Leo Tolstoy"
+      },
+      "uk": {
+        "quote": "Щастя — це коли ти живеш для інших.",
+        "author": "Лев Толстой"
+      }
+    }
+  },
+  {
+    "day": 53,
+    "date": "02-22",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a gift that must be cherished.",
+        "author": "Marcus Aurelius"
+      },
+      "uk": {
+        "quote": "Життя — це дар, який потрібно цінувати.",
+        "author": "Марк Аврелій"
+      }
+    }
+  },
+  {
+    "day": 54,
+    "date": "02-23",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True freedom is freedom from passions.",
+        "author": "Epictetus"
+      },
+      "uk": {
+        "quote": "Справжня свобода — це свобода від пристрастей.",
+        "author": "Епіктет"
+      }
+    }
+  },
+  {
+    "day": 55,
+    "date": "02-24",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is knowing that you don't know everything.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це знати, що ти не знаєш усього.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 56,
+    "date": "02-25",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is when you are at peace with the world.",
+        "author": "Lao Tzu"
+      },
+      "uk": {
+        "quote": "Щастя — це коли ти в мирі зі світом.",
+        "author": "Лао-цзи"
+      }
+    }
+  },
+  {
+    "day": 57,
+    "date": "02-26",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a struggle for harmony.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Життя — це боротьба за гармонію.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 58,
+    "date": "02-27",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the ability to listen.",
+        "author": "Confucius"
+      },
+      "uk": {
+        "quote": "Справжня сила — у вмінні слухати.",
+        "author": "Конфуцій"
+      }
+    }
+  },
+  {
+    "day": 59,
+    "date": "02-28",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the ability to learn from mistakes.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Мудрість — це вміння вчитися на помилках.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 60,
+    "date": "03-01",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is when you live in the moment.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Щастя — це коли ти живеш у моменті.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 61,
+    "date": "03-02",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is the art of being yourself.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Життя — це мистецтво бути собою.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 62,
+    "date": "03-03",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True freedom is freedom from illusions.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Справжня свобода — це свобода від ілюзій.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 63,
+    "date": "03-04",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is knowing when to act.",
+        "author": "Lao Tzu"
+      },
+      "uk": {
+        "quote": "Мудрість — це знати, коли діяти.",
+        "author": "Лао-цзи"
+      }
+    }
+  },
+  {
+    "day": 64,
+    "date": "03-05",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is when you are grateful for every day.",
+        "author": "Marcus Aurelius"
+      },
+      "uk": {
+        "quote": "Щастя — це коли ти вдячний за кожен день.",
+        "author": "Марк Аврелій"
+      }
+    }
+  },
+  {
+    "day": 65,
+    "date": "03-06",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a journey to truth.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Життя — це подорож до істини.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 66,
+    "date": "03-07",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the ability to remain calm.",
+        "author": "Epictetus"
+      },
+      "uk": {
+        "quote": "Справжня сила — у вмінні залишатися спокійним.",
+        "author": "Епіктет"
+      }
+    }
+  },
+  {
+    "day": 67,
+    "date": "03-08",
+    "isSpecial": true,
+    "quotes": {
+      "en": {
+        "quote": "The true strength of a woman lies in her wisdom and kindness.",
+        "author": "Plato",
+        "holiday": "International Women's Day"
+      },
+      "uk": {
+        "quote": "Справжня сила жінки — у її мудрості та доброті.",
+        "author": "Платон",
+        "holiday": "Міжнародний жіночий день"
+      }
+    }
+  },
+  {
+    "day": 68,
+    "date": "03-09",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is knowing what you can change.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Мудрість — це знати, що ти можеш змінити.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 69,
+    "date": "03-10",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is when you live in harmony with yourself.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Щастя — це коли ти живеш у злагоді з собою.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 70,
+    "date": "03-11",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is the art of embracing challenges.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Життя — це мистецтво приймати виклики.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 71,
+    "date": "03-12",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength lies in patience.",
+        "author": "Lao Tzu"
+      },
+      "uk": {
+        "quote": "Справжня сила — у терпінні.",
+        "author": "Лао-цзи"
+      }
+    }
+  },
+  {
+    "day": 72,
+    "date": "03-13",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is knowing when to stop.",
+        "author": "Confucius"
+      },
+      "uk": {
+        "quote": "Мудрість — це знати, коли зупинитися.",
+        "author": "Конфуцій"
+      }
+    }
+  },
+  {
+    "day": 73,
+    "date": "03-14",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is living in harmony with nature.",
+        "author": "Zeno"
+      },
+      "uk": {
+        "quote": "Щастя — це коли ти живеш у злагоді з природою.",
+        "author": "Зенон"
+      }
+    }
+  },
+  {
+    "day": 74,
+    "date": "03-15",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a movement toward a goal.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Життя — це рух до мети.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 75,
+    "date": "03-16",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True freedom is the freedom of choice.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Справжня свобода — це свобода вибору.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 76,
+    "date": "03-17",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is knowing what you need.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Мудрість — це знати, що тобі потрібно.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 77,
+    "date": "03-18",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is being grateful for what you have.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Щастя — це коли ти вдячний за те, що маєш.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 78,
+    "date": "03-19",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is the art of finding balance.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Життя — це мистецтво знаходити баланс.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 79,
+    "date": "03-20",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the ability to remain yourself.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Справжня сила — у вмінні залишатися собою.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 80,
+    "date": "03-21",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the ability to see the truth.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це вміння бачити істину.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 81,
+    "date": "03-22",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is when you live for others.",
+        "author": "Leo Tolstoy"
+      },
+      "uk": {
+        "quote": "Щастя — це коли ти живеш для інших.",
+        "author": "Лев Толстой"
+      }
+    }
+  },
+  {
+    "day": 82,
+    "date": "03-23",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a gift that must be cherished.",
+        "author": "Marcus Aurelius"
+      },
+      "uk": {
+        "quote": "Життя — це дар, який потрібно цінувати.",
+        "author": "Марк Аврелій"
+      }
+    }
+  },
+  {
+    "day": 83,
+    "date": "03-24",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True freedom is freedom from passions.",
+        "author": "Epictetus"
+      },
+      "uk": {
+        "quote": "Справжня свобода — це свобода від пристрастей.",
+        "author": "Епіктет"
+      }
+    }
+  },
+  {
+    "day": 84,
+    "date": "03-25",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is knowing that you don't know everything.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це знати, що ти не знаєш усього.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 85,
+    "date": "03-26",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is when you are at peace with the world.",
+        "author": "Lao Tzu"
+      },
+      "uk": {
+        "quote": "Щастя — це коли ти в мирі зі світом.",
+        "author": "Лао-цзи"
+      }
+    }
+  },
+  {
+    "day": 86,
+    "date": "03-27",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a struggle for harmony.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Життя — це боротьба за гармонію.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 87,
+    "date": "03-28",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the ability to listen.",
+        "author": "Confucius"
+      },
+      "uk": {
+        "quote": "Справжня сила — у вмінні слухати.",
+        "author": "Конфуцій"
+      }
+    }
+  },
+  {
+    "day": 88,
+    "date": "03-29",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the ability to learn from mistakes.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Мудрість — це вміння вчитися на помилках.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 89,
+    "date": "03-30",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is when you live in the moment.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Щастя — це коли ти живеш у моменті.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 90,
+    "date": "03-31",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is the art of being yourself.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Життя — це мистецтво бути собою.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 91,
+    "date": "04-01",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True freedom is freedom from illusions.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Справжня свобода — це свобода від ілюзій.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 92,
+    "date": "04-02",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is knowing when to act.",
+        "author": "Lao Tzu"
+      },
+      "uk": {
+        "quote": "Мудрість — це знати, коли діяти.",
+        "author": "Лао-цзи"
+      }
+    }
+  },
+  {
+    "day": 93,
+    "date": "04-03",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is when you are grateful for every day.",
+        "author": "Marcus Aurelius"
+      },
+      "uk": {
+        "quote": "Щастя — це коли ти вдячний за кожен день.",
+        "author": "Марк Аврелій"
+      }
+    }
+  },
+  {
+    "day": 94,
+    "date": "04-04",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a journey to truth.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Життя — це подорож до істини.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 95,
+    "date": "04-05",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the ability to remain calm.",
+        "author": "Epictetus"
+      },
+      "uk": {
+        "quote": "Справжня сила — у вмінні залишатися спокійним.",
+        "author": "Епіктет"
+      }
+    }
+  },
+  {
+    "day": 96,
+    "date": "04-06",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is knowing what you can change.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Мудрість — це знати, що ти можеш змінити.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 97,
+    "date": "04-07",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is when you live in harmony with yourself.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Щастя — це коли ти живеш у злагоді з собою.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 98,
+    "date": "04-08",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is the art of embracing challenges.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Життя — це мистецтво приймати виклики.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 99,
+    "date": "04-09",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength lies in patience.",
+        "author": "Lao Tzu"
+      },
+      "uk": {
+        "quote": "Справжня сила — у терпінні.",
+        "author": "Лао-цзи"
+      }
+    }
+  },
+  {
+    "day": 100,
+    "date": "04-10",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is knowing when to stop.",
+        "author": "Confucius"
+      },
+      "uk": {
+        "quote": "Мудрість — це знати, коли зупинитися.",
+        "author": "Конфуцій"
+      }
+    }
+  },
+  {
+    "day": 101,
+    "date": "04-11",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The only way to do great work is to love what you do.",
+        "author": "Steve Jobs"
+      },
+      "uk": {
+        "quote": "Єдиний спосіб зробити велику роботу — це любити те, що ти робиш.",
+        "author": "Стів Джобс"
+      }
+    }
+  },
+  {
+    "day": 102,
+    "date": "04-12",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Success is not the absence of obstacles, but the courage to push through them.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Успіх — це не відсутність перешкод, а сміливість їх долати.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 103,
+    "date": "04-13",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is not something ready-made. It comes from your own actions.",
+        "author": "Dalai Lama"
+      },
+      "uk": {
+        "quote": "Щастя — це не щось готове. Воно приходить від твоїх власних дій.",
+        "author": "Далай-лама"
+      }
+    }
+  },
+  {
+    "day": 104,
+    "date": "04-14",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The unexamined life is not worth living.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Життя без іспитів не варте того, щоб його прожити.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 105,
+    "date": "04-15",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "It is not death that a man should fear, but never beginning to live.",
+        "author": "Marcus Aurelius"
+      },
+      "uk": {
+        "quote": "Людина повинна боятися не смерті, а того, що ніколи не почне жити.",
+        "author": "Марк Аврелій"
+      }
+    }
+  },
+  {
+    "day": 106,
+    "date": "04-16",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The mind is everything. What you think, you become.",
+        "author": "Buddha"
+      },
+      "uk": {
+        "quote": "Розум — це все. Про що ти думаєш, тим ти стаєш.",
+        "author": "Будда"
+      }
+    }
+  },
+  {
+    "day": 107,
+    "date": "04-17",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the power to act, speak, or think without restraint.",
+        "author": "John Stuart Mill"
+      },
+      "uk": {
+        "quote": "Свобода — це сила діяти, говорити чи думати без обмежень.",
+        "author": "Джон Стюарт Мілль"
+      }
+    }
+  },
+  {
+    "day": 108,
+    "date": "04-18",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "To know oneself is the beginning of wisdom.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Пізнати себе — це початок мудрості.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 109,
+    "date": "04-19",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is what happens when you're busy making other plans.",
+        "author": "John Lennon"
+      },
+      "uk": {
+        "quote": "Життя — це те, що відбувається, коли ти зайнятий іншими планами.",
+        "author": "Джон Леннон"
+      }
+    }
+  },
+  {
+    "day": 110,
+    "date": "04-20",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The greatest wealth is to live content with little.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Найбільше багатство — це бути задоволеним малим.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 111,
+    "date": "04-21",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness depends upon ourselves.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Щастя залежить від нас самих.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 112,
+    "date": "04-22",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The only true wisdom is in knowing you know nothing.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Єдина справжня мудрість — це знати, що ти нічого не знаєш.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 113,
+    "date": "04-23",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "What we achieve inwardly will change outer reality.",
+        "author": "Plutarch"
+      },
+      "uk": {
+        "quote": "Те, що ми досягаємо всередині, змінить зовнішню реальність.",
+        "author": "Плутарх"
+      }
+    }
+  },
+  {
+    "day": 114,
+    "date": "04-24",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "You must be the change you wish to see in the world.",
+        "author": "Mahatma Gandhi"
+      },
+      "uk": {
+        "quote": "Ти сам маєш бути тією зміною, яку хочеш бачити у світі.",
+        "author": "Махатма Ганді"
+      }
+    }
+  },
+  {
+    "day": 115,
+    "date": "04-25",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Ми є те, що ми постійно робимо. Тож досконалість — це не дія, а звичка.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 116,
+    "date": "04-26",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The journey of a thousand miles begins with a single step.",
+        "author": "Lao Tzu"
+      },
+      "uk": {
+        "quote": "Подорож у тисячу миль починається з одного кроку.",
+        "author": "Лао-цзи"
+      }
+    }
+  },
+  {
+    "day": 117,
+    "date": "04-27",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The only limit to our realization of tomorrow is our doubts of today.",
+        "author": "Franklin D. Roosevelt"
+      },
+      "uk": {
+        "quote": "Єдина межа для реалізації завтрашнього дня — це наші сумніви сьогодні.",
+        "author": "Франклін Д. Рузвельт"
+      }
+    }
+  },
+  {
+    "day": 118,
+    "date": "04-28",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+        "author": "Ralph Waldo Emerson"
+      },
+      "uk": {
+        "quote": "Не йди туди, куди веде шлях, іди туди, де немає шляху, і залиш слід.",
+        "author": "Ральф Волдо Емерсон"
+      }
+    }
+  },
+  {
+    "day": 119,
+    "date": "04-29",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The purpose of life is to live it, to taste experience to the utmost.",
+        "author": "Eleanor Roosevelt"
+      },
+      "uk": {
+        "quote": "Мета життя — прожити його, відчути досвід на повну.",
+        "author": "Елеонора Рузвельт"
+      }
+    }
+  },
+  {
+    "day": 120,
+    "date": "04-30",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+        "author": "Ralph Waldo Emerson"
+      },
+      "uk": {
+        "quote": "Бути собою у світі, який постійно намагається зробити тебе кимось іншим, — це найбільше досягнення.",
+        "author": "Ральф Волдо Емерсон"
+      }
+    }
+  },
+  {
+    "day": 121,
+    "date": "05-01",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The best way to predict the future is to create it.",
+        "author": "Peter Drucker"
+      },
+      "uk": {
+        "quote": "Найкращий спосіб передбачити майбутнє — це створити його.",
+        "author": "Пітер Друкер"
+      }
+    }
+  },
+  {
+    "day": 122,
+    "date": "05-02",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is not the absence of problems, it's the ability to deal with them.",
+        "author": "Steve Maraboli"
+      },
+      "uk": {
+        "quote": "Щастя — це не відсутність проблем, а здатність з ними справлятися.",
+        "author": "Стів Мараболі"
+      }
+    }
+  },
+  {
+    "day": 123,
+    "date": "05-03",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a daring adventure or nothing at all.",
+        "author": "Helen Keller"
+      },
+      "uk": {
+        "quote": "Життя — це смілива пригода або нічого.",
+        "author": "Хелен Келлер"
+      }
+    }
+  },
+  {
+    "day": 124,
+    "date": "05-04",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
+        "author": "Alan Watts"
+      },
+      "uk": {
+        "quote": "Єдиний спосіб осмислити зміни — це зануритися в них, рухатися разом із ними і приєднатися до танцю.",
+        "author": "Алан Воттс"
+      }
+    }
+  },
+  {
+    "day": 125,
+    "date": "05-05",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "You are never too old to set another goal or to dream a new dream.",
+        "author": "C.S. Lewis"
+      },
+      "uk": {
+        "quote": "Ніколи не буває надто пізно поставити нову мету чи мріяти нову мрію.",
+        "author": "К.С. Льюїс"
+      }
+    }
+  },
+  {
+    "day": 126,
+    "date": "05-06",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+        "author": "Ralph Waldo Emerson"
+      },
+      "uk": {
+        "quote": "Те, що позаду нас, і те, що попереду, — дрібниці порівняно з тим, що всередині нас.",
+        "author": "Ральф Волдо Емерсон"
+      }
+    }
+  },
+  {
+    "day": 127,
+    "date": "05-07",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+        "author": "Nelson Mandela"
+      },
+      "uk": {
+        "quote": "Найбільша слава в житті полягає не в тому, щоб ніколи не падати, а в тому, щоб підніматися після кожного падіння.",
+        "author": "Нельсон Мандела"
+      }
+    }
+  },
+  {
+    "day": 128,
+    "date": "05-08",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "It does not matter how slowly you go as long as you do not stop.",
+        "author": "Confucius"
+      },
+      "uk": {
+        "quote": "Не має значення, як повільно ти йдеш, головне — не зупинятися.",
+        "author": "Конфуцій"
+      }
+    }
+  },
+  {
+    "day": 129,
+    "date": "05-09",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The secret of getting ahead is getting started.",
+        "author": "Mark Twain"
+      },
+      "uk": {
+        "quote": "Секрет просування вперед — це почати.",
+        "author": "Марк Твен"
+      }
+    }
+  },
+  {
+    "day": 130,
+    "date": "05-10",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "In the middle of difficulty lies opportunity.",
+        "author": "Albert Einstein"
+      },
+      "uk": {
+        "quote": "Посеред труднощів лежить можливість.",
+        "author": "Альберт Ейнштейн"
+      }
+    }
+  },
+  {
+    "day": 131,
+    "date": "05-11",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The best revenge is to be unlike him who performed the injustice.",
+        "author": "Marcus Aurelius"
+      },
+      "uk": {
+        "quote": "Найкраща помста — бути несхожим на того, хто вчинив несправедливість.",
+        "author": "Марк Аврелій"
+      }
+    }
+  },
+  {
+    "day": 132,
+    "date": "05-12",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "To live is the rarest thing in the world. Most people exist, that is all.",
+        "author": "Oscar Wilde"
+      },
+      "uk": {
+        "quote": "Жити — це найрідкісніше у світі. Більшість людей просто існує.",
+        "author": "Оскар Вайлд"
+      }
+    }
+  },
+  {
+    "day": 133,
+    "date": "05-13",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "We must let go of the life we have planned, to accept the one that is waiting for us.",
+        "author": "Joseph Campbell"
+      },
+      "uk": {
+        "quote": "Ми повинні відпустити життя, яке ми спланували, щоб прийняти те, що чекає на нас.",
+        "author": "Джозеф Кемпбелл"
+      }
+    }
+  },
+  {
+    "day": 134,
+    "date": "05-14",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The only person you are destined to become is the person you decide to be.",
+        "author": "Ralph Waldo Emerson"
+      },
+      "uk": {
+        "quote": "Єдина людина, якою ти суджений стати, — це та, ким ти вирішив бути.",
+        "author": "Ральф Волдо Емерсон"
+      }
+    }
+  },
+  {
+    "day": 135,
+    "date": "05-15",
+    "isSpecial": true,
+    "quotes": {
+      "en": {
+        "quote": "The memory of the past teaches us to build a better future.",
+        "author": "Immanuel Kant",
+        "holiday": "Day of Remembrance"
+      },
+      "uk": {
+        "quote": "Пам’ять про минуле вчить нас будувати краще майбутнє.",
+        "author": "Іммануїл Кант",
+        "holiday": "День пам’яті"
+      }
+    }
+  },
+  {
+    "day": 136,
+    "date": "05-16",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "You cannot swim for new horizons until you have courage to lose sight of the shore.",
+        "author": "William Faulkner"
+      },
+      "uk": {
+        "quote": "Ти не можеш плисти до нових горизонтів, поки не матимеш сміливості втратити берег із виду.",
+        "author": "Вільям Фолкнер"
+      }
+    }
+  },
+  {
+    "day": 137,
+    "date": "05-17",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The future belongs to those who believe in the beauty of their dreams.",
+        "author": "Eleanor Roosevelt"
+      },
+      "uk": {
+        "quote": "Майбутнє належить тим, хто вірить у красу своїх мрій.",
+        "author": "Елеонора Рузвельт"
+      }
+    }
+  },
+  {
+    "day": 138,
+    "date": "05-18",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "It is never too late to be what you might have been.",
+        "author": "George Eliot"
+      },
+      "uk": {
+        "quote": "Ніколи не пізно стати тим, ким ти міг би бути.",
+        "author": "Джордж Еліот"
+      }
+    }
+  },
+  {
+    "day": 139,
+    "date": "05-19",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "What you get by achieving your goals is not as important as what you become by achieving your goals.",
+        "author": "Zig Ziglar"
+      },
+      "uk": {
+        "quote": "Те, що ти отримуєш, досягаючи своїх цілей, не так важливо, як те, ким ти стаєш, досягаючи їх.",
+        "author": "Зіг Зіглар"
+      }
+    }
+  },
+  {
+    "day": 140,
+    "date": "05-20",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The only impossible journey is the one you never begin.",
+        "author": "Tony Robbins"
+      },
+      "uk": {
+        "quote": "Єдина неможлива подорож — це та, яку ти ніколи не починаєш.",
+        "author": "Тоні Роббінс"
+      }
+    }
+  },
+  {
+    "day": 141,
+    "date": "05-21",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is either a daring adventure or nothing.",
+        "author": "Helen Keller"
+      },
+      "uk": {
+        "quote": "Життя — це або смілива пригода, або нічого.",
+        "author": "Хелен Келлер"
+      }
+    }
+  },
+  {
+    "day": 142,
+    "date": "05-22",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The greatest obstacle to discovery is not ignorance—it is the illusion of knowledge.",
+        "author": "Daniel J. Boorstin"
+      },
+      "uk": {
+        "quote": "Найбільша перешкода для відкриттів — не незнання, а ілюзія знань.",
+        "author": "Деніел Дж. Бурстін"
+      }
+    }
+  },
+  {
+    "day": 143,
+    "date": "05-23",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is when what you think, what you say, and what you do are in harmony.",
+        "author": "Mahatma Gandhi"
+      },
+      "uk": {
+        "quote": "Щастя — це коли те, що ти думаєш, що ти говориш і що ти робиш, перебувають у гармонії.",
+        "author": "Махатма Ганді"
+      }
+    }
+  },
+  {
+    "day": 144,
+    "date": "05-24",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The only thing necessary for the triumph of evil is for good men to do nothing.",
+        "author": "Edmund Burke"
+      },
+      "uk": {
+        "quote": "Єдине, що необхідно для тріумфу зла, — це щоб добрі люди нічого не робили.",
+        "author": "Едмунд Берк"
+      }
+    }
+  },
+  {
+    "day": 145,
+    "date": "05-25",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The best way to find yourself is to lose yourself in the service of others.",
+        "author": "Mahatma Gandhi"
+      },
+      "uk": {
+        "quote": "Найкращий спосіб знайти себе — це загубитися в служінні іншим.",
+        "author": "Махатма Ганді"
+      }
+    }
+  },
+  {
+    "day": 146,
+    "date": "05-26",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Do what you can, with what you have, where you are.",
+        "author": "Theodore Roosevelt"
+      },
+      "uk": {
+        "quote": "Роби, що можеш, із тим, що маєш, там, де ти є.",
+        "author": "Теодор Рузвельт"
+      }
+    }
+  },
+  {
+    "day": 147,
+    "date": "05-27",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The purpose of our lives is to be happy.",
+        "author": "Dalai Lama"
+      },
+      "uk": {
+        "quote": "Мета нашого життя — бути щасливими.",
+        "author": "Далай-лама"
+      }
+    }
+  },
+  {
+    "day": 148,
+    "date": "05-28",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "You miss 100% of the shots you don’t take.",
+        "author": "Wayne Gretzky"
+      },
+      "uk": {
+        "quote": "Ти втрачаєш 100% можливостей, якщо не робиш спроб.",
+        "author": "Вейн Грецкі"
+      }
+    }
+  },
+  {
+    "day": 149,
+    "date": "05-29",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The only true voyage of discovery consists not in seeking new landscapes, but in having new eyes.",
+        "author": "Marcel Proust"
+      },
+      "uk": {
+        "quote": "Єдина справжня подорож відкриттів полягає не в пошуку нових пейзажів, а в новому погляді.",
+        "author": "Марсель Пруст"
+      }
+    }
+  },
+  {
+    "day": 150,
+    "date": "05-30",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is not about finding yourself. Life is about creating yourself.",
+        "author": "George Bernard Shaw"
+      },
+      "uk": {
+        "quote": "Життя — це не про те, щоб знайти себе. Життя — це про створення себе.",
+        "author": "Джордж Бернард Шоу"
+      }
+    }
+  },
+  {
+    "day": 151,
+    "date": "05-31",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Success is to be measured not by wealth, but by the impact you have on others.",
+        "author": "Confucius"
+      },
+      "uk": {
+        "quote": "Успіх вимірюється не багатством, а впливом, який ти маєш на інших.",
+        "author": "Конфуцій"
+      }
+    }
+  },
+  {
+    "day": 152,
+    "date": "06-01",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The greatest pleasure in life is doing what people say you cannot do.",
+        "author": "Walter Bagehot"
+      },
+      "uk": {
+        "quote": "Найбільше задоволення в житті — робити те, що люди вважають неможливим.",
+        "author": "Волтер Бейджхот"
+      }
+    }
+  },
+  {
+    "day": 153,
+    "date": "06-02",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "To be free is to have achieved your life.",
+        "author": "Tennessee Williams"
+      },
+      "uk": {
+        "quote": "Бути вільним — це означає досягти свого життя.",
+        "author": "Теннессі Вільямс"
+      }
+    }
+  },
+  {
+    "day": 154,
+    "date": "06-03",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is not a goal; it is a by-product.",
+        "author": "Eleanor Roosevelt"
+      },
+      "uk": {
+        "quote": "Щастя — це не мета, а побічний продукт.",
+        "author": "Елеонора Рузвельт"
+      }
+    }
+  },
+  {
+    "day": 155,
+    "date": "06-04",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion.",
+        "author": "Albert Camus"
+      },
+      "uk": {
+        "quote": "Єдиний спосіб впоратися з невільним світом — стати настільки вільним, що саме твоє існування є актом бунту.",
+        "author": "Альбер Камю"
+      }
+    }
+  },
+  {
+    "day": 156,
+    "date": "06-05",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The true sign of intelligence is not knowledge but imagination.",
+        "author": "Albert Einstein"
+      },
+      "uk": {
+        "quote": "Справжня ознака інтелекту — це не знання, а уява.",
+        "author": "Альберт Ейнштейн"
+      }
+    }
+  },
+  {
+    "day": 157,
+    "date": "06-06",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Don’t let the fear of striking out keep you from playing the game.",
+        "author": "Babe Ruth"
+      },
+      "uk": {
+        "quote": "Не дозволяй страху промаху завадити тобі грати в гру.",
+        "author": "Бейб Рут"
+      }
+    }
+  },
+  {
+    "day": 158,
+    "date": "06-07",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life shrinks or expands in proportion to one’s courage.",
+        "author": "Anaïs Nin"
+      },
+      "uk": {
+        "quote": "Життя звужується або розширюється пропорційно до твоєї сміливості.",
+        "author": "Анаїс Нін"
+      }
+    }
+  },
+  {
+    "day": 159,
+    "date": "06-08",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True wisdom is found in embracing the unknown.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Справжня мудрість полягає у прийнятті невідомого.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 160,
+    "date": "06-09",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness blooms where gratitude is planted.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Щастя розквітає там, де посаджена вдячність.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 161,
+    "date": "06-10",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a canvas; paint it with purpose.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Життя — це полотно; малюй його з метою.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 162,
+    "date": "06-11",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the courage to choose your own path.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Свобода — це сміливість обрати власний шлях.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 163,
+    "date": "06-12",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "The heart of wisdom is to question everything.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Суть мудрості — ставити під сумнів усе.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 164,
+    "date": "06-13",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the peace found in simplicity.",
+        "author": "Lao Tzu"
+      },
+      "uk": {
+        "quote": "Щастя — це спокій, знайдений у простоті.",
+        "author": "Лао-цзи"
+      }
+    }
+  },
+  {
+    "day": 165,
+    "date": "06-14",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a melody played with courage.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Життя — це мелодія, зіграна зі сміливістю.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 166,
+    "date": "06-15",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is found in quiet resilience.",
+        "author": "Marcus Aurelius"
+      },
+      "uk": {
+        "quote": "Справжня сила — у тихій стійкості.",
+        "author": "Марк Аврелій"
+      }
+    }
+  },
+  {
+    "day": 167,
+    "date": "06-16",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom grows in the soil of reflection.",
+        "author": "Confucius"
+      },
+      "uk": {
+        "quote": "Мудрість зростає на ґрунті роздумів.",
+        "author": "Конфуцій"
+      }
+    }
+  },
+  {
+    "day": 168,
+    "date": "06-17",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the light of a contented heart.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Щастя — це світло задоволеного серця.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 169,
+    "date": "06-18",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a puzzle solved with patience.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Життя — це головоломка, яку розв’язують терпінням.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 170,
+    "date": "06-19",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the space to grow without chains.",
+        "author": "John Stuart Mill"
+      },
+      "uk": {
+        "quote": "Свобода — це простір для зростання без кайданів.",
+        "author": "Джон Стюарт Мілль"
+      }
+    }
+  },
+  {
+    "day": 171,
+    "date": "06-20",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the compass for a wandering soul.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це компас для блукаючої душі.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 172,
+    "date": "06-21",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the harvest of kind deeds.",
+        "author": "Dalai Lama"
+      },
+      "uk": {
+        "quote": "Щастя — це врожай добрих вчинків.",
+        "author": "Далай-лама"
+      }
+    }
+  },
+  {
+    "day": 173,
+    "date": "06-22",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a story written with bold choices.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Життя — це історія, написана сміливими виборами.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 174,
+    "date": "06-23",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength lies in forgiving others.",
+        "author": "Mahatma Gandhi"
+      },
+      "uk": {
+        "quote": "Справжня сила — у прощенні інших.",
+        "author": "Махатма Ганді"
+      }
+    }
+  },
+  {
+    "day": 175,
+    "date": "06-24",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the light that guides through darkness.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Мудрість — це світло, що веде крізь темряву.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 176,
+    "date": "06-25",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is found in the joy of small moments.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Щастя — у радості маленьких моментів.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 177,
+    "date": "06-26",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a river shaped by persistent effort.",
+        "author": "Lao Tzu"
+      },
+      "uk": {
+        "quote": "Життя — це річка, сформована наполегливою працею.",
+        "author": "Лао-цзи"
+      }
+    }
+  },
+  {
+    "day": 178,
+    "date": "06-27",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the courage to embrace your truth.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Свобода — це сміливість прийняти свою правду.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 179,
+    "date": "06-28",
+    "isSpecial": true,
+    "quotes": {
+      "en": {
+        "quote": "A just constitution is the foundation of a free society.",
+        "author": "John Locke",
+        "holiday": "Constitution Day"
+      },
+      "uk": {
+        "quote": "Справедлива конституція — це основа вільного суспільства.",
+        "author": "Джон Лок",
+        "holiday": "День Конституції"
+      }
+    }
+  },
+  {
+    "day": 180,
+    "date": "06-29",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the art of balancing heart and mind.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Мудрість — це мистецтво балансувати між серцем і розумом.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 181,
+    "date": "06-30",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the warmth of shared kindness.",
+        "author": "Dalai Lama"
+      },
+      "uk": {
+        "quote": "Щастя — це тепло спільної доброти.",
+        "author": "Далай-лама"
+      }
+    }
+  },
+  {
+    "day": 182,
+    "date": "07-01",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a journey of constant renewal.",
+        "author": "Marcus Aurelius"
+      },
+      "uk": {
+        "quote": "Життя — це подорож постійного оновлення.",
+        "author": "Марк Аврелій"
+      }
+    }
+  },
+  {
+    "day": 183,
+    "date": "07-02",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is found in gentle persistence.",
+        "author": "Confucius"
+      },
+      "uk": {
+        "quote": "Справжня сила — у м’якій наполегливості.",
+        "author": "Конфуцій"
+      }
+    }
+  },
+  {
+    "day": 184,
+    "date": "07-03",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the courage to seek truth always.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це сміливість завжди шукати правду.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 185,
+    "date": "07-04",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the freedom to be yourself.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Щастя — це свобода бути собою.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 186,
+    "date": "07-05",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a dance of balance and change.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Життя — це танець балансу і змін.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 187,
+    "date": "07-06",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the power to shape your destiny.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Свобода — це сила формувати свою долю.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 188,
+    "date": "07-07",
+    "isSpecial": true,
+    "quotes": {
+      "en": {
+        "quote": "On Ivana Kupala, let the fire of renewal light your path.",
+        "author": "Taras Shevchenko",
+        "holiday": "Ivana Kupala Day"
+      },
+      "uk": {
+        "quote": "На Івана Купала нехай вогонь оновлення освітлює твій шлях.",
+        "author": "Тарас Шевченко",
+        "holiday": "День Івана Купала"
+      }
+    }
+  },
+  {
+    "day": 189,
+    "date": "07-08",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the bridge between past and future.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Мудрість — це міст між минулим і майбутнім.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 190,
+    "date": "07-09",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the joy of a purposeful life.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Щастя — це радість цілеспрямованого життя.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 191,
+    "date": "07-10",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a tapestry woven with choices.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Життя — це гобелен, витканий із виборів.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 192,
+    "date": "07-11",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the courage to keep learning.",
+        "author": "Confucius"
+      },
+      "uk": {
+        "quote": "Справжня сила — у сміливості продовжувати вчитися.",
+        "author": "Конфуцій"
+      }
+    }
+  },
+  {
+    "day": 193,
+    "date": "07-12",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the art of living with purpose.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це мистецтво жити з метою.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 194,
+    "date": "07-13",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the harmony of thought and action.",
+        "author": "Mahatma Gandhi"
+      },
+      "uk": {
+        "quote": "Щастя — це гармонія думки і дії.",
+        "author": "Махатма Ганді"
+      }
+    }
+  },
+  {
+    "day": 195,
+    "date": "07-14",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a journey guided by inner truth.",
+        "author": "Marcus Aurelius"
+      },
+      "uk": {
+        "quote": "Життя — це подорож, керована внутрішньою правдою.",
+        "author": "Марк Аврелій"
+      }
+    }
+  },
+  {
+    "day": 196,
+    "date": "07-15",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the strength to live authentically.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Свобода — це сила жити автентично.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 197,
+    "date": "07-16",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the key to unlocking your potential.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Мудрість — це ключ до розкриття твого потенціалу.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 198,
+    "date": "07-17",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the reward of a life well-lived.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Щастя — це нагорода за добре прожите життя.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 199,
+    "date": "07-18",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a flame that burns brighter with purpose.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Життя — це полум’я, яке горить яскравіше з метою.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 200,
+    "date": "07-19",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the courage to face the unknown.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Справжня сила — у сміливості зустріти невідоме.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 201,
+    "date": "07-20",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the courage to seek truth in every moment.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це сміливість шукати правду в кожну мить.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 202,
+    "date": "07-21",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the joy found in simple acts of kindness.",
+        "author": "Dalai Lama"
+      },
+      "uk": {
+        "quote": "Щастя — це радість, знайдена в простих актах доброти.",
+        "author": "Далай-лама"
+      }
+    }
+  },
+  {
+    "day": 203,
+    "date": "07-22",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a journey shaped by the choices we make.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Життя — це подорож, сформована нашими виборами.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 204,
+    "date": "07-23",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True freedom is living in harmony with your values.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Справжня свобода — це жити в гармонії зі своїми цінностями.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 205,
+    "date": "07-24",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Strength is the ability to rise after every fall.",
+        "author": "Marcus Aurelius"
+      },
+      "uk": {
+        "quote": "Сила — це здатність підніматися після кожного падіння.",
+        "author": "Марк Аврелій"
+      }
+    }
+  },
+  {
+    "day": 206,
+    "date": "07-25",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the art of finding balance in chaos.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Мудрість — це мистецтво знаходити баланс у хаосі.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 207,
+    "date": "07-26",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the warmth of a grateful heart.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Щастя — це тепло вдячного серця.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 208,
+    "date": "07-27",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a song sung with courage and hope.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Життя — це пісня, яку співають зі сміливістю та надією.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 209,
+    "date": "07-28",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the power to create your own meaning.",
+        "author": "Albert Camus"
+      },
+      "uk": {
+        "quote": "Свобода — це сила створювати власний сенс.",
+        "author": "Альбер Камю"
+      }
+    }
+  },
+  {
+    "day": 210,
+    "date": "07-29",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the light that pierces through doubt.",
+        "author": "Confucius"
+      },
+      "uk": {
+        "quote": "Мудрість — це світло, що пробивається крізь сумніви.",
+        "author": "Конфуцій"
+      }
+    }
+  },
+  {
+    "day": 211,
+    "date": "07-30",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is found in the beauty of the present moment.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Щастя — у красі теперішньої миті.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 212,
+    "date": "07-31",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a path illuminated by purpose.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Життя — це шлях, освітлений метою.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 213,
+    "date": "08-01",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the courage to remain kind.",
+        "author": "Mahatma Gandhi"
+      },
+      "uk": {
+        "quote": "Справжня сила — це сміливість залишатися добрим.",
+        "author": "Махатма Ганді"
+      }
+    }
+  },
+  {
+    "day": 214,
+    "date": "08-02",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the ability to learn from every experience.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це здатність вчитися на кожному досвіді.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 215,
+    "date": "08-03",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the reward of living authentically.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Щастя — це нагорода за автентичне життя.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 216,
+    "date": "08-04",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a dance of resilience and grace.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Життя — це танець стійкості та грації.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 217,
+    "date": "08-05",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the courage to embrace your uniqueness.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Свобода — це сміливість прийняти свою унікальність.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 218,
+    "date": "08-06",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the strength to question your beliefs.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Мудрість — це сила ставити під сумнів свої переконання.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 219,
+    "date": "08-07",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the joy of a purposeful heart.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Щастя — це радість серця з метою.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 220,
+    "date": "08-08",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a story told through acts of courage.",
+        "author": "Marcus Aurelius"
+      },
+      "uk": {
+        "quote": "Життя — це історія, розказана через акти сміливості.",
+        "author": "Марк Аврелій"
+      }
+    }
+  },
+  {
+    "day": 221,
+    "date": "08-09",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is found in quiet determination.",
+        "author": "Confucius"
+      },
+      "uk": {
+        "quote": "Справжня сила — у тихій рішучості.",
+        "author": "Конфуцій"
+      }
+    }
+  },
+  {
+    "day": 222,
+    "date": "08-10",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the compass that guides through uncertainty.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це компас, що веде крізь невизначеність.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 223,
+    "date": "08-11",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the glow of a contented soul.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Щастя — це сяйво задоволеної душі.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 224,
+    "date": "08-12",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a canvas painted with dreams and effort.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Життя — це полотно, розмальоване мріями та зусиллями.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 225,
+    "date": "08-13",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the power to live your truth.",
+        "author": "Albert Camus"
+      },
+      "uk": {
+        "quote": "Свобода — це сила жити своєю правдою.",
+        "author": "Альбер Камю"
+      }
+    }
+  },
+  {
+    "day": 226,
+    "date": "08-14",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the art of embracing the unknown.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Мудрість — це мистецтво приймати невідоме.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 227,
+    "date": "08-15",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the peace found in giving.",
+        "author": "Dalai Lama"
+      },
+      "uk": {
+        "quote": "Щастя — це спокій, знайдений у даруванні.",
+        "author": "Далай-лама"
+      }
+    }
+  },
+  {
+    "day": 228,
+    "date": "08-16",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a journey of constant growth.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Життя — це подорож постійного зростання.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 229,
+    "date": "08-17",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the courage to forgive.",
+        "author": "Mahatma Gandhi"
+      },
+      "uk": {
+        "quote": "Справжня сила — у сміливості прощати.",
+        "author": "Махатма Ганді"
+      }
+    }
+  },
+  {
+    "day": 230,
+    "date": "08-18",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the strength to learn from mistakes.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Мудрість — це сила вчитися на помилках.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 231,
+    "date": "08-19",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the joy of a life well-lived.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Щастя — це радість добре прожитого життя.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 232,
+    "date": "08-20",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a melody of hope and resilience.",
+        "author": "Marcus Aurelius"
+      },
+      "uk": {
+        "quote": "Життя — це мелодія надії та стійкості.",
+        "author": "Марк Аврелій"
+      }
+    }
+  },
+  {
+    "day": 233,
+    "date": "08-21",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the courage to be yourself.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Свобода — це сміливість бути собою.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 234,
+    "date": "08-22",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the light that guides through challenges.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це світло, що веде крізь виклики.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 235,
+    "date": "08-23",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the warmth of a kind heart.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Щастя — це тепло доброго серця.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 236,
+    "date": "08-24",
+    "isSpecial": true,
+    "quotes": {
+      "en": {
+        "quote": "Independence is the flame of a nation’s spirit.",
+        "author": "Taras Shevchenko",
+        "holiday": "Independence Day"
+      },
+      "uk": {
+        "quote": "Незалежність — це полум’я духу нації.",
+        "author": "Тарас Шевченко",
+        "holiday": "День Незалежності"
+      }
+    }
+  },
+  {
+    "day": 237,
+    "date": "08-25",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a journey of discovering your purpose.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Життя — це подорож відкриття своєї мети.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 238,
+    "date": "08-26",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the courage to keep going.",
+        "author": "Confucius"
+      },
+      "uk": {
+        "quote": "Справжня сила — у сміливості продовжувати.",
+        "author": "Конфуцій"
+      }
+    }
+  },
+  {
+    "day": 239,
+    "date": "08-27",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the art of living with intention.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Мудрість — це мистецтво жити з наміром.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 240,
+    "date": "08-28",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the peace of a purposeful life.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Щастя — це спокій цілеспрямованого життя.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 241,
+    "date": "08-29",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a tapestry woven with hope and effort.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Життя — це гобелен, витканий із надії та зусиль.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 242,
+    "date": "08-30",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the strength to shape your future.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Свобода — це сила формувати своє майбутнє.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 243,
+    "date": "08-31",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the courage to seek understanding.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це сміливість прагнути розуміння.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 244,
+    "date": "09-01",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the joy of living with purpose.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Щастя — це радість жити з метою.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 245,
+    "date": "09-02",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a journey of finding your truth.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Життя — це подорож пошуку своєї правди.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 246,
+    "date": "09-03",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the courage to be vulnerable.",
+        "author": "Mahatma Gandhi"
+      },
+      "uk": {
+        "quote": "Справжня сила — у сміливості бути вразливим.",
+        "author": "Махатма Ганді"
+      }
+    }
+  },
+  {
+    "day": 247,
+    "date": "09-04",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the light that shines through reflection.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Мудрість — це світло, що сяє через роздуми.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 248,
+    "date": "09-05",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the warmth of a giving heart.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Щастя — це тепло серця, що віддає.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 249,
+    "date": "09-06",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a story written with resilience.",
+        "author": "Marcus Aurelius"
+      },
+      "uk": {
+        "quote": "Життя — це історія, написана стійкістю.",
+        "author": "Марк Аврелій"
+      }
+    }
+  },
+  {
+    "day": 250,
+    "date": "09-07",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the power to live authentically.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Свобода — це сила жити автентично.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 251,
+    "date": "09-08",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the courage to embrace change.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це сміливість приймати зміни.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 252,
+    "date": "09-09",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the peace of a grateful soul.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Щастя — це спокій вдячної душі.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 253,
+    "date": "09-10",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a journey of endless discovery.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Життя — це подорож нескінченних відкриттів.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 254,
+    "date": "09-11",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the courage to keep learning.",
+        "author": "Confucius"
+      },
+      "uk": {
+        "quote": "Справжня сила — у сміливості продовжувати вчитися.",
+        "author": "Конфуцій"
+      }
+    }
+  },
+  {
+    "day": 255,
+    "date": "09-12",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the art of living with purpose.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Мудрість — це мистецтво жити з метою.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 256,
+    "date": "09-13",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the joy of a meaningful life.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Щастя — це радість змістовного життя.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 257,
+    "date": "09-14",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a melody of hope and courage.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Життя — це мелодія надії та сміливості.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 258,
+    "date": "09-15",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the strength to follow your heart.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Свобода — це сила слідувати за своїм серцем.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 259,
+    "date": "09-16",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the courage to seek truth always.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це сміливість завжди шукати правду.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 260,
+    "date": "09-17",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the warmth of a contented life.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Щастя — це тепло задоволеного життя.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 261,
+    "date": "09-18",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a journey of finding balance.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Життя — це подорож пошуку балансу.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 262,
+    "date": "09-19",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the courage to be kind.",
+        "author": "Mahatma Gandhi"
+      },
+      "uk": {
+        "quote": "Справжня сила — у сміливості бути добрим.",
+        "author": "Махатма Ганді"
+      }
+    }
+  },
+  {
+    "day": 263,
+    "date": "09-20",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the light that guides through doubt.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Мудрість — це світло, що веде крізь сумніви.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 264,
+    "date": "09-21",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the joy of a purposeful soul.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Щастя — це радість цілеспрямованої душі.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 265,
+    "date": "09-22",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a story of resilience and hope.",
+        "author": "Marcus Aurelius"
+      },
+      "uk": {
+        "quote": "Життя — це історія стійкості та надії.",
+        "author": "Марк Аврелій"
+      }
+    }
+  },
+  {
+    "day": 266,
+    "date": "09-23",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the courage to live your truth.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Свобода — це сміливість жити своєю правдою.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 267,
+    "date": "09-24",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the strength to embrace the unknown.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це сила приймати невідоме.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 268,
+    "date": "09-25",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the peace of a grateful heart.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Щастя — це спокій вдячного серця.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 269,
+    "date": "09-26",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a journey of constant renewal.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Життя — це подорож постійного оновлення.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 270,
+    "date": "09-27",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the courage to keep going.",
+        "author": "Confucius"
+      },
+      "uk": {
+        "quote": "Справжня сила — у сміливості продовжувати.",
+        "author": "Конфуцій"
+      }
+    }
+  },
+  {
+    "day": 271,
+    "date": "09-28",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the art of living with intention.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Мудрість — це мистецтво жити з наміром.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 272,
+    "date": "09-29",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the joy of a meaningful life.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Щастя — це радість змістовного життя.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 273,
+    "date": "09-30",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a melody of hope and courage.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Життя — це мелодія надії та сміливості.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 274,
+    "date": "10-01",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the strength to follow your heart.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Свобода — це сила слідувати за своїм серцем.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 275,
+    "date": "10-02",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the courage to seek truth always.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це сміливість завжди шукати правду.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 276,
+    "date": "10-03",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the warmth of a contented life.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Щастя — це тепло задоволеного життя.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 277,
+    "date": "10-04",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a journey of finding balance.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Життя — це подорож пошуку балансу.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 278,
+    "date": "10-05",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the courage to be kind.",
+        "author": "Mahatma Gandhi"
+      },
+      "uk": {
+        "quote": "Справжня сила — у сміливості бути добрим.",
+        "author": "Махатма Ганді"
+      }
+    }
+  },
+  {
+    "day": 279,
+    "date": "10-06",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the light that guides through doubt.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Мудрість — це світло, що веде крізь сумніви.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 280,
+    "date": "10-07",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the joy of a purposeful soul.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Щастя — це радість цілеспрямованої душі.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 281,
+    "date": "10-08",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a story of resilience and hope.",
+        "author": "Marcus Aurelius"
+      },
+      "uk": {
+        "quote": "Життя — це історія стійкості та надії.",
+        "author": "Марк Аврелій"
+      }
+    }
+  },
+  {
+    "day": 282,
+    "date": "10-09",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the courage to live your truth.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Свобода — це сміливість жити своєю правдою.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 283,
+    "date": "10-10",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the strength to embrace the unknown.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це сила приймати невідоме.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 284,
+    "date": "10-11",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the peace of a grateful heart.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Щастя — це спокій вдячного серця.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 285,
+    "date": "10-12",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a journey of constant renewal.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Життя — це подорож постійного оновлення.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 286,
+    "date": "10-13",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the courage to keep learning.",
+        "author": "Confucius"
+      },
+      "uk": {
+        "quote": "Справжня сила — у сміливості продовжувати вчитися.",
+        "author": "Конфуцій"
+      }
+    }
+  },
+  {
+    "day": 287,
+    "date": "10-14",
+    "isSpecial": true,
+    "quotes": {
+      "en": {
+        "quote": "A defender’s courage is the shield of a nation’s heart.",
+        "author": "Taras Shevchenko",
+        "holiday": "Defender’s Day"
+      },
+      "uk": {
+        "quote": "Сміливість захисника — це щит серця нації.",
+        "author": "Тарас Шевченко",
+        "holiday": "День захисника"
+      }
+    }
+  },
+  {
+    "day": 288,
+    "date": "10-15",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the art of living with purpose.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Мудрість — це мистецтво жити з метою.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 289,
+    "date": "10-16",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the joy of a meaningful life.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Щастя — це радість змістовного життя.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 290,
+    "date": "10-17",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a melody of hope and courage.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Життя — це мелодія надії та сміливості.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 291,
+    "date": "10-18",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the strength to follow your heart.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Свобода — це сила слідувати за своїм серцем.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 292,
+    "date": "10-19",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the courage to seek truth always.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це сміливість завжди шукати правду.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 293,
+    "date": "10-20",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the warmth of a contented life.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Щастя — це тепло задоволеного життя.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 294,
+    "date": "10-21",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a journey of finding balance.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Життя — це подорож пошуку балансу.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 295,
+    "date": "10-22",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the courage to be kind.",
+        "author": "Mahatma Gandhi"
+      },
+      "uk": {
+        "quote": "Справжня сила — у сміливості бути добрим.",
+        "author": "Махатма Ганді"
+      }
+    }
+  },
+  {
+    "day": 296,
+    "date": "10-23",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the light that guides through doubt.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Мудрість — це світло, що веде крізь сумніви.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 297,
+    "date": "10-24",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the joy of a purposeful soul.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Щастя — це радість цілеспрямованої душі.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 298,
+    "date": "10-25",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a story of resilience and hope.",
+        "author": "Marcus Aurelius"
+      },
+      "uk": {
+        "quote": "Життя — це історія стійкості та надії.",
+        "author": "Марк Аврелій"
+      }
+    }
+  },
+  {
+    "day": 299,
+    "date": "10-26",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the courage to live your truth.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Свобода — це сміливість жити своєю правдою.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 300,
+    "date": "10-27",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the strength to embrace the unknown.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це сила приймати невідоме.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 301,
+    "date": "10-27",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the warmth of a life lived with purpose.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Щастя — це тепло життя, прожитого з метою.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 302,
+    "date": "10-28",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a journey guided by inner strength.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Життя — це подорож, керована внутрішньою силою.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 303,
+    "date": "10-29",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the courage to remain true to yourself.",
+        "author": "Mahatma Gandhi"
+      },
+      "uk": {
+        "quote": "Справжня сила — у сміливості залишатися вірним собі.",
+        "author": "Махатма Ганді"
+      }
+    }
+  },
+  {
+    "day": 304,
+    "date": "10-30",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the light that shines through adversity.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Мудрість — це світло, що сяє крізь негаразди.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 305,
+    "date": "10-31",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the joy of a heart at peace.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Щастя — це радість серця у спокої.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 306,
+    "date": "11-01",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a story woven with moments of courage.",
+        "author": "Marcus Aurelius"
+      },
+      "uk": {
+        "quote": "Життя — це історія, сплетена з моментів сміливості.",
+        "author": "Марк Аврелій"
+      }
+    }
+  },
+  {
+    "day": 307,
+    "date": "11-02",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the power to shape your own destiny.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Свобода — це сила формувати власну долю.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 308,
+    "date": "11-03",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the courage to seek truth in silence.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це сміливість шукати правду в тиші.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 309,
+    "date": "11-04",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the glow of a grateful soul.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Щастя — це сяйво вдячної душі.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 310,
+    "date": "11-05",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a canvas painted with dreams and resilience.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Життя — це полотно, розмальоване мріями та стійкістю.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 311,
+    "date": "11-06",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the courage to embrace vulnerability.",
+        "author": "Mahatma Gandhi"
+      },
+      "uk": {
+        "quote": "Справжня сила — у сміливості приймати вразливість.",
+        "author": "Махатма Ганді"
+      }
+    }
+  },
+  {
+    "day": 312,
+    "date": "11-07",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the art of finding peace in chaos.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Мудрість — це мистецтво знаходити спокій у хаосі.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 313,
+    "date": "11-08",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the warmth of a purposeful heart.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Щастя — це тепло серця з метою.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 314,
+    "date": "11-09",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a melody sung with hope and courage.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Життя — це мелодія, яку співають з надією та сміливістю.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 315,
+    "date": "11-10",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the strength to live your truth.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Свобода — це сила жити своєю правдою.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 316,
+    "date": "11-11",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the light that guides through uncertainty.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це світло, що веде крізь невизначеність.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 317,
+    "date": "11-12",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the joy of a contented soul.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Щастя — це радість задоволеної душі.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 318,
+    "date": "11-13",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a journey of discovering your purpose.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Життя — це подорож відкриття своєї мети.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 319,
+    "date": "11-14",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the courage to remain kind.",
+        "author": "Mahatma Gandhi"
+      },
+      "uk": {
+        "quote": "Справжня сила — у сміливості залишатися добрим.",
+        "author": "Махатма Ганді"
+      }
+    }
+  },
+  {
+    "day": 320,
+    "date": "11-15",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the courage to seek understanding.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Мудрість — це сміливість прагнути розуміння.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 321,
+    "date": "11-16",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the peace of a grateful heart.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Щастя — це спокій вдячного серця.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 322,
+    "date": "11-17",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a story written with resilience and hope.",
+        "author": "Marcus Aurelius"
+      },
+      "uk": {
+        "quote": "Життя — це історія, написана стійкістю та надією.",
+        "author": "Марк Аврелій"
+      }
+    }
+  },
+  {
+    "day": 323,
+    "date": "11-18",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the power to live authentically.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Свобода — це сила жити автентично.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 324,
+    "date": "11-19",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the strength to embrace the unknown.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це сила приймати невідоме.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 325,
+    "date": "11-20",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the joy of a purposeful life.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Щастя — це радість цілеспрямованого життя.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 326,
+    "date": "11-21",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a melody of hope and courage.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Життя — це мелодія надії та сміливості.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 327,
+    "date": "11-22",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the courage to be kind.",
+        "author": "Mahatma Gandhi"
+      },
+      "uk": {
+        "quote": "Справжня сила — у сміливості бути добрим.",
+        "author": "Махатма Ганді"
+      }
+    }
+  },
+  {
+    "day": 328,
+    "date": "11-23",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the light that guides through doubt.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Мудрість — це світло, що веде крізь сумніви.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 329,
+    "date": "11-24",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the warmth of a contented soul.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Щастя — це тепло задоволеної душі.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 330,
+    "date": "11-25",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a journey of finding balance.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Життя — це подорож пошуку балансу.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 331,
+    "date": "11-26",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the courage to live your truth.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Свобода — це сміливість жити своєю правдою.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 332,
+    "date": "11-27",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the strength to seek understanding.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це сила прагнути розуміння.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 333,
+    "date": "11-28",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the joy of a meaningful life.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Щастя — це радість змістовного життя.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 334,
+    "date": "11-29",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a story of resilience and hope.",
+        "author": "Marcus Aurelius"
+      },
+      "uk": {
+        "quote": "Життя — це історія стійкості та надії.",
+        "author": "Марк Аврелій"
+      }
+    }
+  },
+  {
+    "day": 335,
+    "date": "11-30",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the courage to keep learning.",
+        "author": "Confucius"
+      },
+      "uk": {
+        "quote": "Справжня сила — у сміливості продовжувати вчитися.",
+        "author": "Конфуцій"
+      }
+    }
+  },
+  {
+    "day": 336,
+    "date": "12-01",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the art of living with purpose.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Мудрість — це мистецтво жити з метою.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 337,
+    "date": "12-02",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the peace of a grateful heart.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Щастя — це спокій вдячного серця.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 338,
+    "date": "12-03",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a melody of hope and resilience.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Життя — це мелодія надії та стійкості.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 339,
+    "date": "12-04",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the strength to follow your heart.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Свобода — це сила слідувати за своїм серцем.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 340,
+    "date": "12-05",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the courage to seek truth always.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це сміливість завжди шукати правду.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 341,
+    "date": "12-06",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the warmth of a contented life.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Щастя — це тепло задоволеного життя.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 342,
+    "date": "12-07",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a journey of finding balance.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Життя — це подорож пошуку балансу.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 343,
+    "date": "12-08",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the courage to be kind.",
+        "author": "Mahatma Gandhi"
+      },
+      "uk": {
+        "quote": "Справжня сила — у сміливості бути добрим.",
+        "author": "Махатма Ганді"
+      }
+    }
+  },
+  {
+    "day": 344,
+    "date": "12-09",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the light that guides through doubt.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Мудрість — це світло, що веде крізь сумніви.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 345,
+    "date": "12-10",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the joy of a purposeful soul.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Щастя — це радість цілеспрямованої душі.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 346,
+    "date": "12-11",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a story of resilience and hope.",
+        "author": "Marcus Aurelius"
+      },
+      "uk": {
+        "quote": "Життя — це історія стійкості та надії.",
+        "author": "Марк Аврелій"
+      }
+    }
+  },
+  {
+    "day": 347,
+    "date": "12-12",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the courage to live your truth.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Свобода — це сміливість жити своєю правдою.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 348,
+    "date": "12-13",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the strength to embrace the unknown.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це сила приймати невідоме.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 349,
+    "date": "12-14",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the peace of a grateful heart.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Щастя — це спокій вдячного серця.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 350,
+    "date": "12-15",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a journey of constant renewal.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Життя — це подорож постійного оновлення.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 351,
+    "date": "12-16",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the courage to keep learning.",
+        "author": "Confucius"
+      },
+      "uk": {
+        "quote": "Справжня сила — у сміливості продовжувати вчитися.",
+        "author": "Конфуцій"
+      }
+    }
+  },
+  {
+    "day": 352,
+    "date": "12-17",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the art of living with purpose.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Мудрість — це мистецтво жити з метою.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 353,
+    "date": "12-18",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the joy of a meaningful life.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Щастя — це радість змістовного життя.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 354,
+    "date": "12-19",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a melody of hope and courage.",
+        "author": "Friedrich Nietzsche"
+      },
+      "uk": {
+        "quote": "Життя — це мелодія надії та сміливості.",
+        "author": "Фрідріх Ніцше"
+      }
+    }
+  },
+  {
+    "day": 355,
+    "date": "12-20",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the strength to follow your heart.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Свобода — це сила слідувати за своїм серцем.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 356,
+    "date": "12-21",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the courage to seek truth always.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це сміливість завжди шукати правду.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 357,
+    "date": "12-22",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the warmth of a contented life.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Щастя — це тепло задоволеного життя.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 358,
+    "date": "12-23",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a journey of finding balance.",
+        "author": "Plato"
+      },
+      "uk": {
+        "quote": "Життя — це подорож пошуку балансу.",
+        "author": "Платон"
+      }
+    }
+  },
+  {
+    "day": 359,
+    "date": "12-24",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "True strength is the courage to be kind.",
+        "author": "Mahatma Gandhi"
+      },
+      "uk": {
+        "quote": "Справжня сила — у сміливості бути добрим.",
+        "author": "Махатма Ганді"
+      }
+    }
+  },
+  {
+    "day": 360,
+    "date": "12-25",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the light that guides through doubt.",
+        "author": "Aristotle"
+      },
+      "uk": {
+        "quote": "Мудрість — це світло, що веде крізь сумніви.",
+        "author": "Аристотель"
+      }
+    }
+  },
+  {
+    "day": 361,
+    "date": "12-26",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the joy of a purposeful soul.",
+        "author": "Seneca"
+      },
+      "uk": {
+        "quote": "Щастя — це радість цілеспрямованої душі.",
+        "author": "Сенека"
+      }
+    }
+  },
+  {
+    "day": 362,
+    "date": "12-27",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Life is a story of resilience and hope.",
+        "author": "Marcus Aurelius"
+      },
+      "uk": {
+        "quote": "Життя — це історія стійкості та надії.",
+        "author": "Марк Аврелій"
+      }
+    }
+  },
+  {
+    "day": 363,
+    "date": "12-28",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Freedom is the courage to live your truth.",
+        "author": "Jean-Paul Sartre"
+      },
+      "uk": {
+        "quote": "Свобода — це сміливість жити своєю правдою.",
+        "author": "Жан-Поль Сартр"
+      }
+    }
+  },
+  {
+    "day": 364,
+    "date": "12-29",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Wisdom is the strength to embrace the unknown.",
+        "author": "Socrates"
+      },
+      "uk": {
+        "quote": "Мудрість — це сила приймати невідоме.",
+        "author": "Сократ"
+      }
+    }
+  },
+  {
+    "day": 365,
+    "date": "12-30",
+    "isSpecial": false,
+    "quotes": {
+      "en": {
+        "quote": "Happiness is the peace of a grateful heart.",
+        "author": "Epicurus"
+      },
+      "uk": {
+        "quote": "Щастя — це спокій вдячного серця.",
+        "author": "Епікур"
+      }
+    }
+  },
+  {
+    "day": 366,
+    "date": "12-31",
+    "isSpecial": true,
+    "quotes": {
+      "en": {
+        "quote": "A new year brings the promise of new beginnings and endless hope.",
+        "author": "Taras Shevchenko",
+        "holiday": "New Year’s Eve"
+      },
+      "uk": {
+        "quote": "Новий рік приносить обіцянку нових починань і безмежну надію.",
+        "author": "Тарас Шевченко",
+        "holiday": "Новий рік"
+      }
+    }
+  }
+]

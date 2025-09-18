@@ -2,7 +2,6 @@
  * SVG component for an Instagram icon.
  * @module InstagramSvg
  */
-import React from "react";
 
 /**
  * Renders an Instagram SVG icon for social media links.

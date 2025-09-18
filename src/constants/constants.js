@@ -14,6 +14,7 @@ import barber_8 from "../images/barber-8.jpeg";
 import BarberScreenContent from "../components/additionalComponents/barberScreenContent";
 import LocationScreenContent from "../components/additionalComponents/locationScreenContent";
 import PriceScreenContent from "../components/additionalComponents/priceScreenContent";
+import quotes from "./quotes.json";
 
 /**
  * Menu items for navigation.
@@ -211,3 +212,9 @@ export const SECTIONS = [
     sectionContent: BarberScreenContent,
   },
 ];
+
+/**
+ * Quotes data mapped by lang.
+ * Imported from JSON files.
+ */
+export const QUOTES = quotes;

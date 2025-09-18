@@ -2,7 +2,6 @@
  * SVG component for a menu burger icon.
  * @module MenuBurgerSvg
  */
-import React from "react";
 
 /**
  * Renders a burger menu SVG icon for toggling mobile navigation.

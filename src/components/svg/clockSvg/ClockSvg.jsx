@@ -2,7 +2,6 @@
  * SVG component for a clock icon.
  * @module ClockSvg
  */
-import React from "react";
 
 /**
  * Renders a clock SVG icon for displaying time-related information.

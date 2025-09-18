@@ -39,6 +39,11 @@ export const MESSAGES = {
     site_title: "Filosof Barbershop Київ | Чоловічі стрижки",
     meta_description:
       "Filosof Barbershop - преміум барбершоп у Києві. Чоловічі стрижки, оформлення бороди та вусів від топових барберів. Найкращі ціни, зручний запис онлайн або за телефоном: +380737930101.",
+    quote_widget_toggle: "Переключити віджет цитат",
+    quote_widget_title: "Вислів дня",
+    share_twitter: "Поділитися висловом в Twitter",
+    share_threads: "Поділитися висловом в Threads",
+    share_telegram: "Поділитися висловом в Telegram",
   },
   en: {
     online_booking: "Booking",
@@ -76,5 +81,10 @@ export const MESSAGES = {
     site_title: "Filosof Barbershop Kyiv | Men's Haircuts",
     meta_description:
       "Filosof Barbershop - premium barbershop in Kyiv. Men's haircuts, beard and mustache grooming by top barbers. Best prices, easy online or phone booking: +380737930101.",
+    quote_widget_toggle: "Toggle quote widget",
+    quote_widget_title: "Quote of the Day",
+    share_twitter: "Share quote on Twitter",
+    share_threads: "Share quote on Threads",
+    share_telegram: "Share quote on Telegram",
   },
 };

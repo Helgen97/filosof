@@ -5,16 +5,13 @@
  * @module styles/index
  */
 
-/* Import Google Fonts for Jost and Peddana */
-@import "https://fonts.googleapis.com/css2?family=Jost:wght@400;700&family=Peddana&display=swap";
-
 // Responsive breakpoints
 $mobile: 320px;
 $tablet: 743px;
 $desktop: 1279px;
 
 // Color palette
-$content-color: rgba(239, 240, 244, .65);
+$content-color: rgba(239, 240, 244, 0.65);
 $gold-color: #9f7150;
 $gold-color-with-opacity: rgba(159, 113, 80, 0.4);
 $gold-color-with-no_opacity: rgba(159, 113, 80, 0.05);
@@ -79,7 +76,6 @@ $border-radius-btn: calc(2.95 * #{$gap}); // Reusable button border radius
     border-radius: $gap; // Rounded corners
     outline-style: none; // Remove outline
     padding: calc($gap / 2); // Consistent padding
-    left: anchor(-5%); // Position adjustment for anchor
   }
 
   /* Style for select options */
@@ -293,6 +289,7 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -1; // Ensure overlay is behind content
+    image-rendering: optimizeQuality;
   }
 }
 
@@ -445,6 +442,7 @@ h2 {
 .barber-photo {
   width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
 .barber-description {
@@ -575,7 +573,7 @@ h2 {
 .show_tooltip[tooltip]::before,
 .show_tooltip[tooltip]::after {
   display: block;
-  animation: tooltips-vert 300ms ease-out forwards;
+  animation: tooltips-vert 300ms ease-out forwards, pulse 2s infinite;
 }
 
 [tooltip=""]::before,
@@ -600,6 +598,113 @@ h2 {
   z-index: 1;
 }
 
+/* Quote widget styles */
+.quote-widget-container {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: clamp(
+    280px,
+    90vw,
+    320px
+  ); /* Centered, constrained width for mobile */
+  z-index: 1;
+}
+
+.quote-widget {
+  margin: 0 auto;
+  padding: $gap;
+  background-color: $background-color;
+  border-radius: $border-radius-btn;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  border: $border-gold;
+  font-family: $content-font;
+  transform: translateY(0);
+  opacity: 1;
+  transition: transform 0.4s ease-in-out, opacity 0.3s ease;
+
+  &--hidden {
+    transform: translateY(100%);
+  }
+
+  &--visible {
+    animation: slideUp 0.5s ease-in-out;
+  }
+
+  &__handle {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75%;
+    max-width: 200px;
+    height: 40px;
+    background-color: $gold-color;
+    border: $border-gold;
+    border-bottom: none;
+    border-top-left-radius: $border-radius-btn;
+    border-top-right-radius: $border-radius-btn;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    animation: pulse 2s infinite;
+
+    &:hover,
+    &:focus-visible {
+      background-color: color.adjust($gold-color, $lightness: -10%);
+      transform: translateX(-50%), scale(1.02);
+      animation: none;
+    }
+  }
+
+  &__handle-text {
+    color: $white-color;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__content {
+    text-align: center;
+  }
+
+  &__quote {
+    color: $content-color;
+    font-style: italic;
+    line-height: 1.6;
+  }
+
+  &__author {
+    color: $gold-color;
+    font-weight: 700;
+  }
+
+  &__special {
+    color: $gold-color;
+    font-weight: bold;
+    margin-top: calc(1.5 * $gap);
+  }
+
+  &__socials {
+    display: flex;
+    justify-content: center;
+    gap: calc(2 * $gap);
+    margin-top: calc(2 * $gap);
+  }
+
+  &__social-icon {
+    transition: transform 0.2s ease;
+
+    &:hover,
+    &:focus-visible {
+      transform: scale(1.1);
+    }
+  }
+}
+
 /* Animations */
 @keyframes pulse {
   0% {
@@ -617,6 +722,17 @@ h2 {
   to {
     opacity: 0.9;
     transform: translate(-50%, 0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0.2;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 
@@ -702,6 +818,18 @@ h2 {
       order: 3;
     }
   }
+
+  .quote-widget-container {
+    width: fit-content;
+    max-width: 400px; /* Constrained width for tablets */
+    left: auto;
+    right: $gap;
+    transform: none;
+  }
+
+  .quote-widget {
+    padding: calc(1.5 * $gap);
+  }
 }
 
 @media screen and (min-width: $desktop) {
@@ -748,6 +876,18 @@ h2 {
   .footer {
     padding: 0 calc(21 * #{$gap});
   }
+
+  .quote-widget-container {
+    width: fit-content;
+    max-width: 448px; /* Fixed width for desktops */
+    left: auto;
+    right: $gap;
+    transform: none;
+  }
+
+  .quote-widget {
+    padding: calc(2 * $gap);
+  }
 }
 
 @media screen and (max-width: $mobile) {
@@ -758,5 +898,22 @@ h2 {
 
   .price_screen_service-footnote {
     font-size: clamp(0.85rem, 2.5vw, 0.9rem);
+  }
+
+  .quote-widget-container {
+    max-width: clamp(
+      260px,
+      85vw,
+      300px
+    ); /* Slightly smaller for very small screens */
+  }
+
+  .quote-widget {
+    padding: $gap;
+  }
+
+  .quote-widget__handle {
+    width: 80%;
+    max-width: 180px;
   }
 }
