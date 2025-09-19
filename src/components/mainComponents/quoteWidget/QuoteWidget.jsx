@@ -20,7 +20,7 @@ const QuoteWidget = () => {
   const [quotes, setQuotes] = useState(null);
   const [quote, setQuote] = useState(null);
   // State to control widget visibility
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
   // Current language from context
   const { appLang } = useLanguageContext();
   // Internationalization hook for localized strings
@@ -76,10 +76,12 @@ const QuoteWidget = () => {
         }`}
       >
         <button
-          className="quote-widget__handle"
+          className={`quote-widget__handle  ${isVisible ? "" : "show_tooltip"}`}
           onClick={toggleVisibility}
           aria-label={formatMessage({ id: "quote_widget_toggle" })}
           aria-expanded={isVisible}
+          tooltip={formatMessage({ id: "quote_tooltip" })}
+          flow="up"
         >
           <span className="quote-widget__handle-text">
             {formatMessage({ id: "quote_widget_title" })}
