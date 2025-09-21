@@ -24,7 +24,6 @@ export default defineConfig({
         "images/barber-*.jpeg",
         "images/barber-*.png",
         "images/bg.jpg",
-        "images/Meta.jpg",
         "fonts/charter_bold.eot",
         "fonts/charter_regular.eot",
         "fonts/charter_bold.woff",

@@ -56,6 +56,13 @@ const MetaUpdater = ({ children }) => {
     if (twitterDescription) {
       twitterDescription.content = formatMessage({ id: "meta_description" });
     }
+
+    // Update Canonical Link
+    const canonicalLink = document.querySelector(`link[rel="canonical"]`);
+
+    if (canonicalLink) {
+      canonicalLink.href = window.location.origin + "/?lang=" + appLang;
+    }
   }, [appLang]);
 
   return children;
