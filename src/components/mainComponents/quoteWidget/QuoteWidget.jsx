@@ -76,12 +76,10 @@ const QuoteWidget = () => {
         }`}
       >
         <button
-          className={`quote-widget__handle  ${isVisible ? "" : "show_tooltip"}`}
+          className="quote-widget__handle"
           onClick={toggleVisibility}
           aria-label={formatMessage({ id: "quote_widget_toggle" })}
           aria-expanded={isVisible}
-          tooltip={formatMessage({ id: "quote_tooltip" })}
-          flow="up"
         >
           <span className="quote-widget__handle-text">
             {formatMessage({ id: "quote_widget_title" })}
