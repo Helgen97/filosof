@@ -102,7 +102,7 @@ export default defineConfig({
         theme_color: "#343434",
         background_color: "#343434",
         display: "standalone",
-        start_url: "https://www.filosof.in.ua",
+        start_url: "/",
         icons: [
           {
             src: "/android-chrome-192x192.png",
@@ -143,4 +143,14 @@ export default defineConfig({
       },
     }),
   ],
+  
+  // Build optimizations for production
+  build: {
+    // Minify output for smaller bundle size
+    minify: "esbuild",
+    // Generate source maps for debugging
+    sourcemap: true,
+    // Optimize assets (e.g., images)
+    assetsInlineLimit: 4096,
+  },
 });
