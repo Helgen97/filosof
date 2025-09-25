@@ -105,37 +105,37 @@ export default defineConfig({
         start_url: "/",
         icons: [
           {
-            src: "/android-chrome-192x192.png",
+            src: "/favicon/android-chrome-192x192.png",
             sizes: "192x192",
             type: "image/png",
           },
           {
-            src: "/android-chrome-512x512.png",
+            src: "/favicon/android-chrome-512x512.png",
             sizes: "512x512",
             type: "image/png",
           },
           {
-            src: "/apple-touch-icon.png",
+            src: "/favicon/apple-touch-icon.png",
             sizes: "180x180",
             type: "image/png",
           },
           {
-            src: "/favicon-32x32.png",
+            src: "/favicon/favicon-32x32.png",
             sizes: "32x32",
             type: "image/png",
           },
           {
-            src: "/favicon-16x16.png",
+            src: "/favicon/favicon-16x16.png",
             sizes: "16x16",
             type: "image/png",
           },
           {
-            src: "/mstile-150x150.png",
+            src: "/favicon/mstile-150x150.png",
             sizes: "150x150",
             type: "image/png",
           },
           {
-            src: "/safari-pinned-tab.svg",
+            src: "/favicon/safari-pinned-tab.svg",
             sizes: "any",
             type: "image/svg+xml",
           },
@@ -143,7 +143,7 @@ export default defineConfig({
       },
     }),
   ],
-  
+
   // Build optimizations for production
   build: {
     // Minify output for smaller bundle size
