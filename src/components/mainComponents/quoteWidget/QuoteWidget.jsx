@@ -10,6 +10,7 @@ import TwitterSvg from "../../svg/TwitterSvg";
 import ThreadsSvg from "../../svg/ThreadsSvg";
 import TelegramSvg from "../../svg/TelegramSvg";
 import { useIntl } from "react-intl";
+import { ClickAwayListener } from "@mui/base";
 
 /**
  * QuoteWidget component.
@@ -69,60 +70,62 @@ const QuoteWidget = () => {
   const telegramUrl = `https://t.me/share/url${urlVars}`;
 
   return (
-    <div className="quote-widget-container">
-      <div
-        className={`quote-widget ${
-          isVisible ? "quote-widget--visible" : "quote-widget--hidden"
-        }`}
-      >
-        <button
-          className="quote-widget__handle"
-          onClick={toggleVisibility}
-          aria-label={formatMessage({ id: "quote_widget_toggle" })}
-          aria-expanded={isVisible}
+    <ClickAwayListener onClickAway={() => setIsVisible(false)}>
+      <div className="quote-widget-container">
+        <div
+          className={`quote-widget ${
+            isVisible ? "quote-widget--visible" : "quote-widget--hidden"
+          }`}
         >
-          <span className="quote-widget__handle-text">
-            {formatMessage({ id: "quote_widget_title" })}
-          </span>
-        </button>
-        <div className="quote-widget__content">
-          <p className="quote-widget__quote">"{quote.quote}"</p>
-          <p className="quote-widget__author">— {quote.author}</p>
-          {quotes.isSpecial && (
-            <p className="quote-widget__special">{quote.holiday}</p>
-          )}
-        </div>
-        <div className="quote-widget__socials">
-          <a
-            href={twitterUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="quote-widget__social-icon"
-            aria-label={formatMessage({ id: "share_twitter" })}
+          <button
+            className="quote-widget__handle"
+            onClick={toggleVisibility}
+            aria-label={formatMessage({ id: "quote_widget_toggle" })}
+            aria-expanded={isVisible}
           >
-            <TwitterSvg />
-          </a>
-          <a
-            href={threadsUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="quote-widget__social-icon"
-            aria-label={formatMessage({ id: "share_threads" })}
-          >
-            <ThreadsSvg />
-          </a>
-          <a
-            href={telegramUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="quote-widget__social-icon"
-            aria-label={formatMessage({ id: "share_telegram" })}
-          >
-            <TelegramSvg />
-          </a>
+            <span className="quote-widget__handle-text">
+              {formatMessage({ id: "quote_widget_title" })}
+            </span>
+          </button>
+          <div className="quote-widget__content">
+            <p className="quote-widget__quote">"{quote.quote}"</p>
+            <p className="quote-widget__author">— {quote.author}</p>
+            {quotes.isSpecial && (
+              <p className="quote-widget__special">{quote.holiday}</p>
+            )}
+          </div>
+          <div className="quote-widget__socials">
+            <a
+              href={twitterUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="quote-widget__social-icon"
+              aria-label={formatMessage({ id: "share_twitter" })}
+            >
+              <TwitterSvg />
+            </a>
+            <a
+              href={threadsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="quote-widget__social-icon"
+              aria-label={formatMessage({ id: "share_threads" })}
+            >
+              <ThreadsSvg />
+            </a>
+            <a
+              href={telegramUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="quote-widget__social-icon"
+              aria-label={formatMessage({ id: "share_telegram" })}
+            >
+              <TelegramSvg />
+            </a>
+          </div>
         </div>
       </div>
-    </div>
+    </ClickAwayListener>
   );
 };
 
