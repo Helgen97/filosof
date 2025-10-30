@@ -148,8 +148,6 @@ export default defineConfig({
   build: {
     // Minify output for smaller bundle size
     minify: "esbuild",
-    // Generate source maps for debugging
-    sourcemap: true,
     // Optimize assets (e.g., images)
     assetsInlineLimit: 4096,
   },
