@@ -105,27 +105,27 @@ export const LOCATION_CONTENT = {
 export const PRICE_CONTENT = [
   {
     key: "mens_haircut",
-    starting_price: 300,
+    starting_price: 400,
   },
   {
     key: "beard_haircut",
-    starting_price: 200,
-  },
-  {
-    key: "mens_haircut_plus_beard_haircut",
-    starting_price: 500,
-  },
-  {
-    key: "baby_haircut",
     starting_price: 300,
   },
   {
+    key: "mens_haircut_plus_beard_haircut",
+    starting_price: 600,
+  },
+  {
+    key: "baby_haircut",
+    starting_price: 400,
+  },
+  {
     key: "fade_haircut",
-    starting_price: 350,
+    starting_price: 450,
   },
   {
     key: "fade_haircut_plus_beard_haircut",
-    starting_price: 500,
+    starting_price: 600,
   },
 ];
 
@@ -139,7 +139,7 @@ export const BARBERS = [
     photo: barber_1,
     barberName: "Андрій Храпко",
     barberNameLang: { en: "Andriy Khrapko" },
-    barberPositionItlId: "top_barber",
+    barberPositionItlId: "senior_barber",
   },
   {
     id: 2,
