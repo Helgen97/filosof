@@ -20,7 +20,7 @@
     "react-intl": "^7.1.11",
     "react-scroll": "^1.9.3",
     "sass": "^1.91.0",
-    "swiper": "^11.2.10"
+    "swiper": "^12.1.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

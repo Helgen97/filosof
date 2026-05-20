@@ -5,16 +5,13 @@
 
 import barber_1 from "../images/barber-1.jpg";
 import barber_2 from "../images/barber-2.jpg";
-import barber_3 from "../images/barber-3.jpg";
 import barber_4 from "../images/barber-4.jpg";
 import barber_5 from "../images/barber-5.jpg";
 import barber_6 from "../images/barber-6.jpg";
 import barber_7 from "../images/barber-7.jpg";
-import barber_8 from "../images/barber-8.jpeg";
+import barber_8 from "../images/barber-8.jpg";
 import barber_9 from "../images/barber-9.jpg";
-import barber_10 from "../images/barber-10.jpg";
 import barber_11 from "../images/barber-11.jpg";
-import barber_12 from "../images/barber-12.jpg";
 import BarberScreenContent from "../components/additionalComponents/barberScreenContent";
 import LocationScreenContent from "../components/additionalComponents/locationScreenContent";
 import PriceScreenContent from "../components/additionalComponents/priceScreenContent";
@@ -139,20 +136,13 @@ export const BARBERS = [
     photo: barber_1,
     barberName: "Андрій Храпко",
     barberNameLang: { en: "Andriy Khrapko" },
-    barberPositionItlId: "senior_barber",
+    barberPositionItlId: "top_barber",
   },
   {
     id: 2,
     photo: barber_2,
     barberName: "Михайло",
     barberNameLang: { en: "Mykhailo" },
-    barberPositionItlId: "top_barber",
-  },
-  {
-    id: 3,
-    photo: barber_3,
-    barberName: "Андрій Дорожкін",
-    barberNameLang: { en: "Andriy Dorozhkin" },
     barberPositionItlId: "top_barber",
   },
   {
@@ -198,24 +188,10 @@ export const BARBERS = [
     barberPositionItlId: "barber",
   },
   {
-    id: 10,
-    photo: barber_10,
-    barberName: "Сергій",
-    barberNameLang: { en: "Serhii" },
-    barberPositionItlId: "senior_barber",
-  },
-  {
     id: 11,
     photo: barber_11,
     barberName: "Дмитро",
     barberNameLang: { en: "Dmytro" },
-    barberPositionItlId: "barber",
-  },
-  {
-    id: 12,
-    photo: barber_12,
-    barberName: "Єгор",
-    barberNameLang: { en: "Egor" },
     barberPositionItlId: "barber",
   },
 ];

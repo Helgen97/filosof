@@ -11,10 +11,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "normalize.css/normalize.css"; // Resets browser default styles for consistent rendering
 import "./styles/index.scss"; // Custom global styles for the application
-import "swiper/scss"; // Core Swiper styles for carousel functionality
-import "swiper/scss/navigation"; // Swiper navigation module styles
-import "swiper/scss/pagination"; // Swiper pagination module styles
-import "swiper/scss/autoplay"; // Swiper autoplay module styles
+import "swiper/css"; // Core Swiper styles for carousel functionality
+import "swiper/css/navigation"; // Swiper navigation module styles
+import "swiper/css/pagination"; // Swiper pagination module styles
 import App from "./app/App"; // Root component of the application
 
 /**
@@ -27,5 +26,5 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
 );
