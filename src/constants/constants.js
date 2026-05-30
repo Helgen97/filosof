@@ -5,13 +5,13 @@
 
 import barber_1 from "../images/barber-1.jpg";
 import barber_2 from "../images/barber-2.jpg";
+import barber_3 from "../images/barber-3.jpg";
 import barber_4 from "../images/barber-4.jpg";
 import barber_5 from "../images/barber-5.jpg";
 import barber_6 from "../images/barber-6.jpg";
 import barber_7 from "../images/barber-7.jpg";
 import barber_8 from "../images/barber-8.jpg";
 import barber_9 from "../images/barber-9.jpg";
-import barber_11 from "../images/barber-11.jpg";
 import BarberScreenContent from "../components/additionalComponents/barberScreenContent";
 import LocationScreenContent from "../components/additionalComponents/locationScreenContent";
 import PriceScreenContent from "../components/additionalComponents/priceScreenContent";
@@ -84,16 +84,6 @@ export const LOCATION_CONTENT = {
     locationPathLink:
       "https://www.google.com/maps/dir//Beresteiskyi%20Ave,%20104",
   },
-  location_5: {
-    locationAddress: "м. Дарниця, проспект Миру, 6",
-    locationAddressLang: { en: "Darnytsia st., Myru Ave, 6" },
-    locationWorkingHours: "10:00 - 21:00",
-    locationBookingLink:
-      "https://n829842.alteg.io/company/778957/personal/menu?o=",
-    locationPhone: "+380666610010",
-    locationPathLink:
-      "https://www.google.com/maps/dir//Kyiv,%20Myru%20Ave,%206",
-  },
 };
 
 /**
@@ -146,50 +136,50 @@ export const BARBERS = [
     barberPositionItlId: "top_barber",
   },
   {
-    id: 4,
-    photo: barber_4,
+    id: 3,
+    photo: barber_3,
     barberName: "Андрій Євтушенко",
     barberNameLang: { en: "Andriy Yevtushenko" },
     barberPositionItlId: "senior_barber",
   },
   {
-    id: 5,
-    photo: barber_5,
+    id: 4,
+    photo: barber_4,
     barberName: "Іван",
     barberNameLang: { en: "Ivan" },
     barberPositionItlId: "barber",
   },
   {
-    id: 6,
-    photo: barber_6,
+    id: 5,
+    photo: barber_5,
     barberName: "Володимир",
     barberNameLang: { en: "Volodymyr" },
     barberPositionItlId: "top_barber",
   },
   {
-    id: 7,
-    photo: barber_7,
+    id: 6,
+    photo: barber_6,
     barberName: "Степан",
     barberNameLang: { en: "Stepan" },
     barberPositionItlId: "senior_barber",
   },
   {
-    id: 8,
-    photo: barber_8,
+    id: 7,
+    photo: barber_7,
     barberName: "Андрій Перусь",
     barberNameLang: { en: "Andriy Perus" },
     barberPositionItlId: "senior_barber",
   },
   {
-    id: 9,
-    photo: barber_9,
+    id: 8,
+    photo: barber_8,
     barberName: "Федір",
     barberNameLang: { en: "Fedir" },
     barberPositionItlId: "barber",
   },
   {
-    id: 11,
-    photo: barber_11,
+    id: 9,
+    photo: barber_9,
     barberName: "Дмитро",
     barberNameLang: { en: "Dmytro" },
     barberPositionItlId: "barber",
