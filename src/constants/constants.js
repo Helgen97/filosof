@@ -3,15 +3,15 @@
  * @module constants
  */
 
-import barber_1 from "../images/barber-1.jpg";
 import barber_2 from "../images/barber-2.jpg";
 import barber_3 from "../images/barber-3.jpg";
 import barber_4 from "../images/barber-4.jpg";
 import barber_5 from "../images/barber-5.jpg";
-import barber_6 from "../images/barber-6.jpg";
 import barber_7 from "../images/barber-7.jpg";
 import barber_8 from "../images/barber-8.jpg";
 import barber_9 from "../images/barber-9.jpg";
+import barber_10 from "../images/barber-10.jpg";
+import barber_11 from "../images/barber-11.jpg";
 import BarberScreenContent from "../components/additionalComponents/barberScreenContent";
 import LocationScreenContent from "../components/additionalComponents/locationScreenContent";
 import PriceScreenContent from "../components/additionalComponents/priceScreenContent";
@@ -122,13 +122,6 @@ export const PRICE_CONTENT = [
  */
 export const BARBERS = [
   {
-    id: 1,
-    photo: barber_1,
-    barberName: "Андрій Храпко",
-    barberNameLang: { en: "Andriy Khrapko" },
-    barberPositionItlId: "top_barber",
-  },
-  {
     id: 2,
     photo: barber_2,
     barberName: "Михайло",
@@ -157,32 +150,39 @@ export const BARBERS = [
     barberPositionItlId: "top_barber",
   },
   {
-    id: 6,
-    photo: barber_6,
-    barberName: "Степан",
-    barberNameLang: { en: "Stepan" },
-    barberPositionItlId: "senior_barber",
-  },
-  {
     id: 7,
     photo: barber_7,
     barberName: "Андрій Перусь",
     barberNameLang: { en: "Andriy Perus" },
-    barberPositionItlId: "senior_barber",
+    barberPositionItlId: "top_barber",
   },
   {
     id: 8,
     photo: barber_8,
     barberName: "Федір",
     barberNameLang: { en: "Fedir" },
-    barberPositionItlId: "barber",
+    barberPositionItlId: "senior_barber",
   },
   {
     id: 9,
     photo: barber_9,
     barberName: "Дмитро",
     barberNameLang: { en: "Dmytro" },
-    barberPositionItlId: "barber",
+    barberPositionItlId: "top_barber",
+  },
+  {
+    id: 10,
+    photo: barber_10,
+    barberName: "Анна",
+    barberNameLang: { en: "Anna" },
+    barberPositionItlId: "senior_barber",
+  },
+  {
+    id: 11,
+    photo: barber_11,
+    barberName: "Катерина",
+    barberNameLang: { en: "Kateryna" },
+    barberPositionItlId: "senior_barber",
   },
 ];
 
